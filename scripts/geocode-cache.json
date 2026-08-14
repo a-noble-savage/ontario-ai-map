@@ -1,0 +1,35 @@
+{
+  "Clarington, Ontario, Canada": {
+    "query": "Clarington, Ontario, Canada",
+    "lon": -78.6513545,
+    "lat": 43.9686695,
+    "display_name": "Clarington, Durham Region, Golden Horseshoe, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 2408839,
+    "retrieved": "2026-08-14"
+  },
+  "Greater Sudbury, Ontario, Canada": {
+    "query": "Greater Sudbury, Ontario, Canada",
+    "lon": -80.991211,
+    "lat": 46.49272,
+    "display_name": "Greater Sudbury, Sudbury District, Northeastern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 7568929,
+    "retrieved": "2026-08-14"
+  },
+  "Kitchener, Ontario, Canada": {
+    "query": "Kitchener, Ontario, Canada",
+    "lon": -80.4927815,
+    "lat": 43.451291,
+    "display_name": "Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 2062153,
+    "retrieved": "2026-08-14"
+  }
+}

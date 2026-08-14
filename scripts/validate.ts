@@ -31,10 +31,6 @@ const LAYERS = [
   "programs",
 ] as const;
 
-/** Precisions that assert a specific address, and so must come from a real
- *  geocoder run rather than from anyone's recollection. */
-const GEOCODED_PRECISIONS = new Set(["rooftop", "street"]);
-
 /** Fixture annotation key, stripped before validating. The schema is strict,
  *  so leaving it in place would make every invalid fixture fail for the
  *  annotation instead of the rule it exists to pin. */
@@ -115,10 +111,24 @@ const seenIds = new Map<string, string>();
 /** "lon,lat" -> every feature sitting on that exact point. */
 const seenPoints = new Map<string, string[]>();
 
+/** Every coordinate the geocoder has ever returned, as "lon,lat".
+ *
+ *  Rule 3 says coordinates never come from memory or hand entry, and the only
+ *  way to actually enforce that is to require each feature's coordinates to be
+ *  a value some recorded lookup produced. Keying on the coordinates rather
+ *  than on the feature id matters: an id could be present in the cache while
+ *  the geometry beside it was quietly edited afterwards, and several features
+ *  in one municipality legitimately share a centroid. */
 const geocodeCachePath = join(ROOT, "scripts/geocode-cache.json");
-const geocodeCache: Record<string, unknown> = existsSync(geocodeCachePath)
-  ? (readJson(geocodeCachePath) as Record<string, unknown>)
+const geocodeCache: Record<string, { lon: number; lat: number }> = existsSync(
+  geocodeCachePath,
+)
+  ? (readJson(geocodeCachePath) as Record<string, { lon: number; lat: number }>)
   : {};
+
+const geocodedPoints = new Set(
+  Object.values(geocodeCache).map((entry) => `${entry.lon},${entry.lat}`),
+);
 
 const runLayer = (layer: string): void => {
   const path = join(ROOT, `data/${layer}.geojson`);
@@ -148,7 +158,7 @@ const runLayer = (layer: string): void => {
     }
 
     const feature = raw as Feature;
-    const { id, layer: declared, location_precision, licence } = feature.properties;
+    const { id, layer: declared, licence } = feature.properties;
     const label = `${where} (${id})`;
 
     // The file a feature lives in and the layer it claims must agree, or the
@@ -172,18 +182,21 @@ const runLayer = (layer: string): void => {
       );
     }
 
-    // Rule 3: an address-level claim requires a real geocoder run. Precision
-    // asserted without a cache entry is precision nobody can account for.
-    if (GEOCODED_PRECISIONS.has(location_precision) && !(id in geocodeCache)) {
+    const [lon, lat] = feature.geometry.coordinates;
+    const key = `${lon},${lat}`;
+
+    // Rule 3, enforced rather than trusted: these coordinates must be a value
+    // some recorded geocoder lookup actually returned. This applies at every
+    // precision — a municipal centroid typed from memory is exactly the thing
+    // the rule exists to stop.
+    if (!geocodedPoints.has(key)) {
       error(
-        `${label}: location_precision "${location_precision}" asserts an ` +
-          `address, but there is no scripts/geocode-cache.json entry for it. ` +
-          `Run the geocoder or downgrade the precision.`,
+        `${label}: coordinates [${lon}, ${lat}] match no entry in ` +
+          `scripts/geocode-cache.json. Run \`npm run geocode\` and use the ` +
+          `coordinates it returns — never hand-entered or remembered ones.`,
       );
     }
 
-    const [lon, lat] = feature.geometry.coordinates;
-    const key = `${lon},${lat}`;
     seenPoints.set(key, [...(seenPoints.get(key) ?? []), label]);
   });
 };

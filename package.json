@@ -11,7 +11,8 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "validate": "node --experimental-strip-types scripts/validate.ts"
+    "validate": "node --experimental-strip-types scripts/validate.ts",
+    "geocode": "node --experimental-strip-types scripts/geocode.ts"
   },
   "dependencies": {
     "maplibre-gl": "^5.0.0"
