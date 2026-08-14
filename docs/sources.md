@@ -12,20 +12,31 @@ next person can re-evaluate without starting over.
 | Standing | Meaning |
 | --- | --- |
 | `cleared` | Terms read; records may be republished under the noted licence. |
+| `cleared (project decision)` | **No licence grant exists.** The project owner has decided to use the source regardless. The risk is accepted, not resolved — the terms finding below is unchanged. |
 | `link-out only` | Terms read; may link to it, may not reproduce records. |
 | `cross-check only` | May confirm a fact already sourced elsewhere. Never the source of a record. |
 | `unverified` | Terms not read. Cannot be used for anything that ships. |
 
+A standing and a finding are different things, and this file keeps them apart on
+purpose. A finding is what the source says. A standing is what we have decided
+to do about it. Where the two diverge, the divergence is stated rather than
+smoothed over, so nobody later mistakes a decision for a permission.
+
 ## A note on silence
 
-Two of the sources below carry no licence at all. **Absence of a licence is not
-permission.** Copyright subsists by default; a site that says nothing about
-reuse has granted nothing. Both are therefore `link-out only`, not `cleared`.
+Two of the sources below carry no licence grant at all. **Absence of a licence
+is not permission** — copyright subsists by default, and a site that says
+nothing about reuse has granted nothing. On the terms alone both would be
+`link-out only`; they are listed as `cleared (project decision)` because that
+call was made on 2026-08-14, not because anything in their terms changed.
 
-Note also that this constrains republishing *their compilation*, not the
-underlying facts — a data centre's location, operator, and capacity are facts,
-and facts are not copyrightable. The lawful and better route is to take the
-primary document each site cites and source the record from that.
+One thing materially reduces the exposure, and it is worth preferring in every
+case: copyright restricts republishing a source's **compilation**, not the
+underlying **facts**. A data centre's location, operator, and capacity are
+facts. Sourcing a record from the primary document a tracker cites — the
+planning report, the IESO filing — needs no permission from the tracker at all,
+and produces better provenance. Prefer it wherever the primary document can be
+found, and reserve the decision below for cases where it genuinely cannot.
 
 ---
 
@@ -33,69 +44,84 @@ primary document each site cites and source the record from that.
 
 - **Standing:** `cleared` — Creative Commons Attribution 4.0 International
 - **Intended use:** any layer where GCwiki carries relevant Ontario material.
+  **Start here** — it is the only source cleared by an actual licence grant.
 - **Last checked:** 2026-08-14
 - **Deciding clause:** footer — *"Content is available under Creative Commons
   Attribution 4.0 International License unless otherwise noted."*
 - **`licence` value for features:** `CC BY 4.0 — attribution required`
-- **Notes:** The first source that can actually supply records. Two caveats
-  before leaning on it. *"Unless otherwise noted"* means the licence is a
-  default, not a guarantee — check the individual page a record comes from, and
-  if that page notes something different, the page wins. And GCwiki is a federal
-  public-service collaboration space, so Ontario-specific coverage may be thin;
-  useful material is as likely to be a pointer to a primary document as a record
-  in itself.
+- **Notes:** Two caveats. *"Unless otherwise noted"* makes the licence a default
+  rather than a guarantee, so the individual page a record comes from still has
+  to be checked; if that page notes something different, the page wins. And
+  GCwiki is a federal public-service collaboration space, so Ontario-specific
+  coverage may be thin — useful material is as likely to be a pointer to a
+  primary document as a record in itself.
+
+  Worth a human eyeball on that footer before the first record ships. The quote
+  above came through an automated page summary, and it is the one clause in this
+  file that actually grants permission.
 
 ## ontariodatacentres.ca
 
-- **Standing:** `link-out only`
-- **Intended use:** was the preferred source for the data centres layer.
+- **Standing:** `cleared (project decision)` — 2026-08-14. Was `link-out only`
+  on the terms.
+- **Intended use:** data centres layer.
 - **Last checked:** 2026-08-14
 - **Deciding clause:** `/resources.html` — *"© 2026 Ontario Data Centre Tracker
   — Compiled by an Ontario resident for informational purposes only. Not
   affiliated with any government body."* No terms of use, licence, or reuse
   provision appears anywhere on the site, including `/about.html`.
 - **Contact:** ontariodatacentres@gmail.com
-- **Notes:** An explicit copyright assertion with no accompanying grant, so its
-  records cannot be republished. **This does not block the data centres layer**,
-  because the site publishes its own methodology: *"Primary sources are always
-  preferred: municipal planning documents, city council records, IESO filings,
-  government announcements, and official corporate press releases."* Those are
-  the sources to use. Treat this tracker as a finding aid — it tells us which
-  municipalities and projects are worth looking at — and then source each record
-  from the primary document itself. That is both legally clean and better data,
-  and it is what data rule 5 already asks for.
+- **`licence` value for features:** `ontariodatacentres.ca — used by project
+  decision, no licence granted; attribute and link out`
+- **Notes:** An explicit copyright assertion with no accompanying grant. The
+  standing is a decision to proceed anyway, not a change in what the site says.
 
-  Worth an email regardless. It is run by one Ontario resident ("Katie"), it is
-  a non-commercial public-interest project with aims close to this one, and a
-  request to reuse with attribution has a fair chance of a yes. If permission is
-  given, record it here with the date and the wording of the grant.
+  Prefer the primary document in every case where one exists. The site publishes
+  its own methodology — *"Primary sources are always preferred: municipal
+  planning documents, city council records, IESO filings, government
+  announcements, and official corporate press releases"* — so the tracker
+  doubles as a finding aid pointing at exactly those documents. Using it that
+  way needs no permission and yields better provenance.
+
+  **Still worth an email.** It is run by one Ontario resident ("Katie"), it is
+  non-commercial and public-interest, its aims are close to this project's, and
+  she publishes a contact address. A request to reuse with attribution has a
+  fair chance of a yes, and a yes would move this to `cleared` outright. If
+  permission is given, record it here with the date and the wording of the
+  grant.
 
 ## canada.ai/directory
 
-- **Standing:** `link-out only`
+- **Standing:** `cleared (project decision)` — 2026-08-14. Was `link-out only`
+  on the terms.
 - **Intended use:** companies layer.
 - **Last checked:** 2026-08-14
 - **Deciding clause:** none exists. No terms of service, terms of use, copyright
   notice, licence statement, or reuse provision appears on the directory page or
   in its footer, and there is no link to a legal or terms page.
-- **Notes:** This resolves the open question in `CLAUDE.md` as *link-out only*,
-  and for a firmer reason than before: it is no longer "ToS unverified" but
-  "checked, and there is nothing there." Nothing further will resolve it except
-  asking the operator directly. The companies layer needs a different source of
-  records, or a definition of "AI company" applied to an openly licensed
-  register.
+- **`licence` value for features:** `canada.ai — used by project decision, no
+  terms published; attribute and link out`
+- **Notes:** Nothing is granted here and nothing is forbidden in writing either;
+  the site is simply silent. Note this layer also waits on an open decision in
+  `CLAUDE.md` — whether "AI company" has a definition tight enough to defend, or
+  whether the layer inherits this directory's definition and says so. Clearing
+  the licence question does not answer that one.
 
 ## datacentermap.com, baxtel.com, datacenters.com
 
-- **Standing:** `cross-check only`
+- **Standing:** `cross-check only` — unchanged
 - **Intended use:** confirming a capacity, operator, or status already sourced
   elsewhere.
-- **Last checked:** not applicable — excluded by policy, not by their terms.
-- **Notes:** Commercial products. `CLAUDE.md` is explicit that these are never a
-  source of records, so their terms have deliberately not been assessed; the
-  exclusion does not depend on what they say. Recorded here so the decision is
-  visible rather than remembered, and so nobody has to rediscover why these
-  three are absent from the data.
+- **Last checked:** not applicable — excluded by editorial policy, not by terms.
+- **Notes:** These three are excluded by `CLAUDE.md` data rule 4, which says
+  they are *"commercial products. Use for cross-checking a fact, never as a
+  source of records."* That is an editorial judgement about source quality and
+  commercial scraping, not a licence standing, so the 2026-08-14 clearing
+  decision does not reach them — a licence decision cannot resolve a rule that
+  was never about licensing.
+
+  If they should become record sources, that is an edit to data rule 4 in
+  `CLAUDE.md` rather than a change here. Say so and it is a one-line change.
 
 ---
 
@@ -107,3 +133,6 @@ primary document each site cites and source the record from that.
    goes to a human. Ambiguity is not permission — and neither is silence.
 4. Record the finding, not the conclusion — quote or link the clause that
    decides it, so the next person can re-evaluate without starting over.
+5. If a source is used without a licence grant, say so in the standing. A
+   decision to accept risk is a legitimate call; recording it as though it were
+   a permission is not.
