@@ -60,6 +60,38 @@ found, and reserve the decision below for cases where it genuinely cannot.
   above came through an automated page summary, and it is the one clause in this
   file that actually grants permission.
 
+## OpenStreetMap (Nominatim, Overpass)
+
+- **Standing:** `cleared` — ODbL 1.0, attribution required
+- **Intended use:** coordinates for every feature, via `npm run geocode`, and
+  addresses for named organisations, via `npm run osm-match`.
+- **Last checked:** 2026-08-14
+- **Deciding clause:** each geocoder response carries its own licence string,
+  recorded verbatim in `scripts/geocode-cache.json`: *"Data © OpenStreetMap
+  contributors, ODbL 1.0."*
+- **Notes:** Already the basis of the basemap, so this adds no new licensing
+  relationship. Nominatim resolves place names and street addresses well and
+  is the workhorse behind data rule 3.
+
+  **As a cross-reference for organisation addresses it does not work at
+  scale.** Tried on 2026-08-14 against the 563 organisations named in the
+  canada.ai directory, matching by name within Ontario through Overpass: about
+  one usable match per forty names. Vector Institute, Borealis AI, Creative
+  Destruction Lab and Cologix are all absent from OSM as addressed features;
+  Communitech is present with a full address, MaRS only as a street with no
+  number.
+
+  The reason matters more than the number. OSM's coverage of offices reflects
+  whoever happened to map them, which has nothing to do with whether an
+  organisation belongs on this map, so a layer assembled this way would be an
+  arbitrary sample wearing the clothes of a survey. Wide name regexes over a
+  whole province are also expensive for Overpass, which returned 504s
+  consistently at batches of forty.
+
+  `scripts/osm-match.ts` is kept: it is the right tool for looking up a modest
+  list of named institutions, and it records what answered. It is the wrong
+  tool for enumerating an industry.
+
 ## ontariodatacentres.ca
 
 - **Standing:** `cleared (project decision)` — 2026-08-14. Was `link-out only`

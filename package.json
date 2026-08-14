@@ -12,7 +12,8 @@
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "validate": "node --experimental-strip-types scripts/validate.ts",
-    "geocode": "node --experimental-strip-types scripts/geocode.ts"
+    "geocode": "node --experimental-strip-types scripts/geocode.ts",
+    "osm-match": "node --experimental-strip-types scripts/osm-match.ts"
   },
   "dependencies": {
     "maplibre-gl": "^5.0.0"
