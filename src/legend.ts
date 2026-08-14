@@ -56,6 +56,14 @@ export const renderLegend = (
   statusList.append(item(swatch("swatch-solid", neutral), t("legend.solid")));
   statusList.append(item(swatch("swatch-hollow", neutral), t("legend.hollow")));
   statusList.append(item(swatch("swatch-area", neutral), t("legend.area")));
+
+  // The numeral is the whole point of the cluster mark — it is what separates
+  // an aggregate from a single outlined feature — so the legend swatch carries
+  // one too rather than showing a bare ring.
+  const clusterMark = swatch("swatch-cluster", neutral);
+  clusterMark.textContent = "3";
+  statusList.append(item(clusterMark, t("legend.cluster")));
+
   section.append(statusList);
 
   return section;

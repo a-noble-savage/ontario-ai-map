@@ -10,13 +10,23 @@
 // This module is loaded dynamically from main.ts, and pulls MapLibre and its
 // stylesheet into a separate chunk with it. Nothing here is reachable until
 // the WebGL check has already passed.
-import maplibregl, { type Map as MapLibreMap, Popup } from "maplibre-gl";
+import maplibregl, {
+  type Map as MapLibreMap,
+  type GeoJSONSource,
+  type MapLayerMouseEvent,
+  Popup,
+} from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 
 import type { Lang, LayerId } from "./config.ts";
 import type { Translate } from "./i18n/index.ts";
-import { layerSpecs, interactiveLayerIds } from "./layers/index.ts";
-import { buildPopup } from "./popup.ts";
+import {
+  layerSpecs,
+  featureLayerIds,
+  CLUSTER_MAX_ZOOM,
+  CLUSTER_RADIUS,
+} from "./layers/index.ts";
+import { buildPopup, buildClusterPopup } from "./popup.ts";
 import type { FeatureCollection, MapFeature, FeatureProperties } from "./types.ts";
 
 const BASEMAP_STYLE =
@@ -138,22 +148,73 @@ export const createMap = (options: MapOptions): MapController => {
     }
   });
 
-  map.on("load", () => {
-    for (const layer of layers) {
-      const collection = byLayer.get(layer);
-      if (collection === undefined) continue;
+  /**
+   * Sources and layers go in as soon as the *style* is ready.
+   *
+   * Deliberately not on "load". That event waits for the style **and** the
+   * map's first render, which ties data setup to the render loop for no good
+   * reason: a browser that throttles animation frames — a background tab, an
+   * iframe scrolled out of view, which is exactly how this thing gets
+   * embedded — may never produce that first frame, and "load" then never
+   * fires. The result is a basemap with no data on it and no error anywhere.
+   * "styledata" with an isStyleLoaded guard depends only on the style being
+   * ready, which is the actual precondition for addSource and addLayer.
+   */
+  let layersAdded = false;
 
-      const sourceId = `src-${layer}`;
-      map.addSource(sourceId, { type: "geojson", data: collection });
+  const addDataLayers = (): void => {
+    if (layersAdded) return;
 
-      for (const spec of layerSpecs(layer, sourceId)) {
-        map.addLayer(spec);
+    // `isStyleLoaded()` is the obvious guard and the wrong one: it also waits
+    // for every source's tiles, so it stays false long after the style spec
+    // is parsed and ready to accept layers. There is no public predicate for
+    // "spec parsed but tiles still arriving", so attempt the work and treat a
+    // throw as "not yet". Each add is idempotent, so a retry cannot duplicate
+    // anything it already managed on an earlier attempt.
+    try {
+      for (const layer of layers) {
+        const collection = byLayer.get(layer);
+        if (collection === undefined) continue;
+
+        const sourceId = `src-${layer}`;
+        if (map.getSource(sourceId) === undefined) {
+          map.addSource(sourceId, {
+            type: "geojson",
+            data: collection,
+            cluster: true,
+            clusterRadius: CLUSTER_RADIUS,
+            clusterMaxZoom: CLUSTER_MAX_ZOOM,
+          });
+        }
+
+        for (const spec of layerSpecs(layer, sourceId)) {
+          if (map.getLayer(spec.id) === undefined) map.addLayer(spec);
+        }
+      }
+    } catch {
+      return;
+    }
+
+    layersAdded = true;
+
+    // Lets a cluster's member list open the record it names.
+    const featuresById = new Map<string, MapFeature>();
+    for (const collection of byLayer.values()) {
+      for (const feature of collection.features) {
+        featuresById.set(feature.properties.id, feature);
       }
     }
 
-    const interactive = interactiveLayerIds(layers);
+    const trackCursor = (layerId: string): void => {
+      map.on("mouseenter", layerId, () => {
+        canvas.style.cursor = "pointer";
+      });
+      map.on("mouseleave", layerId, () => {
+        canvas.style.cursor = "";
+      });
+    };
 
-    for (const layerId of interactive) {
+    for (const layerId of featureLayerIds(layers)) {
       if (map.getLayer(layerId) === undefined) continue;
 
       map.on("click", layerId, (event) => {
@@ -168,14 +229,89 @@ export const createMap = (options: MapOptions): MapController => {
         );
       });
 
-      map.on("mouseenter", layerId, () => {
-        canvas.style.cursor = "pointer";
-      });
-      map.on("mouseleave", layerId, () => {
-        canvas.style.cursor = "";
-      });
+      trackCursor(layerId);
     }
-  });
+
+    /**
+     * Clicking a cluster does one of two things, and which one depends on
+     * whether zooming would actually help.
+     *
+     * Most of this data sits on municipal centroids, so a cluster's members
+     * frequently share one coordinate exactly. Zooming those apart is
+     * impossible, and a map that responds to a click by zooming and changing
+     * nothing is a map that looks broken. In that case list the members
+     * instead, and let the reader open any of them.
+     */
+    const handleClusterClick = async (
+      sourceId: string,
+      event: MapLayerMouseEvent,
+    ): Promise<void> => {
+      const hit = event.features?.[0];
+      if (hit === undefined) return;
+
+      const clusterId = hit.properties?.["cluster_id"] as number | undefined;
+      const pointCount = hit.properties?.["point_count"] as number | undefined;
+      if (clusterId === undefined || pointCount === undefined) return;
+
+      const source = map.getSource(sourceId) as GeoJSONSource | undefined;
+      if (source === undefined) return;
+
+      framed = true;
+
+      const leaves = await source.getClusterLeaves(clusterId, pointCount, 0);
+
+      const positions = new Set(
+        leaves.map((leaf) =>
+          leaf.geometry.type === "Point"
+            ? `${leaf.geometry.coordinates[0]},${leaf.geometry.coordinates[1]}`
+            : "",
+        ),
+      );
+
+      const center: [number, number] = [event.lngLat.lng, event.lngLat.lat];
+
+      if (positions.size > 1) {
+        const zoom = await source.getClusterExpansionZoom(clusterId);
+        if (prefersReducedMotion()) map.jumpTo({ center, zoom });
+        else map.easeTo({ center, zoom });
+        return;
+      }
+
+      const members = leaves.map(
+        (leaf) => leaf.properties as unknown as FeatureProperties,
+      );
+
+      lastTrigger = null;
+      popup
+        .setLngLat(center)
+        .setDOMContent(
+          buildClusterPopup(members, true, t, lang, (id) => {
+            const feature = featuresById.get(id);
+            if (feature !== undefined) showFeature(feature, null);
+          }),
+        )
+        .addTo(map);
+    };
+
+    for (const layer of layers) {
+      const clusterLayerId = `${layer}-cluster`;
+      if (map.getLayer(clusterLayerId) === undefined) continue;
+
+      map.on("click", clusterLayerId, (event) => {
+        void handleClusterClick(`src-${layer}`, event);
+      });
+
+      trackCursor(clusterLayerId);
+      trackCursor(`${layer}-cluster-count`);
+    }
+  };
+
+  // Several chances to succeed, none of which require a rendered frame. The
+  // immediate call covers a style that was ready before we got here.
+  map.on("styledata", addDataLayers);
+  map.on("sourcedata", addDataLayers);
+  map.on("idle", addDataLayers);
+  addDataLayers();
 
   const showFeature = (
     feature: MapFeature,

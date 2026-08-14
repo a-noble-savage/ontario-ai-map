@@ -19,6 +19,10 @@
   "legend.solid": "Plein — construit ou actif",
   "legend.hollow": "Contour — annoncé, proposé ou terminé",
   "legend.area": "Zone floue — emplacement connu à la municipalité près",
+  "legend.cluster": "Cercle numéroté — plusieurs enregistrements regroupés; cliquez pour les afficher",
+
+  "cluster.heading": "enregistrements à ce point",
+  "cluster.sharedPoint": "Ces enregistrements partagent un même centroïde municipal; le zoom ne les séparera pas.",
 
   "status.operating": "En exploitation",
   "status.under_construction": "En construction",

@@ -37,6 +37,58 @@ const caveat = (text: string): HTMLParagraphElement => {
   return element;
 };
 
+/**
+ * Contents for a cluster the reader clicked.
+ *
+ * Clustering is the only place this map hides a record, so this popup exists
+ * to make that reversible: every member is listed by name and can be opened.
+ * Where the members share one municipal centroid — which most of them do —
+ * zooming will never separate them, and the popup says so rather than leaving
+ * the reader to discover it by scrolling the wheel.
+ */
+export const buildClusterPopup = (
+  members: readonly FeatureProperties[],
+  sharesOnePoint: boolean,
+  t: Translate,
+  lang: Lang,
+  onSelect: (id: string) => void,
+): HTMLElement => {
+  const container = document.createElement("div");
+  container.className = "popup";
+
+  const heading = document.createElement("h2");
+  heading.className = "popup-title";
+  heading.textContent = `${members.length} · ${t("cluster.heading")}`;
+  container.append(heading);
+
+  if (sharesOnePoint) {
+    container.append(caveat(t("cluster.sharedPoint")));
+  }
+
+  const list = document.createElement("ul");
+  list.className = "cluster-list";
+
+  for (const member of members) {
+    const item = document.createElement("li");
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "cluster-item";
+    button.textContent = localiseName(member.name, member.name_fr, lang);
+    button.addEventListener("click", () => onSelect(member.id));
+
+    const status = document.createElement("span");
+    status.className = "cluster-item-status";
+    status.textContent = t(`status.${member.status}`);
+
+    item.append(button, status);
+    list.append(item);
+  }
+
+  container.append(list);
+  return container;
+};
+
 export const buildPopup = (
   properties: FeatureProperties,
   t: Translate,

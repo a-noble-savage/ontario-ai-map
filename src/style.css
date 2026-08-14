@@ -190,6 +190,61 @@ body {
   border: 1px solid color-mix(in srgb, var(--hue) 40%, transparent);
 }
 
+/* Mirrors the map's cluster mark: white fill, heavy ring, and a count. */
+.swatch-cluster {
+  width: 1.125rem;
+  height: 1.125rem;
+  background: var(--surface);
+  border: 2.5px solid var(--hue);
+  display: grid;
+  place-items: center;
+  font-size: 0.5625rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+
+/* --- Cluster popup ------------------------------------------------------ */
+
+.cluster-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.15rem;
+}
+
+.cluster-list li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.15rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.cluster-list li:last-child {
+  border-bottom: none;
+}
+
+.cluster-item {
+  font: inherit;
+  font-size: 0.8125rem;
+  text-align: left;
+  padding: 0;
+  background: none;
+  border: none;
+  color: var(--focus);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cluster-item-status {
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+
 /* --- Table -------------------------------------------------------------- */
 
 .table-region {

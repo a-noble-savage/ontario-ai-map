@@ -19,6 +19,10 @@
   "legend.solid": "Solid — built or active",
   "legend.hollow": "Outlined — announced, proposed, or ended",
   "legend.area": "Soft area — location known only to the municipality",
+  "legend.cluster": "Numbered circle — several records grouped; click to list them",
+
+  "cluster.heading": "records at this point",
+  "cluster.sharedPoint": "These records share one municipal centroid, so zooming will not separate them.",
 
   "status.operating": "Operating",
   "status.under_construction": "Under construction",
