@@ -102,10 +102,32 @@ found, and reserve the decision below for cases where it genuinely cannot.
 - **`licence` value for features:** `canada.ai — used by project decision, no
   terms published; attribute and link out`
 - **Notes:** Nothing is granted here and nothing is forbidden in writing either;
-  the site is simply silent. Note this layer also waits on an open decision in
-  `CLAUDE.md` — whether "AI company" has a definition tight enough to defend, or
-  whether the layer inherits this directory's definition and says so. Clearing
-  the licence question does not answer that one.
+  the site is simply silent.
+
+  **Surveyed 2026-08-14 and it cannot supply mappable records.** The directory
+  holds 571 entries. Every one has a subtitle, but the subtitles are
+  descriptive prose rather than addresses, and no entry carries a location
+  field of any kind. Seven of the 571 mention an Ontario place anywhere at all,
+  and those are incidental phrases inside descriptions — "Launched at the
+  University of Toronto's Rotman School of Management" — not a statement of
+  where the organisation is. `/directory` is the site's only listing; the other
+  navigation entries are industry news categories.
+
+  Several of these organisations have locations that are common knowledge.
+  That is precisely why they cannot be used: taking a position from anywhere
+  other than the source and the geocoder is what data rule 3 exists to
+  prevent, and a layer assembled that way would have provenance that reads as
+  sourced when it is not.
+
+  The directory is also not a companies list. It mixes companies with
+  accelerators (Creative Destruction Lab, Next AI) and research institutes
+  (Vector, CIFAR, MILA, Amii), with no type field to separate them.
+
+  This is a dead end for the companies layer regardless of the licence
+  standing, so that layer needs a different source. The open decision in
+  `CLAUDE.md` about defining "AI company" is untouched by this, except that
+  the option of inheriting *this* directory's definition is no longer
+  available.
 
 ## datacentermap.com, baxtel.com, datacenters.com
 

@@ -108,8 +108,10 @@ than a missing one.
      asserts copyright and grants no licence; the decision accepts that risk
      rather than resolving it. Still prefer the primary document it cites
      (municipal planning records, IESO filings) wherever one exists.
-   - `canada.ai/directory` — *cleared by project decision, 2026-08-14*. It
-     publishes no terms at all; silence is not permission.
+   - `canada.ai/directory` — *cleared by project decision, 2026-08-14*, but
+     **unusable in practice**: surveyed the same day and none of its 571
+     entries carries a location, so it cannot place a pin. The companies
+     layer needs a different source. See `docs/sources.md`.
    - `datacentermap.com`, `baxtel.com`, `datacenters.com` — commercial
      products. Use for cross-checking a fact, never as a source of records.
 
@@ -202,4 +204,8 @@ survey-like and factual rather than promotional.
       only regardless of what's known.
 - [ ] Clustering thresholds — Toronto will otherwise be one illegible blob.
 - [ ] Whether "AI company" has a definition tight enough to defend, or whether
-      the layer inherits the source's definition and says so.
+      the layer inherits the source's definition and says so. Still open, but
+      narrowed: `canada.ai` was the directory whose definition would have been
+      inherited, and it carries no locations, so a source has to be chosen
+      before the definition question can be answered — the answer will
+      probably come with whatever source is picked.
