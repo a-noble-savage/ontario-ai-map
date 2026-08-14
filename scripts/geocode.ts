@@ -40,9 +40,17 @@ const USER_AGENT =
 const REQUEST_INTERVAL_MS = 1100;
 
 /** Everything mapped here is in Ontario; saying so disambiguates the many
- *  Ontario place names that also exist elsewhere (London, Windsor, Chatham). */
-const qualify = (place: string): string =>
-  `${place.trim()}, Ontario, Canada`;
+ *  Ontario place names that also exist elsewhere (London, Windsor, Chatham).
+ *
+ *  Street addresses transcribed from a source usually name the province
+ *  already, and appending it a second time makes the query worse rather than
+ *  clearer, so add only what is missing. */
+const qualify = (place: string): string => {
+  const trimmed = place.trim().replace(/,\s*$/, "");
+  if (/\bcanada\b/i.test(trimmed)) return trimmed;
+  if (/\bontario\b|,\s*ON\b/i.test(trimmed)) return `${trimmed}, Canada`;
+  return `${trimmed}, Ontario, Canada`;
+};
 
 export type CacheEntry = {
   query: string;
@@ -126,11 +134,34 @@ const lookup = async (query: string): Promise<CacheEntry | null> => {
 const main = async (): Promise<void> => {
   const args = process.argv.slice(2);
   const refresh = args.includes("--refresh");
-  const places = args.filter((arg) => !arg.startsWith("--"));
+
+  // --file reads one place or address per line. Bulk work is the normal case
+  // once a layer has more than a handful of records, and shell quoting for
+  // fifty street addresses is its own source of transcription errors.
+  const fileFlag = args.indexOf("--file");
+  const fromFile =
+    fileFlag === -1
+      ? []
+      : (readFileSync(args[fileFlag + 1] ?? "", "utf8")
+          .split("\n")
+          .map((line) => line.trim())
+          .filter((line) => line.length > 0 && !line.startsWith("#")));
+
+  const places = [
+    // The guard on fileFlag matters: without --file it is -1, and a bare
+    // `i !== fileFlag + 1` would then silently discard the first place given
+    // on the command line.
+    ...args.filter(
+      (arg, i) =>
+        !arg.startsWith("--") && !(fileFlag !== -1 && i === fileFlag + 1),
+    ),
+    ...fromFile,
+  ];
 
   if (places.length === 0) {
     console.error(
-      'Usage: npm run geocode -- "Clarington" "Greater Sudbury" [--refresh]',
+      'Usage: npm run geocode -- "Clarington" "1 Example Rd, Toronto"\n' +
+        "       npm run geocode -- --file addresses.txt [--refresh]",
     );
     process.exit(1);
   }
