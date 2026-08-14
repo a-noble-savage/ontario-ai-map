@@ -1,5 +1,447 @@
 {
   "type": "FeatureCollection",
   "name": "programs",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.6901106, 45.4208777] },
+      "properties": {
+        "id": "pr-algonquin-college-of-applied-arts-and-technology-ottawa",
+        "name": "Algonquin College of Applied Arts and Technology",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Ottawa",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Artificial Intelligence Software Development (Co-op)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.991211, 46.49272] },
+      "properties": {
+        "id": "pr-cambrian-college-sudbury",
+        "name": "Cambrian College",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Sudbury",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Artificial Intelligence and Machine Learning (AIGC) Graduate Certificate."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3839347, 43.6534817] },
+      "properties": {
+        "id": "pr-centennial-college-toronto",
+        "name": "Centennial College",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "3 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Artificial Intelligence - Software Engineering Technology (Fast Track) (Optional Co-op); Artificial Intelligence - Software Engineering Technology (Fast Track) (Optional Co-op) (Online); Artificial Intelligence - Software Engineering Technology (Optional Co-op)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.5222961, 43.4652699] },
+      "properties": {
+        "id": "pr-conestoga-college-institute-of-technology-and-advanced-learning-waterloo",
+        "name": "Conestoga College Institute of Technology and Advanced Learning",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Waterloo",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Applied Artificial Intelligence & Machine Learning."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.2496068, 42.9836747] },
+      "properties": {
+        "id": "pr-fanshawe-college-of-applied-arts-and-technology-london",
+        "name": "Fanshawe College of Applied Arts and Technology",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "London",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Graduate Certificate in Artificial Intelligence and Machine Learning (Co-op)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-78.3199496, 44.3048009] },
+      "properties": {
+        "id": "pr-fleming-college-peterborough",
+        "name": "Fleming College",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Peterborough",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Artificial Intelligence Graduate Certificate."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.6901302, 44.3893208] },
+      "properties": {
+        "id": "pr-georgian-college-barrie",
+        "name": "Georgian College",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Barrie",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "2 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Artificial Intelligence Leadership and Management Ontario College Graduate Certificate program; Artificial Intelligence – Architecture, Design, and Implementation Ontario College Graduate Certificate program."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3839347, 43.6534817] },
+      "properties": {
+        "id": "pr-humber-college-of-applied-arts-and-technology-toronto",
+        "name": "Humber College of Applied Arts and Technology",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Artificial Intelligence with Machine Learning."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-89.259796, 48.406414] },
+      "properties": {
+        "id": "pr-lakehead-university-thunder-bay",
+        "name": "Lakehead University",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Thunder Bay",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Master of Science in Computer Science (MSc) - Specialization in Artificial Intelligence."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-82.403533, 42.9743821] },
+      "properties": {
+        "id": "pr-lambton-college-of-applied-arts-and-technology-sarnia",
+        "name": "Lambton College of Applied Arts and Technology",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Sarnia",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Artificial Intelligence and Machine Learning."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.8728583, 43.2560802] },
+      "properties": {
+        "id": "pr-mohawk-college-of-applied-arts-and-technology-hamilton",
+        "name": "Mohawk College of Applied Arts and Technology",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Hamilton",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Applied Artificial Intelligence - 565."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.4607617, 46.3092115] },
+      "properties": {
+        "id": "pr-nipissing-university-north-bay",
+        "name": "Nipissing University",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "North Bay",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Post-Baccalaureate Diploma in Artificial Intelligence and Machine Learning Applications."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-78.8635324, 43.8975558] },
+      "properties": {
+        "id": "pr-ontario-tech-university-oshawa",
+        "name": "Ontario Tech University",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Oshawa",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "2 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Bachelor of Engineering (Honours) in Artificial Intelligence; Master of Information Technology Security (MITS) - Artificial Intelligence Field."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-76.4283781, 44.3054151] },
+      "properties": {
+        "id": "pr-queens-university-kingston",
+        "name": "Queen's University",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Kingston",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Master of Management in Artificial Intelligence."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3839347, 43.6534817] },
+      "properties": {
+        "id": "pr-seneca-college-toronto",
+        "name": "Seneca College",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Artificial Intelligence."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-78.8635324, 43.8975558] },
+      "properties": {
+        "id": "pr-trent-university-oshawa",
+        "name": "Trent University",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Oshawa",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "4 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Bachelor of Arts in Artificial Intelligence; Postgraduate Certificate Applied Artificial Intelligence; Postgraduate Certificate Applied Artificial Intelligence & Financial Analytics; Postgraduate Certificate Software Development & Applied Artificial Intelligence."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.2493276, 43.5460516] },
+      "properties": {
+        "id": "pr-university-of-guelph-guelph",
+        "name": "University of Guelph",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Guelph",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "2 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Master of Artificial Intelligence; Master of Science in Computer Science Collaborative Specialization in Artificial Intelligence."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3839347, 43.6534817] },
+      "properties": {
+        "id": "pr-university-of-toronto-toronto",
+        "name": "University of Toronto",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Master of Science in Applied Computing – Artificial Intelligence Specialization (MSCAC)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.5222961, 43.4652699] },
+      "properties": {
+        "id": "pr-university-of-waterloo-waterloo",
+        "name": "University of Waterloo",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Waterloo",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "7 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Bachelor of Computer Science - Artificial Intelligence Specialization; Bachelor of Mathematics in Computer Science - Artificial Intelligence Specialization; Master of Engineering in Electrical and Computer Engineering - Artificial Intelligence and Machine Learning; Master of Engineering in Systems Design Engineering - Artificial Intelligence and Machine Learning; Minor in Artificial Intelligence (Engineering); Professional Master of Data Science and Artificial Intelligence (MDSAI); Professional Master of Data Science and Artificial Intelligence - Co-operative Program (direct entry)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-81.2496068, 42.9836747] },
+      "properties": {
+        "id": "pr-university-of-western-ontario-london",
+        "name": "University of Western Ontario",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "London",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Collaborative Specialization in Artificial Intelligence."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3839347, 43.6534817] },
+      "properties": {
+        "id": "pr-york-university-toronto",
+        "name": "York University",
+        "name_fr": null,
+        "layer": "programs",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Canadian academic A.I. programs",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence/Canadian_academic_A.I._programs",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar: Master of Management in Artificial Intelligence (MMAI)."
+      }
+    }
+  ]
 }

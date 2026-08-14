@@ -10,6 +10,17 @@
     "osm_id": 198500761,
     "retrieved": "2026-08-14"
   },
+  "Barrie, Ontario, Canada": {
+    "query": "Barrie, Ontario, Canada",
+    "lon": -79.6901302,
+    "lat": 44.3893208,
+    "display_name": "Barrie, Central Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 6609999,
+    "retrieved": "2026-08-14"
+  },
   "Clarington, Ontario, Canada": {
     "query": "Clarington, Ontario, Canada",
     "lon": -78.6513545,
@@ -32,6 +43,39 @@
     "osm_id": 7568929,
     "retrieved": "2026-08-14"
   },
+  "Guelph, Ontario, Canada": {
+    "query": "Guelph, Ontario, Canada",
+    "lon": -80.2493276,
+    "lat": 43.5460516,
+    "display_name": "Guelph, Southwestern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 7486148,
+    "retrieved": "2026-08-14"
+  },
+  "Hamilton, Ontario, Canada": {
+    "query": "Hamilton, Ontario, Canada",
+    "lon": -79.8728583,
+    "lat": 43.2560802,
+    "display_name": "Hamilton, Golden Horseshoe, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 7034910,
+    "retrieved": "2026-08-14"
+  },
+  "Kingston, Ontario, Canada": {
+    "query": "Kingston, Ontario, Canada",
+    "lon": -76.4283781,
+    "lat": 44.3054151,
+    "display_name": "Kingston, Eastern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 4145881,
+    "retrieved": "2026-08-14"
+  },
   "Kitchener, Ontario, Canada": {
     "query": "Kitchener, Ontario, Canada",
     "lon": -80.4927815,
@@ -41,6 +85,116 @@
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "relation",
     "osm_id": 2062153,
+    "retrieved": "2026-08-14"
+  },
+  "London, Ontario, Canada": {
+    "query": "London, Ontario, Canada",
+    "lon": -81.2496068,
+    "lat": 42.9836747,
+    "display_name": "London, Southwestern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 7485368,
+    "retrieved": "2026-08-14"
+  },
+  "North Bay, Ontario, Canada": {
+    "query": "North Bay, Ontario, Canada",
+    "lon": -79.4607617,
+    "lat": 46.3092115,
+    "display_name": "North Bay, Nipissing District, Northeastern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 7129502,
+    "retrieved": "2026-08-14"
+  },
+  "Oshawa, Ontario, Canada": {
+    "query": "Oshawa, Ontario, Canada",
+    "lon": -78.8635324,
+    "lat": 43.8975558,
+    "display_name": "Oshawa, Durham Region, Golden Horseshoe, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 333748,
+    "retrieved": "2026-08-14"
+  },
+  "Ottawa, Ontario, Canada": {
+    "query": "Ottawa, Ontario, Canada",
+    "lon": -75.6901106,
+    "lat": 45.4208777,
+    "display_name": "Ottawa, Eastern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 4136816,
+    "retrieved": "2026-08-14"
+  },
+  "Peterborough, Ontario, Canada": {
+    "query": "Peterborough, Ontario, Canada",
+    "lon": -78.3199496,
+    "lat": 44.3048009,
+    "display_name": "Peterborough, Central Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 7473849,
+    "retrieved": "2026-08-14"
+  },
+  "Sarnia, Ontario, Canada": {
+    "query": "Sarnia, Ontario, Canada",
+    "lon": -82.403533,
+    "lat": 42.9743821,
+    "display_name": "Sarnia, Lambton County, Southwestern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 3642177,
+    "retrieved": "2026-08-14"
+  },
+  "Sudbury, Ontario, Canada": {
+    "query": "Sudbury, Ontario, Canada",
+    "lon": -80.991211,
+    "lat": 46.49272,
+    "display_name": "Greater Sudbury, Sudbury District, Northeastern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 7568929,
+    "retrieved": "2026-08-14"
+  },
+  "Thunder Bay, Ontario, Canada": {
+    "query": "Thunder Bay, Ontario, Canada",
+    "lon": -89.259796,
+    "lat": 48.406414,
+    "display_name": "Thunder Bay, Thunder Bay District, Northwestern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 7596931,
+    "retrieved": "2026-08-14"
+  },
+  "Toronto, Ontario, Canada": {
+    "query": "Toronto, Ontario, Canada",
+    "lon": -79.3839347,
+    "lat": 43.6534817,
+    "display_name": "Toronto, Golden Horseshoe, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 324211,
+    "retrieved": "2026-08-14"
+  },
+  "Waterloo, Ontario, Canada": {
+    "query": "Waterloo, Ontario, Canada",
+    "lon": -80.5222961,
+    "lat": 43.4652699,
+    "display_name": "Waterloo, Region of Waterloo, Southwestern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 2062154,
     "retrieved": "2026-08-14"
   }
 }
