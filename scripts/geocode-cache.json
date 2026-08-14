@@ -1,4 +1,26 @@
 {
+  "0 Tenth Line West, Mississauga, ON, Canada": {
+    "query": "0 Tenth Line West, Mississauga, ON, Canada",
+    "lon": -79.7576164,
+    "lat": 43.5699534,
+    "display_name": "Tenth Line West, Lisgar, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5N 3K2, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 38017514,
+    "retrieved": "2026-08-14"
+  },
+  "1 Century Place, Vaughan, ON  L4L 8R2, Canada": {
+    "query": "1 Century Place, Vaughan, ON  L4L 8R2, Canada",
+    "lon": -79.540025,
+    "lat": 43.7788737,
+    "display_name": "Digital Realty Toronto YYZ11, 1, Century Place, Vaughan, York Region, Golden Horseshoe, Ontario, L4L 0H3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 74658241,
+    "retrieved": "2026-08-14"
+  },
   "100 Queen Street West, Toronto, Ontario, Canada": {
     "query": "100 Queen Street West, Toronto, Ontario, Canada",
     "lon": -79.3840055,
@@ -8,6 +30,413 @@
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 198500761,
+    "retrieved": "2026-08-14"
+  },
+  "100 Wellington Street West, Toronto, ON  M5K 1J3, Canada": {
+    "query": "100 Wellington Street West, Toronto, ON  M5K 1J3, Canada",
+    "lon": -79.3827078,
+    "lat": 43.6471867,
+    "display_name": "TD West Tower, 100, Wellington Street West, Financial District, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5K 1H6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 27767634,
+    "retrieved": "2026-08-14"
+  },
+  "105 Clegg Road Markham, ON L6G 0E8, Canada": {
+    "query": "105 Clegg Road Markham, ON L6G 0E8, Canada",
+    "lon": -79.3426533,
+    "lat": 43.8507906,
+    "display_name": "Cologix TOR4, 105, Clegg Road, Buttonville, Markham, York Region, Golden Horseshoe, Ontario, L6G 0C6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 129730212,
+    "retrieved": "2026-08-14"
+  },
+  "12489 Dixie Road, Caledon, ON, Canada": {
+    "query": "12489 Dixie Road, Caledon, ON, Canada",
+    "lon": -79.8065308,
+    "lat": 43.7730503,
+    "display_name": "12489, Dixie Road, Mayfield West, Caledon, Peel Region, Golden Horseshoe, Ontario, L7C 2J3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 94340949,
+    "retrieved": "2026-08-14"
+  },
+  "145 King St W, Toronto, ON  M5H 1J8, Canada": {
+    "query": "145 King St W, Toronto, ON  M5H 1J8, Canada",
+    "lon": -79.3839099,
+    "lat": 43.6474535,
+    "display_name": "145, King Street West, Financial District, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5H 1J9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 31727205,
+    "retrieved": "2026-08-14"
+  },
+  "151 Front Street West, Toronto, ON  M5J 2N1, Canada": {
+    "query": "151 Front Street West, Toronto, ON  M5J 2N1, Canada",
+    "lon": -79.3841764,
+    "lat": 43.6446634,
+    "display_name": "151, Front Street West, Wellington Place, Downtown, Toronto, Golden Horseshoe, Ontario, M5J 1T1, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 43804185,
+    "retrieved": "2026-08-14"
+  },
+  "154 Wicksteed Ave, Toronto, ON  M4G 2B6, Canada": {
+    "query": "154 Wicksteed Ave, Toronto, ON  M4G 2B6, Canada",
+    "lon": -79.3561006,
+    "lat": 43.7119113,
+    "display_name": "154, Wicksteed Avenue, Thorncliffe Park, Don Valley West, East York, Toronto, Golden Horseshoe, Ontario, M4G 4J8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 803514080,
+    "retrieved": "2026-08-14"
+  },
+  "17 Vondrau Drive, Cambridge, ON, Canada": {
+    "query": "17 Vondrau Drive, Cambridge, ON, Canada",
+    "lon": -80.3720248,
+    "lat": 43.4277109,
+    "display_name": "Ascent TOR1, 17, Vondrau Drive, Cambridge, Region of Waterloo, Southwestern Ontario, Ontario, N3E 1A6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 288232465,
+    "retrieved": "2026-08-14"
+  },
+  "1800 Argentia Road, Mississauga, ON  L5N 3K3, Canada": {
+    "query": "1800 Argentia Road, Mississauga, ON  L5N 3K3, Canada",
+    "lon": -79.7353827,
+    "lat": 43.6033229,
+    "display_name": "11:11 Systems, 1800, Argentia Road, Meadowvale Business Park, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5N 1P9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 33710942,
+    "retrieved": "2026-08-14"
+  },
+  "1895 Williams Parkway, Brampton, ON  L6S 0C3, Canada": {
+    "query": "1895 Williams Parkway, Brampton, ON  L6S 0C3, Canada",
+    "lon": -79.717686,
+    "lat": 43.7450225,
+    "display_name": "Equinix TR7, 1895, Williams Parkway East, Brampton, Caledon, Peel Region, Golden Horseshoe, Ontario, L6S 6E6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 662392354,
+    "retrieved": "2026-08-14"
+  },
+  "2111 Steeles Avenue East, Brampton, ON  L6T 4L5, Canada": {
+    "query": "2111 Steeles Avenue East, Brampton, ON  L6T 4L5, Canada",
+    "lon": -79.6903813,
+    "lat": 43.7053482,
+    "display_name": "2111, Steeles Avenue East, Brampton, Peel Region, Golden Horseshoe, Ontario, L6T 2W8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 1126602751,
+    "retrieved": "2026-08-14"
+  },
+  "215 Traders Boulevard, Mississauga, ON  L4Z 3K5, Canada": {
+    "query": "215 Traders Boulevard, Mississauga, ON  L4Z 3K5, Canada",
+    "lon": -79.6699022,
+    "lat": 43.6282306,
+    "display_name": "215, Traders Boulevard East, Britannia East Business Park, Mississauga, Peel Region, Golden Horseshoe, Ontario, L4Z 1W7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 34204291,
+    "retrieved": "2026-08-14"
+  },
+  "245 Consumers Road, Toronto, ON, Canada": {
+    "query": "245 Consumers Road, Toronto, ON, Canada",
+    "lon": -79.3310435,
+    "lat": 43.7696608,
+    "display_name": "245, Consumers Road, Henry Farm, Don Valley North, North York, Toronto, Golden Horseshoe, Ontario, M2J 1P8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 2354348609,
+    "retrieved": "2026-08-14"
+  },
+  "27 Buttermill Avenue, Vaughan, ON  L4K 3X7, Canada": {
+    "query": "27 Buttermill Avenue, Vaughan, ON  L4K 3X7, Canada",
+    "lon": -79.5301841,
+    "lat": 43.7982647,
+    "display_name": "27, Buttermill Avenue, Edgeley, Vaughan, York Region, Golden Horseshoe, Ontario, L4K 3W3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 93810808,
+    "retrieved": "2026-08-14"
+  },
+  "2920 Matheson Boulevard East, Mississauga, ON L4W 5R6, Canada": {
+    "query": "2920 Matheson Boulevard East, Mississauga, ON L4W 5R6, Canada",
+    "lon": -79.5913363,
+    "lat": 43.6660322,
+    "display_name": "Conagra, 2920, Matheson Boulevard East, Eringate-Centennial-West Deane, Etobicoke Centre, Etobicoke, Mississauga, Peel Region, Golden Horseshoe, Ontario, L4W 5A6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 33806040,
+    "retrieved": "2026-08-14"
+  },
+  "2934B Baseline Rd, Nepean, ON K2H 8T5, Canada": {
+    "query": "2934B Baseline Rd, Nepean, ON K2H 8T5, Canada",
+    "lon": -75.7689386,
+    "lat": 45.348798,
+    "display_name": "Baseline Road, College, Nepean, Ottawa, Eastern Ontario, Ontario, K2C 1H2, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 303078543,
+    "retrieved": "2026-08-14"
+  },
+  "30 Bramtree Court, Brampton, ON  L6T 5B5, Canada": {
+    "query": "30 Bramtree Court, Brampton, ON  L6T 5B5, Canada",
+    "lon": -79.7163777,
+    "lat": 43.74404,
+    "display_name": "Equinix TR6, 30, Bramtree Court, Brampton, Caledon, Peel Region, Golden Horseshoe, Ontario, L6S 5Z7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 661951723,
+    "retrieved": "2026-08-14"
+  },
+  "3110 South Service Rd, Burlington, ON L7N 3J3, Canada": {
+    "query": "3110 South Service Rd, Burlington, ON L7N 3J3, Canada",
+    "lon": -79.7997876,
+    "lat": 43.3540307,
+    "display_name": "Tucker's Marketplace, 3110, South Service Road, Burlington, Halton Region, Golden Horseshoe, Ontario, L7N 3J3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 43938108,
+    "retrieved": "2026-08-14"
+  },
+  "3480 Ninth Line, Oakville, ON, Canada": {
+    "query": "3480 Ninth Line, Oakville, ON, Canada",
+    "lon": -79.7064473,
+    "lat": 43.5147491,
+    "display_name": "3480, Ninth Line, Oakville, Halton Region, Golden Horseshoe, Ontario, L6H 7A8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 141293016,
+    "retrieved": "2026-08-14"
+  },
+  "3650 Danforth Ave, Scarborough, ON M1N 3K2, Canada": {
+    "query": "3650 Danforth Ave, Scarborough, ON M1N 3K2, Canada",
+    "lon": -79.26624,
+    "lat": 43.69792,
+    "display_name": "3650, Danforth Avenue, Birchcliffe-Cliffside, Scarborough Southwest, Scarborough, Toronto, Golden Horseshoe, Ontario, M1N 3J7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 13843261919,
+    "retrieved": "2026-08-14"
+  },
+  "386 Wilcox Street, Hamilton, ON, Canada": {
+    "query": "386 Wilcox Street, Hamilton, ON, Canada",
+    "lon": -79.8270718,
+    "lat": 43.2644814,
+    "display_name": "386, Wilcox Street, Industrial Sector K, Hamilton, Golden Horseshoe, Ontario, L8L 4J5, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 906647750,
+    "retrieved": "2026-08-14"
+  },
+  "390 March Road, Kanata, ON  K2K 2T5, Canada": {
+    "query": "390 March Road, Kanata, ON  K2K 2T5, Canada",
+    "lon": -75.9111423,
+    "lat": 45.3403973,
+    "display_name": "390, March Road, Kanata, Kanata North, Ottawa, Eastern Ontario, Ontario, K2K 0K1, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 68609519,
+    "retrieved": "2026-08-14"
+  },
+  "3995 Sladeview Crescent, Mississauga, ON  L5L 5X9, Canada": {
+    "query": "3995 Sladeview Crescent, Mississauga, ON  L5L 5X9, Canada",
+    "lon": -79.7146014,
+    "lat": 43.5270479,
+    "display_name": "3995, Sladeview Crescent, Erin Mills, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5L 5Y5, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 32872052,
+    "retrieved": "2026-08-14"
+  },
+  "4175 14th Avenue, Markham, ON  L3R 0J2, Canada": {
+    "query": "4175 14th Avenue, Markham, ON  L3R 0J2, Canada",
+    "lon": -79.3153723,
+    "lat": 43.838068,
+    "display_name": "BGIS, 4175, 14th Avenue, Markham, York Region, Golden Horseshoe, Ontario, L3R 0J2, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 56223164,
+    "retrieved": "2026-08-14"
+  },
+  "431 Horner Ave, Etobicoke, ON  M8W 4W3, Canada": {
+    "query": "431 Horner Ave, Etobicoke, ON  M8W 4W3, Canada",
+    "lon": -79.5372208,
+    "lat": 43.6013274,
+    "display_name": "431, Horner Avenue, Alderwood, Etobicoke—Lakeshore, Etobicoke, Toronto, Golden Horseshoe, Ontario, M8W 2B3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 59244404,
+    "retrieved": "2026-08-14"
+  },
+  "436 Hazeldean Rd, Kanata, ON K2L 1T9, Canada": {
+    "query": "436 Hazeldean Rd, Kanata, ON K2L 1T9, Canada",
+    "lon": -75.883067,
+    "lat": 45.3006192,
+    "display_name": "436, Hazeldean Road, Kanata, Kanata South, Ottawa, Eastern Ontario, Ontario, K2L 4E8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 68609708,
+    "retrieved": "2026-08-14"
+  },
+  "44 Frid Street, Hamilton, ON, Canada": {
+    "query": "44 Frid Street, Hamilton, ON, Canada",
+    "lon": -79.8925566,
+    "lat": 43.2596557,
+    "display_name": "44, Frid Street, Kirkendall North, Hamilton, Golden Horseshoe, Ontario, L8P 4M4, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 906743156,
+    "retrieved": "2026-08-14"
+  },
+  "45 Parliament Street, Toronto, ON  M5A 1R1, Canada": {
+    "query": "45 Parliament Street, Toronto, ON  M5A 1R1, Canada",
+    "lon": -79.3618012,
+    "lat": 43.6509516,
+    "display_name": "Equinix TR2, 45, Parliament Street, St Lawrence-East Bayfront-The Islands, Downtown, Toronto, Golden Horseshoe, Ontario, M5A 0G7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 302107922,
+    "retrieved": "2026-08-14"
+  },
+  "48 Lowe's Place, Toronto, ON M9P 0A2, Canada": {
+    "query": "48 Lowe's Place, Toronto, ON M9P 0A2, Canada",
+    "lon": -79.54822,
+    "lat": 43.70871,
+    "display_name": "48, Lowe's Place, Kingsview Village-The Westway, Etobicoke North, Etobicoke, Toronto, Golden Horseshoe, Ontario, M9P 3P1, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 13854856590,
+    "retrieved": "2026-08-14"
+  },
+  "55 City Centre Drive, Mississauga, ON  L4Z 0B8, Canada": {
+    "query": "55 City Centre Drive, Mississauga, ON  L4Z 0B8, Canada",
+    "lon": -79.6381194,
+    "lat": 43.5937584,
+    "display_name": "55, City Centre Drive, City Centre, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5B 2N5, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 142306317,
+    "retrieved": "2026-08-14"
+  },
+  "550 Cochrane Dr, Markham, ON L3R 8E2, Canada": {
+    "query": "550 Cochrane Dr, Markham, ON L3R 8E2, Canada",
+    "lon": -79.3648595,
+    "lat": 43.8442636,
+    "display_name": "Rogers Data Center, 550, Cochrane Drive, Brown's Corners, Buttonville, Markham, York Region, Golden Horseshoe, Ontario, L3R 8E3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 67138292,
+    "retrieved": "2026-08-14"
+  },
+  "6100 Langstaff Road, Vaughan, ON L4L 0A9, Canada": {
+    "query": "6100 Langstaff Road, Vaughan, ON L4L 0A9, Canada",
+    "lon": -79.6280269,
+    "lat": 43.7911292,
+    "display_name": "6100, Langstaff Road, Vaughan, York Region, Golden Horseshoe, Ontario, L4H 4W9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 93832912,
+    "retrieved": "2026-08-14"
+  },
+  "6800 Millcreek Drive, Mississauga, ON  L5N 4J9, Canada": {
+    "query": "6800 Millcreek Drive, Mississauga, ON  L5N 4J9, Canada",
+    "lon": -79.7532324,
+    "lat": 43.5943721,
+    "display_name": "Cyxtera Toronto YYZ1, 6800, Millcreek Drive, Meadowvale Business Park, Mississauga, Peel Region, Golden Horseshoe, Ontario, L5N 4J9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 322816286,
+    "retrieved": "2026-08-14"
+  },
+  "8100 Warden Avenue, Markham, ON  L6G 1B3, Canada": {
+    "query": "8100 Warden Avenue, Markham, ON  L6G 1B3, Canada",
+    "lon": -79.3330851,
+    "lat": 43.8515585,
+    "display_name": "8100, Warden Avenue, Unionville, Markham, York Region, Golden Horseshoe, Ontario, L6G 1B4, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 75981622,
+    "retrieved": "2026-08-14"
+  },
+  "8250 Lawson Rd, Milton, ON L9T 5C6, Canada": {
+    "query": "8250 Lawson Rd, Milton, ON L9T 5C6, Canada",
+    "lon": -79.8815735,
+    "lat": 43.5430476,
+    "display_name": "8250, Lawson Road, Milton, Halton Region, Golden Horseshoe, Ontario, L9T 7L4, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 66822662,
+    "retrieved": "2026-08-14"
+  },
+  "865 Gartshore Street, Fergus, ON, Canada": {
+    "query": "865 Gartshore Street, Fergus, ON, Canada",
+    "lon": -80.3820035,
+    "lat": 43.7202703,
+    "display_name": "865, Gartshore Street, Fergus, Centre Wellington, Wellington County, Southwestern Ontario, Ontario, N1M 2W8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 68591283,
+    "retrieved": "2026-08-14"
+  },
+  "905 King Street West, Toronto, ON  M6K 3G9, Canada": {
+    "query": "905 King Street West, Toronto, ON  M6K 3G9, Canada",
+    "lon": -79.4122142,
+    "lat": 43.6416754,
+    "display_name": "905, King Street West, West Queen West, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M6K 1E4, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 56724000,
+    "retrieved": "2026-08-14"
+  },
+  "970 Green Valley Rd, London, ON N6N 1E3, Canada": {
+    "query": "970 Green Valley Rd, London, ON N6N 1E3, Canada",
+    "lon": -81.200301,
+    "lat": 42.9212542,
+    "display_name": "970, Green Valley Road, London, Southwestern Ontario, Ontario, N6N 1C3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 190665605,
     "retrieved": "2026-08-14"
   },
   "Barrie, Ontario, Canada": {
@@ -30,6 +459,28 @@
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "relation",
     "osm_id": 2408839,
+    "retrieved": "2026-08-14"
+  },
+  "Fort Erie, Ontario, Canada": {
+    "query": "Fort Erie, Ontario, Canada",
+    "lon": -78.918611,
+    "lat": 42.91308,
+    "display_name": "Fort Erie, Niagara Region, Golden Horseshoe, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 2712310,
+    "retrieved": "2026-08-14"
+  },
+  "Greater Napanee, Ontario, Canada": {
+    "query": "Greater Napanee, Ontario, Canada",
+    "lon": -76.9505543,
+    "lat": 44.2473883,
+    "display_name": "Greater Napanee, Lennox and Addington County, Eastern Ontario, Ontario, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 7435646,
     "retrieved": "2026-08-14"
   },
   "Greater Sudbury, Ontario, Canada": {
@@ -195,6 +646,17 @@
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "relation",
     "osm_id": 2062154,
+    "retrieved": "2026-08-14"
+  },
+  "Yates Avenue, Sault Ste. Marie, ON, Canada": {
+    "query": "Yates Avenue, Sault Ste. Marie, ON, Canada",
+    "lon": -84.3964795,
+    "lat": 46.5268842,
+    "display_name": "Yates Avenue, Sault Ste. Marie, Algoma District, Northeastern Ontario, Ontario, P6C 5P2, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 35247930,
     "retrieved": "2026-08-14"
   }
 }
