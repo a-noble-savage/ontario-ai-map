@@ -273,6 +273,23 @@ body {
   padding: 0.875rem 1rem;
   border-radius: 2px;
   font-family: var(--font);
+  /* Notes carry the substance of a record and can run long — an institution
+     with seven programmes, or a conflict between two sources spelled out. Cap
+     the popup and let it scroll rather than letting it run off the bottom of
+     the map, where the provenance block would be the part that disappears.
+
+     The cap has to clear the space between the anchor point and the map edge,
+     not the viewport: fly-to centres the feature, so roughly half the map
+     height is available. These values sit inside that on both layouts. */
+  max-height: 11rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+@media (min-width: 56rem) {
+  .maplibregl-popup-content {
+    max-height: 17rem;
+  }
 }
 
 .popup-title {
