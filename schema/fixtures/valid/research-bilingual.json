@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-75.6972, 45.4215] },
+  "properties": {
+    "id": "re-example-institute",
+    "name": "Example Research Institute",
+    "name_fr": "Institut de recherche Exemple",
+    "layer": "research",
+    "status": "active",
+    "operator": null,
+    "municipality": "Ottawa",
+    "capacity_mw": null,
+    "location_precision": "rooftop",
+    "source_name": "Example institute site",
+    "source_url": "https://example.invalid/institute",
+    "retrieved": "2026-08-10",
+    "licence": "public document — attribution required",
+    "notes": null
+  }
+}

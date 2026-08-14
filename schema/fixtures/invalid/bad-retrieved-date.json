@@ -1,0 +1,21 @@
+{
+  "_expected_failure": "retrieved is written in a local format rather than ISO. Dates are compared and sorted during staleness checks, so the format is load-bearing.",
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.3839, 43.6534] },
+  "properties": {
+    "id": "co-bad-date",
+    "name": "Bad Date Co",
+    "name_fr": null,
+    "layer": "companies",
+    "status": "active",
+    "operator": null,
+    "municipality": "Toronto",
+    "capacity_mw": null,
+    "location_precision": "municipality",
+    "source_name": "Example registry",
+    "source_url": "https://example.invalid/registry",
+    "retrieved": "10/08/2026",
+    "licence": "link-out only",
+    "notes": null
+  }
+}

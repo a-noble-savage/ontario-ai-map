@@ -1,0 +1,26 @@
+{
+  "name": "ontario-ai-map",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An embeddable map of AI-related activity in Ontario.",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "validate": "node --experimental-strip-types scripts/validate.ts"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0"
+  }
+}

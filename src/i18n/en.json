@@ -1,0 +1,67 @@
+{
+  "app.title": "AI activity in Ontario",
+  "app.skipToList": "Skip to the data table",
+  "map.instructions": "Use the arrow keys to pan the map, and the plus and minus keys to zoom. Every mapped record is also listed in the table below this map.",
+
+  "view.map": "Map",
+  "view.list": "Table",
+  "view.toggleLabel": "View as",
+
+  "layer.datacentres": "Data centres",
+  "layer.companies": "Companies",
+  "layer.accelerators": "Accelerators",
+  "layer.research": "Research institutes",
+  "layer.programs": "Academic programs",
+
+  "legend.title": "Legend",
+  "legend.layers": "Layers",
+  "legend.status": "Status",
+  "legend.solid": "Solid — built or active",
+  "legend.hollow": "Outlined — announced, proposed, or ended",
+  "legend.area": "Soft area — location known only to the municipality",
+
+  "status.operating": "Operating",
+  "status.under_construction": "Under construction",
+  "status.announced": "Announced",
+  "status.proposed": "Proposed",
+  "status.cancelled": "Cancelled",
+  "status.active": "Active",
+  "status.closed": "Closed",
+
+  "precision.rooftop": "Building",
+  "precision.street": "Street",
+  "precision.municipality": "Municipality (approximate)",
+  "precision.region": "Region (approximate)",
+
+  "popup.close": "Close",
+  "popup.operator": "Operator",
+  "popup.municipality": "Municipality",
+  "popup.capacity": "Capacity",
+  "popup.capacityUnit": "MW",
+  "popup.status": "Status",
+  "popup.precision": "Location precision",
+  "popup.source": "Source",
+  "popup.retrieved": "Checked",
+  "popup.licence": "Licence",
+  "popup.notes": "Notes",
+  "popup.claimCaveat": "This site has been announced but not built. Announcements change, and some are never built.",
+  "popup.approximateCaveat": "This point marks the municipality, not an address.",
+
+  "table.caption": "Every mapped record, as a table.",
+  "table.name": "Name",
+  "table.layer": "Layer",
+  "table.status": "Status",
+  "table.municipality": "Municipality",
+  "table.capacity": "Capacity (MW)",
+  "table.source": "Source",
+  "table.showOnMap": "Show on map",
+
+  "empty.title": "No records yet",
+  "empty.body": "No source has cleared its licence check, so no records have been published. The map is deliberately empty rather than provisional.",
+
+  "error.title": "The data could not be loaded",
+  "error.body": "Try reloading the page.",
+
+  "nowebgl.title": "The map needs WebGL",
+  "nowebgl.body": "This browser cannot draw the map, so the same records are shown as a table below."
+}

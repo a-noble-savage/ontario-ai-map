@@ -1,0 +1,21 @@
+{
+  "_expected_failure": "A data centre uses the active/closed vocabulary that belongs to the other four layers. Data centres must use the operating/under_construction/announced/proposed/cancelled set.",
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-78.6889, 43.9123] },
+  "properties": {
+    "id": "dc-wrong-status",
+    "name": "Wrong Status Vocabulary Facility",
+    "name_fr": null,
+    "layer": "datacentres",
+    "status": "active",
+    "operator": null,
+    "municipality": "Clarington",
+    "capacity_mw": null,
+    "location_precision": "municipality",
+    "source_name": "Example municipal planning report",
+    "source_url": "https://example.invalid/planning/report",
+    "retrieved": "2026-08-10",
+    "licence": "public document — attribution required",
+    "notes": null
+  }
+}

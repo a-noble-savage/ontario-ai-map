@@ -1,0 +1,21 @@
+{
+  "_expected_failure": "A research feature uses a data-centre status value. Non-datacentre layers are restricted to active/closed.",
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-75.6972, 45.4215] },
+  "properties": {
+    "id": "re-wrong-status",
+    "name": "Wrong Status Vocabulary Institute",
+    "name_fr": null,
+    "layer": "research",
+    "status": "proposed",
+    "operator": null,
+    "municipality": "Ottawa",
+    "capacity_mw": null,
+    "location_precision": "municipality",
+    "source_name": "Example institute site",
+    "source_url": "https://example.invalid/institute",
+    "retrieved": "2026-08-10",
+    "licence": "public document — attribution required",
+    "notes": null
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_expected_failure": "source_url and retrieved are absent. Provenance is mandatory — no feature ships without both, because the popup displays them.",
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.3839, 43.6534] },
+  "properties": {
+    "id": "co-no-provenance",
+    "name": "No Provenance Co",
+    "name_fr": null,
+    "layer": "companies",
+    "status": "active",
+    "operator": null,
+    "municipality": "Toronto",
+    "capacity_mw": null,
+    "location_precision": "municipality",
+    "source_name": "Example registry",
+    "licence": "link-out only",
+    "notes": null
+  }
+}

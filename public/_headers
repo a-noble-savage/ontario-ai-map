@@ -1,0 +1,17 @@
+# Cloudflare Pages headers.
+#
+# frame-ancestors is deliberately open: the embed's whole purpose is to be
+# dropped into third-party pages, and an allowlist would need maintaining by
+# whoever adds a new host. Narrow it to named origins if the set of embedding
+# sites ever becomes known and small.
+#
+# Note there is no X-Frame-Options header here. Sending one would override
+# frame-ancestors in older browsers and break the embed.
+
+/*
+  Content-Security-Policy: frame-ancestors *;
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+
+/data/*
+  Cache-Control: public, max-age=300, must-revalidate

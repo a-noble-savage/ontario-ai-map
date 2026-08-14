@@ -1,0 +1,131 @@
+/**
+ * Popup contents. Built as DOM nodes rather than an HTML string: every value
+ * here originates in a data file transcribed from a source, and `textContent`
+ * removes the whole class of questions about what is in `notes`.
+ *
+ * Provenance is not optional chrome. Source and retrieval date are always
+ * rendered, because a record the reader cannot check is a record they have to
+ * take on faith.
+ */
+
+import type { Translate } from "./i18n/index.ts";
+import { localiseName } from "./i18n/index.ts";
+import type { Lang } from "./config.ts";
+import type { FeatureProperties } from "./types.ts";
+import { isClaim, isPrecise } from "./types.ts";
+
+const row = (label: string, value: string): HTMLDivElement => {
+  const wrapper = document.createElement("div");
+  wrapper.className = "popup-row";
+
+  const term = document.createElement("span");
+  term.className = "popup-label";
+  term.textContent = label;
+
+  const detail = document.createElement("span");
+  detail.className = "popup-value";
+  detail.textContent = value;
+
+  wrapper.append(term, detail);
+  return wrapper;
+};
+
+const caveat = (text: string): HTMLParagraphElement => {
+  const element = document.createElement("p");
+  element.className = "popup-caveat";
+  element.textContent = text;
+  return element;
+};
+
+export const buildPopup = (
+  properties: FeatureProperties,
+  t: Translate,
+  lang: Lang,
+): HTMLElement => {
+  const container = document.createElement("div");
+  container.className = "popup";
+
+  const heading = document.createElement("h2");
+  heading.className = "popup-title";
+  heading.textContent = localiseName(properties.name, properties.name_fr, lang);
+  container.append(heading);
+
+  const layerLine = document.createElement("p");
+  layerLine.className = "popup-layer";
+  layerLine.textContent = `${t(`layer.${properties.layer}`)} · ${t(
+    `status.${properties.status}`,
+  )}`;
+  container.append(layerLine);
+
+  // Rule 5: an announcement is a claim about the future. Say so before the
+  // reader reads the rest as established fact.
+  if (isClaim(properties.status)) {
+    container.append(caveat(t("popup.claimCaveat")));
+  }
+
+  const details = document.createElement("div");
+  details.className = "popup-details";
+
+  details.append(row(t("popup.municipality"), properties.municipality));
+
+  if (properties.operator !== null) {
+    details.append(row(t("popup.operator"), properties.operator));
+  }
+
+  if (properties.capacity_mw !== null) {
+    details.append(
+      row(
+        t("popup.capacity"),
+        `${properties.capacity_mw} ${t("popup.capacityUnit")}`,
+      ),
+    );
+  }
+
+  details.append(
+    row(
+      t("popup.precision"),
+      t(`precision.${properties.location_precision}`),
+    ),
+  );
+
+  container.append(details);
+
+  // Rule 2: a centroid must never be mistaken for an address, in the popup as
+  // well as in the rendering.
+  if (!isPrecise(properties.location_precision)) {
+    container.append(caveat(t("popup.approximateCaveat")));
+  }
+
+  if (properties.notes !== null) {
+    const notes = document.createElement("p");
+    notes.className = "popup-notes";
+    notes.textContent = properties.notes;
+    container.append(notes);
+  }
+
+  const provenance = document.createElement("div");
+  provenance.className = "popup-provenance";
+
+  const sourceRow = document.createElement("div");
+  sourceRow.className = "popup-row";
+
+  const sourceLabel = document.createElement("span");
+  sourceLabel.className = "popup-label";
+  sourceLabel.textContent = t("popup.source");
+
+  const link = document.createElement("a");
+  link.className = "popup-value";
+  link.href = properties.source_url;
+  link.textContent = properties.source_name;
+  // The embed sits in someone else's page; never hand the opener over with it.
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+
+  sourceRow.append(sourceLabel, link);
+  provenance.append(sourceRow);
+  provenance.append(row(t("popup.retrieved"), properties.retrieved));
+  provenance.append(row(t("popup.licence"), properties.licence));
+
+  container.append(provenance);
+  return container;
+};

@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ontario-ai-map/schema/feature.schema.json",
+  "title": "Ontario AI Map feature",
+  "description": "One GeoJSON Feature in any of the five data layers. Every property in the data model is required and present; those documented as nullable accept null rather than being omitted, so a missing value is always visible as an explicit null and never as a forgotten key.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["type", "geometry", "properties"],
+  "properties": {
+    "type": { "const": "Feature" },
+    "geometry": { "$ref": "#/$defs/point" },
+    "properties": { "$ref": "#/$defs/featureProperties" }
+  },
+
+  "$defs": {
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "coordinates"],
+      "properties": {
+        "type": { "const": "Point" },
+        "coordinates": {
+          "description": "[longitude, latitude], bounded to Ontario. The bounds are a correctness check, not a display hint: they catch transposed lat/lon, which is the single most common geocoding error and produces a pin in the Indian Ocean or rural China.",
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "prefixItems": [
+            { "type": "number", "minimum": -95.2, "maximum": -74.3 },
+            { "type": "number", "minimum": 41.6, "maximum": 56.9 }
+          ]
+        }
+      }
+    },
+
+    "featureProperties": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "name_fr",
+        "layer",
+        "status",
+        "operator",
+        "municipality",
+        "capacity_mw",
+        "location_precision",
+        "source_name",
+        "source_url",
+        "retrieved",
+        "licence",
+        "notes"
+      ],
+      "properties": {
+        "id": {
+          "description": "Stable slug. Never reused after deletion.",
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "minLength": 2
+        },
+        "name": {
+          "description": "As the source writes it.",
+          "type": "string",
+          "minLength": 1
+        },
+        "name_fr": {
+          "description": "Optional. Falls back to name at render time.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "layer": {
+          "enum": [
+            "datacentres",
+            "companies",
+            "accelerators",
+            "research",
+            "programs"
+          ]
+        },
+        "status": {
+          "description": "Vocabulary depends on layer; see the conditional below.",
+          "type": "string"
+        },
+        "operator": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "municipality": {
+          "type": "string",
+          "minLength": 1
+        },
+        "capacity_mw": {
+          "description": "Data centres only. Null on every other layer.",
+          "type": ["number", "null"],
+          "minimum": 0
+        },
+        "location_precision": {
+          "enum": ["rooftop", "street", "municipality", "region"]
+        },
+        "source_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "description": "Mandatory provenance. Displayed in the popup.",
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "retrieved": {
+          "description": "ISO date the source was last checked.",
+          "type": "string",
+          "format": "date",
+          "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+        },
+        "licence": {
+          "description": "How this record may be republished. Free text, but 'unverified' is rejected at ship time by scripts/validate.ts — the licence gate is a process rule, not a shape rule.",
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "description": "Shown in the popup. Carries source conflicts verbatim.",
+          "type": ["string", "null"],
+          "minLength": 1
+        }
+      },
+
+      "allOf": [
+        {
+          "$comment": "Status vocabulary and capacity_mw are both layer-dependent.",
+          "if": {
+            "required": ["layer"],
+            "properties": { "layer": { "const": "datacentres" } }
+          },
+          "then": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "operating",
+                  "under_construction",
+                  "announced",
+                  "proposed",
+                  "cancelled"
+                ]
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "status": { "enum": ["active", "closed"] },
+              "capacity_mw": {
+                "type": "null",
+                "$comment": "capacity_mw is meaningful only for data centres."
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

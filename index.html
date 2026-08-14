@@ -1,0 +1,27 @@
+<!doctype html>
+<!-- lang is set from ?lang= at runtime; en is the starting value, not a default
+     preference. -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI activity in Ontario</title>
+    <meta
+      name="description"
+      content="An embeddable map of AI-related activity in Ontario: data centres, companies, accelerators, research institutes, and academic programs."
+    />
+  </head>
+  <body>
+    <a id="skip-link" class="skip-link" href="#table-region">
+      Skip to the data table
+    </a>
+
+    <div id="app">
+      <div id="map" class="map"></div>
+      <div id="legend" class="legend-container"></div>
+      <section id="table-region" class="table-region" tabindex="-1"></section>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

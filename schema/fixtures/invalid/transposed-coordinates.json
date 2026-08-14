@@ -1,0 +1,21 @@
+{
+  "_expected_failure": "Latitude and longitude are swapped. Must fail the Ontario coordinate bounds — this is the most common geocoding error and would place the pin off the map entirely.",
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [43.6534, -79.3839] },
+  "properties": {
+    "id": "co-transposed",
+    "name": "Transposed Coordinates Co",
+    "name_fr": null,
+    "layer": "companies",
+    "status": "active",
+    "operator": null,
+    "municipality": "Toronto",
+    "capacity_mw": null,
+    "location_precision": "municipality",
+    "source_name": "Example registry",
+    "source_url": "https://example.invalid/registry",
+    "retrieved": "2026-08-10",
+    "licence": "link-out only",
+    "notes": null
+  }
+}

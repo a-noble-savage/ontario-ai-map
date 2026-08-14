@@ -1,0 +1,20 @@
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.3839, 43.6534] },
+  "properties": {
+    "id": "co-example-minimal",
+    "name": "Example Minimal Co",
+    "name_fr": null,
+    "layer": "companies",
+    "status": "active",
+    "operator": null,
+    "municipality": "Toronto",
+    "capacity_mw": null,
+    "location_precision": "municipality",
+    "source_name": "Example registry",
+    "source_url": "https://example.invalid/registry",
+    "retrieved": "2026-08-10",
+    "licence": "link-out only",
+    "notes": null
+  }
+}

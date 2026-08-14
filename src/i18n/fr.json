@@ -1,0 +1,67 @@
+{
+  "app.title": "L'activité en IA en Ontario",
+  "app.skipToList": "Passer au tableau de données",
+  "map.instructions": "Utilisez les touches fléchées pour déplacer la carte, et les touches plus et moins pour zoomer. Tous les enregistrements cartographiés figurent également dans le tableau sous cette carte.",
+
+  "view.map": "Carte",
+  "view.list": "Tableau",
+  "view.toggleLabel": "Afficher en",
+
+  "layer.datacentres": "Centres de données",
+  "layer.companies": "Entreprises",
+  "layer.accelerators": "Accélérateurs",
+  "layer.research": "Instituts de recherche",
+  "layer.programs": "Programmes universitaires",
+
+  "legend.title": "Légende",
+  "legend.layers": "Couches",
+  "legend.status": "État",
+  "legend.solid": "Plein — construit ou actif",
+  "legend.hollow": "Contour — annoncé, proposé ou terminé",
+  "legend.area": "Zone floue — emplacement connu à la municipalité près",
+
+  "status.operating": "En exploitation",
+  "status.under_construction": "En construction",
+  "status.announced": "Annoncé",
+  "status.proposed": "Proposé",
+  "status.cancelled": "Annulé",
+  "status.active": "Actif",
+  "status.closed": "Fermé",
+
+  "precision.rooftop": "Bâtiment",
+  "precision.street": "Rue",
+  "precision.municipality": "Municipalité (approximatif)",
+  "precision.region": "Région (approximatif)",
+
+  "popup.close": "Fermer",
+  "popup.operator": "Exploitant",
+  "popup.municipality": "Municipalité",
+  "popup.capacity": "Capacité",
+  "popup.capacityUnit": "MW",
+  "popup.status": "État",
+  "popup.precision": "Précision de l'emplacement",
+  "popup.source": "Source",
+  "popup.retrieved": "Vérifié le",
+  "popup.licence": "Licence",
+  "popup.notes": "Remarques",
+  "popup.claimCaveat": "Ce site a été annoncé mais n'est pas construit. Les annonces changent, et certaines ne se concrétisent jamais.",
+  "popup.approximateCaveat": "Ce point indique la municipalité, et non une adresse.",
+
+  "table.caption": "Tous les enregistrements cartographiés, sous forme de tableau.",
+  "table.name": "Nom",
+  "table.layer": "Couche",
+  "table.status": "État",
+  "table.municipality": "Municipalité",
+  "table.capacity": "Capacité (MW)",
+  "table.source": "Source",
+  "table.showOnMap": "Afficher sur la carte",
+
+  "empty.title": "Aucun enregistrement pour l'instant",
+  "empty.body": "Aucune source n'a passé la vérification de licence; aucun enregistrement n'a donc été publié. La carte est délibérément vide plutôt que provisoire.",
+
+  "error.title": "Impossible de charger les données",
+  "error.body": "Veuillez recharger la page.",
+
+  "nowebgl.title": "La carte nécessite WebGL",
+  "nowebgl.body": "Ce navigateur ne peut pas afficher la carte; les mêmes enregistrements sont présentés sous forme de tableau ci-dessous."
+}

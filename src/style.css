@@ -1,0 +1,367 @@
+/**
+ * One type family throughout, data values in tabular figures, and a palette
+ * that stays out of the way of the basemap. The register is survey-like: this
+ * is a reference document that happens to be a map.
+ *
+ * Every text colour here is checked against its background at 4.5:1 or better.
+ */
+
+:root {
+  --ink: #1a1a1a;
+  --ink-muted: #595959;
+  --rule: #d8d8d8;
+  --surface: #ffffff;
+  --surface-sunken: #f5f5f4;
+  --focus: #0050b3;
+
+  --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  --space: 0.75rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--surface);
+  /* Third-party context: never let the embed's own scroll chain jolt the host
+     page when the reader reaches the end of the table. */
+  overscroll-behavior: contain;
+}
+
+/* --- Focus -------------------------------------------------------------- */
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 10;
+  padding: 0.5rem 0.75rem;
+  background: var(--surface);
+  color: var(--ink);
+  border: 2px solid var(--focus);
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  left: var(--space);
+  top: var(--space);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* --- Layout ------------------------------------------------------------- */
+
+#app {
+  display: grid;
+  /* Single column at 320px; the legend moves beside the map once there is
+     room for both without squeezing either.
+
+     minmax(0, 1fr) rather than 1fr: a grid item's automatic minimum size is
+     its content, so a wide table would push the column past the viewport and
+     scroll the whole page sideways instead of scrolling inside itself. */
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space);
+  padding: var(--space);
+}
+
+.map {
+  /* 4:3 by default, as the embedding contract states, with a floor so the map
+     never collapses to a sliver on a short frame. */
+  aspect-ratio: 4 / 3;
+  min-height: 18rem;
+  width: 100%;
+  background: var(--surface-sunken);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+
+.map-unavailable {
+  display: grid;
+  place-items: center;
+  aspect-ratio: auto;
+  min-height: 0;
+  padding: var(--space);
+}
+
+@media (min-width: 56rem) {
+  #app {
+    grid-template-columns: minmax(0, 1fr) 16rem;
+    align-items: start;
+  }
+
+  .map {
+    grid-column: 1;
+    aspect-ratio: 16 / 10;
+  }
+
+  .legend-container {
+    grid-column: 2;
+  }
+
+  .table-region {
+    grid-column: 1 / -1;
+  }
+}
+
+/* --- Legend ------------------------------------------------------------- */
+
+.legend h2 {
+  margin: 0 0 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-muted);
+}
+
+.legend h2:not(:first-child) {
+  margin-top: var(--space);
+}
+
+.legend ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.35rem;
+}
+
+.legend li {
+  display: grid;
+  grid-template-columns: 1.25rem 1fr;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+}
+
+.swatch {
+  display: block;
+  width: 0.875rem;
+  height: 0.875rem;
+  border-radius: 50%;
+  justify-self: center;
+}
+
+/* The three marks below are the whole status grammar. They are distinguishable
+   with no colour information at all, which is the point. */
+.swatch-solid {
+  background: var(--hue);
+  box-shadow: 0 0 0 1.5px var(--surface);
+}
+
+.swatch-hollow {
+  background: var(--surface);
+  border: 2px solid var(--hue);
+}
+
+.swatch-area {
+  width: 1.125rem;
+  height: 1.125rem;
+  background: color-mix(in srgb, var(--hue) 16%, transparent);
+  border: 1px solid color-mix(in srgb, var(--hue) 40%, transparent);
+}
+
+/* --- Table -------------------------------------------------------------- */
+
+.table-region {
+  /* The table scrolls inside this box; the page never scrolls sideways. */
+  overflow-x: auto;
+  min-width: 0;
+  /* Positioned so that absolutely positioned descendants — the visually-hidden
+     column header among them — resolve against this box and get clipped by it.
+     Without this they resolve against the viewport and widen the document,
+     which scrolls the whole embed sideways on a narrow screen. */
+  position: relative;
+}
+
+.table-region:focus {
+  outline: none;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.data-table caption {
+  text-align: left;
+  padding-bottom: 0.5rem;
+  color: var(--ink-muted);
+  font-size: 0.8125rem;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 0.5rem 0.625rem;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+
+.data-table thead th {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-muted);
+  border-bottom-width: 2px;
+  white-space: nowrap;
+}
+
+.data-table tbody th {
+  font-weight: 600;
+}
+
+.data-table tbody tr:hover {
+  background: var(--surface-sunken);
+}
+
+/* Data values line up column-wise only with tabular figures. */
+.numeric {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.row-action {
+  font: inherit;
+  font-size: 0.8125rem;
+  padding: 0.25rem 0.5rem;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.row-action:hover {
+  border-color: var(--ink-muted);
+}
+
+/* --- Popup -------------------------------------------------------------- */
+
+.maplibregl-popup-content {
+  padding: 0.875rem 1rem;
+  border-radius: 2px;
+  font-family: var(--font);
+}
+
+.popup-title {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.popup-layer {
+  margin: 0.15rem 0 0.6rem;
+  font-size: 0.8125rem;
+  color: var(--ink-muted);
+}
+
+.popup-details {
+  display: grid;
+  gap: 0.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.popup-row {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+}
+
+.popup-label {
+  color: var(--ink-muted);
+}
+
+.popup-value {
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+
+/* A claim that is not visually marked as a claim is just an assertion. */
+.popup-caveat {
+  margin: 0 0 0.6rem;
+  padding: 0.4rem 0.55rem;
+  font-size: 0.8125rem;
+  background: var(--surface-sunken);
+  border-left: 3px solid var(--ink-muted);
+}
+
+.popup-notes {
+  margin: 0 0 0.6rem;
+  font-size: 0.8125rem;
+}
+
+.popup-provenance {
+  display: grid;
+  gap: 0.2rem;
+  padding-top: 0.55rem;
+  border-top: 1px solid var(--rule);
+}
+
+/* --- Notices ------------------------------------------------------------ */
+
+.notice,
+.empty-state {
+  padding: var(--space);
+  background: var(--surface-sunken);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  max-width: 34rem;
+}
+
+.notice h2,
+.empty-state h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.notice p,
+.empty-state p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--ink-muted);
+}
+
+/* --- Motion ------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

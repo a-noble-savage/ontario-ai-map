@@ -1,0 +1,21 @@
+{
+  "_expected_failure": "'policy' is not one of the five v1 layers. The policy layers described in RESEARCH-policy-layers.md are not in scope for v1 and have their own vocabulary; admitting them silently would put unvalidated records on the map.",
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.3839, 43.6534] },
+  "properties": {
+    "id": "mun-toronto",
+    "name": "City of Toronto",
+    "name_fr": null,
+    "layer": "policy",
+    "status": "active",
+    "operator": null,
+    "municipality": "Toronto",
+    "capacity_mw": null,
+    "location_precision": "municipality",
+    "source_name": "City of Toronto",
+    "source_url": "https://example.invalid/toronto",
+    "retrieved": "2026-08-10",
+    "licence": "unverified",
+    "notes": null
+  }
+}

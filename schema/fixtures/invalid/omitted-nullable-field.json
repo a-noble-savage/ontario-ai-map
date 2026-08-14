@@ -1,0 +1,19 @@
+{
+  "_expected_failure": "name_fr and notes are omitted rather than set to null. Every documented property must be present so an unknown value is always an explicit null, never a forgotten key.",
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.3839, 43.6534] },
+  "properties": {
+    "id": "co-omitted-nullable",
+    "name": "Omitted Nullable Co",
+    "layer": "companies",
+    "status": "active",
+    "operator": null,
+    "municipality": "Toronto",
+    "capacity_mw": null,
+    "location_precision": "municipality",
+    "source_name": "Example registry",
+    "source_url": "https://example.invalid/registry",
+    "retrieved": "2026-08-10",
+    "licence": "link-out only"
+  }
+}

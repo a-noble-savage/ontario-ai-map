@@ -1,0 +1,21 @@
+{
+  "_expected_failure": "id uses uppercase and an underscore. Ids are stable lowercase hyphenated slugs so they can be used verbatim in the ?focus= URL parameter without escaping.",
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [-79.3839, 43.6534] },
+  "properties": {
+    "id": "CO_Bad_Slug",
+    "name": "Bad Slug Co",
+    "name_fr": null,
+    "layer": "companies",
+    "status": "active",
+    "operator": null,
+    "municipality": "Toronto",
+    "capacity_mw": null,
+    "location_precision": "municipality",
+    "source_name": "Example registry",
+    "source_url": "https://example.invalid/registry",
+    "retrieved": "2026-08-10",
+    "licence": "link-out only",
+    "notes": null
+  }
+}
