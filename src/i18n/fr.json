@@ -22,7 +22,7 @@
   "legend.cluster": "Cercle numéroté — plusieurs enregistrements regroupés; cliquez pour les afficher",
 
   "cluster.heading": "enregistrements à ce point",
-  "cluster.sharedPoint": "Ces enregistrements partagent un même centroïde municipal; le zoom ne les séparera pas.",
+  "cluster.sharedPoint": "Ces enregistrements partagent un même centroïde municipal; le zoom ne les séparera pas. Le cercle est dessiné légèrement à côté de ce point afin que les couches ne se masquent pas entre elles.",
 
   "status.operating": "En exploitation",
   "status.under_construction": "En construction",

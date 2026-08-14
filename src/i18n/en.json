@@ -22,7 +22,7 @@
   "legend.cluster": "Numbered circle — several records grouped; click to list them",
 
   "cluster.heading": "records at this point",
-  "cluster.sharedPoint": "These records share one municipal centroid, so zooming will not separate them.",
+  "cluster.sharedPoint": "These records share one municipal centroid, so zooming will not separate them. The circle is drawn a little off that point so that layers do not hide one another.",
 
   "status.operating": "Operating",
   "status.under_construction": "Under construction",
