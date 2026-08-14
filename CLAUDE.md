@@ -97,14 +97,21 @@ than a missing one.
    name and date. If a lookup fails, leave the feature out and flag it —
    don't guess.
 4. **Licence gate before a source is added.** Check terms, record the finding
-   in `docs/sources.md`, and ask before scraping anything. Current standing:
-   - `ontariodatacentres.ca` — preferred source for data centres; terms need
-     confirming before records are copied.
-   - `canada.ai/directory` — ToS unverified. Until it is, treat as
-     *link-out only*: do not republish records.
-   - `wiki.gccollab.ca` — check the wiki's content licence.
+   in `docs/sources.md`, and ask before scraping anything. **`docs/sources.md`
+   is the authority**; the summary below goes stale. Standing as of 2026-08-14:
+   - `wiki.gccollab.ca` — **cleared**, CC BY 4.0, attribution required. The
+     only source currently able to supply records.
+   - `ontariodatacentres.ca` — *link-out only*. Asserts copyright, grants no
+     licence. Use it as a finding aid and source each record from the primary
+     document it cites (municipal planning records, IESO filings).
+   - `canada.ai/directory` — *link-out only*. Checked; it publishes no terms
+     at all, and silence is not permission.
    - `datacentermap.com`, `baxtel.com`, `datacenters.com` — commercial
      products. Use for cross-checking a fact, never as a source of records.
+
+   Absence of a licence is never permission. Note this restricts republishing a
+   source's *compilation*, not the underlying facts — so the primary document
+   behind a record is usually both the lawful route and the better one.
 5. **Proposed sites are claims, not facts.** Announced and proposed data
    centres get a visually distinct treatment and a plain-language caveat in
    the popup. Prefer municipal planning documents or IESO filings over press
@@ -180,7 +187,10 @@ survey-like and factual rather than promotional.
 
 - [ ] Basemap: CARTO's keyless styles vs. self-hosted Protomaps (a Canada
       extract exceeds GitHub's 100MB file limit — matters if hosting moves).
-- [ ] Whether `canada.ai` records can be republished or must be link-out only.
+- [x] Whether `canada.ai` records can be republished or must be link-out only.
+      **Resolved 2026-08-14: link-out only.** It publishes no terms of any
+      kind, so nothing has been granted. The companies layer needs a different
+      source of records.
 - [ ] Precision policy for data centre locations: street-level, or municipality
       only regardless of what's known.
 - [ ] Clustering thresholds — Toronto will otherwise be one illegible blob.
