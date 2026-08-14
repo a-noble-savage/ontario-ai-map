@@ -32,6 +32,13 @@ const copyDataLayers = (): Plugin => ({
 
 export default defineConfig({
   plugins: [copyDataLayers()],
+  server: {
+    // Honour a port assigned through the environment, falling back to Vite's
+    // default. Without this, Vite always binds 5173 and ignores whatever port
+    // a supervising tool handed it, which turns a second concurrent dev server
+    // into a port clash rather than a second server.
+    port: Number(process.env["PORT"]) || 5173,
+  },
   build: {
     target: "es2022",
     // Rollup's limit counts raw bytes, while the budget in CLAUDE.md is 300KB
