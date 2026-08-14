@@ -35,6 +35,7 @@
 
   "popup.close": "Fermer",
   "popup.operator": "Exploitant",
+  "popup.address": "Adresse",
   "popup.municipality": "Municipalité",
   "popup.capacity": "Capacité",
   "popup.capacityUnit": "MW",

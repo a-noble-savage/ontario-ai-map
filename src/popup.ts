@@ -66,6 +66,10 @@ export const buildPopup = (
   const details = document.createElement("div");
   details.className = "popup-details";
 
+  if (properties.address !== null) {
+    details.append(row(t("popup.address"), properties.address));
+  }
+
   details.append(row(t("popup.municipality"), properties.municipality));
 
   if (properties.operator !== null) {

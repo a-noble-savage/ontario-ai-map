@@ -8,6 +8,7 @@
     "layer": "research",
     "status": "active",
     "operator": null,
+    "address": "2 Example Avenue",
     "municipality": "Ottawa",
     "capacity_mw": null,
     "location_precision": "rooftop",

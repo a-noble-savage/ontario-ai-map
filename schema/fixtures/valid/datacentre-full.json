@@ -8,6 +8,7 @@
     "layer": "datacentres",
     "status": "under_construction",
     "operator": "Example Operator Inc.",
+    "address": "1 Example Road",
     "municipality": "Clarington",
     "capacity_mw": 45.5,
     "location_precision": "street",

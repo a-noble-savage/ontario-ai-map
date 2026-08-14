@@ -42,6 +42,7 @@
         "layer",
         "status",
         "operator",
+        "address",
         "municipality",
         "capacity_mw",
         "location_precision",
@@ -82,6 +83,11 @@
           "type": "string"
         },
         "operator": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "address": {
+          "description": "Street address as the source writes it, or null when the source gives none. Must be non-null at rooftop or street precision: those precisions claim a specific building, and the claim needs something behind it that a geocoder can be pointed at and a reader can check.",
           "type": ["string", "null"],
           "minLength": 1
         },
@@ -126,6 +132,20 @@
       },
 
       "allOf": [
+        {
+          "$comment": "An address-level precision has to have an address behind it. Without this, a feature could claim rooftop precision with nothing to justify it, which is the same overstatement the soft-area rendering exists to avoid.",
+          "if": {
+            "required": ["location_precision"],
+            "properties": {
+              "location_precision": { "enum": ["rooftop", "street"] }
+            }
+          },
+          "then": {
+            "properties": {
+              "address": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
         {
           "$comment": "Status vocabulary and capacity_mw are both layer-dependent.",
           "if": {

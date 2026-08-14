@@ -9,6 +9,7 @@
     "layer": "research",
     "status": "proposed",
     "operator": null,
+    "address": null,
     "municipality": "Ottawa",
     "capacity_mw": null,
     "location_precision": "municipality",

@@ -21,6 +21,8 @@ export type FeatureProperties = {
   layer: LayerId;
   status: Status;
   operator: string | null;
+  /** Non-null whenever location_precision is rooftop or street. */
+  address: string | null;
   municipality: string;
   capacity_mw: number | null;
   location_precision: LocationPrecision;

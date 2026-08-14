@@ -9,6 +9,7 @@
     "layer": "companies",
     "status": "active",
     "operator": null,
+    "address": null,
     "municipaliy": "Toronto",
     "capacity_mw": null,
     "location_precision": "municipality",

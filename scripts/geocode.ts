@@ -1,5 +1,9 @@
 /**
- * npm run geocode -- "Clarington" "Greater Sudbury" …
+ * npm run geocode -- "Clarington" "1 Example Road, Clarington" …
+ *
+ * Takes either a municipality name or a street address. Address-level
+ * precision needs the latter: a feature claiming rooftop or street precision
+ * must carry an `address`, and that address is what gets looked up here.
  *
  * Resolves Ontario place names to coordinates through a real geocoder and
  * records what answered and when. This is the only sanctioned way coordinates

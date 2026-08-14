@@ -9,6 +9,7 @@
     "layer": "policy",
     "status": "active",
     "operator": null,
+    "address": null,
     "municipality": "Toronto",
     "capacity_mw": null,
     "location_precision": "municipality",

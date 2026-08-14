@@ -72,6 +72,7 @@ Every feature carries these properties. The schema is enforced by
 | `layer` | one of the five layer names |
 | `status` | data centres: `operating` / `under_construction` / `announced` / `proposed` / `cancelled`. Others: `active` / `closed` |
 | `operator` | nullable |
+| `address` | nullable; **must be non-null** when `location_precision` is `rooftop` or `street` |
 | `municipality` | |
 | `capacity_mw` | nullable number; data centres only |
 | `location_precision` | `rooftop` / `street` / `municipality` / `region` |
@@ -95,23 +96,29 @@ than a missing one.
 3. **Never geocode from model knowledge.** Geocoding runs through
    `scripts/geocode.ts` and writes to `geocode-cache.json` with the geocoder
    name and date. If a lookup fails, leave the feature out and flag it —
-   don't guess.
+   don't guess. `npm run validate` enforces this: every feature's coordinates
+   must match a value some recorded lookup returned, at *every* precision, so
+   a hand-typed municipal centroid fails the build like anything else.
 4. **Licence gate before a source is added.** Check terms, record the finding
    in `docs/sources.md`, and ask before scraping anything. **`docs/sources.md`
    is the authority**; the summary below goes stale. Standing as of 2026-08-14:
-   - `wiki.gccollab.ca` — **cleared**, CC BY 4.0, attribution required. The
-     only source currently able to supply records.
-   - `ontariodatacentres.ca` — *link-out only*. Asserts copyright, grants no
-     licence. Use it as a finding aid and source each record from the primary
-     document it cites (municipal planning records, IESO filings).
-   - `canada.ai/directory` — *link-out only*. Checked; it publishes no terms
-     at all, and silence is not permission.
+   - `wiki.gccollab.ca` — **cleared** by an actual licence grant, CC BY 4.0,
+     attribution required. Start here.
+   - `ontariodatacentres.ca` — *cleared by project decision, 2026-08-14*. It
+     asserts copyright and grants no licence; the decision accepts that risk
+     rather than resolving it. Still prefer the primary document it cites
+     (municipal planning records, IESO filings) wherever one exists.
+   - `canada.ai/directory` — *cleared by project decision, 2026-08-14*. It
+     publishes no terms at all; silence is not permission.
    - `datacentermap.com`, `baxtel.com`, `datacenters.com` — commercial
      products. Use for cross-checking a fact, never as a source of records.
 
-   Absence of a licence is never permission. Note this restricts republishing a
-   source's *compilation*, not the underlying facts — so the primary document
-   behind a record is usually both the lawful route and the better one.
+   Absence of a licence is never permission, so record a decision to proceed
+   without one *as a decision* — `docs/sources.md` keeps standings and findings
+   apart precisely so nobody later mistakes one for the other. Note this
+   restricts republishing a source's *compilation*, not the underlying facts,
+   so the primary document behind a record remains both the safer route and the
+   better one.
 5. **Proposed sites are claims, not facts.** Announced and proposed data
    centres get a visually distinct treatment and a plain-language caveat in
    the popup. Prefer municipal planning documents or IESO filings over press

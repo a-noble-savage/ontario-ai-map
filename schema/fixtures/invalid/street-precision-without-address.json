@@ -1,21 +1,21 @@
 {
-  "_expected_failure": "A data centre uses the active/closed vocabulary that belongs to the other four layers. Data centres must use the operating/under_construction/announced/proposed/cancelled set.",
+  "_expected_failure": "location_precision is \"street\" but address is null. An address-level precision has to have an address behind it, or the feature claims a specific building on nothing — the same overstatement the soft-area rendering exists to prevent.",
   "type": "Feature",
   "geometry": { "type": "Point", "coordinates": [-78.6889, 43.9123] },
   "properties": {
-    "id": "dc-wrong-status",
-    "name": "Wrong Status Vocabulary Facility",
+    "id": "dc-street-no-address",
+    "name": "Street Precision Without Address",
     "name_fr": null,
     "layer": "datacentres",
-    "status": "active",
+    "status": "operating",
     "operator": null,
     "address": null,
     "municipality": "Clarington",
     "capacity_mw": null,
-    "location_precision": "municipality",
+    "location_precision": "street",
     "source_name": "Example municipal planning report",
     "source_url": "https://example.invalid/planning/report",
-    "retrieved": "2026-08-10",
+    "retrieved": "2026-08-14",
     "licence": "public document — attribution required",
     "notes": null
   }

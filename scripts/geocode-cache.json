@@ -1,4 +1,15 @@
 {
+  "100 Queen Street West, Toronto, Ontario, Canada": {
+    "query": "100 Queen Street West, Toronto, Ontario, Canada",
+    "lon": -79.3840055,
+    "lat": 43.6536032,
+    "display_name": "Toronto City Hall, 100, Queen Street West, Yonge-Bay Corridor, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5H 2N2, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 198500761,
+    "retrieved": "2026-08-14"
+  },
   "Clarington, Ontario, Canada": {
     "query": "Clarington, Ontario, Canada",
     "lon": -78.6513545,
