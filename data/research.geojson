@@ -1,5 +1,48 @@
 {
   "type": "FeatureCollection",
   "name": "research",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3839347, 43.6534817] },
+      "properties": {
+        "id": "re-canadian-institute-for-advanced-research-toronto",
+        "name": "Canadian Institute for Advanced Research",
+        "name_fr": null,
+        "layer": "research",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Artificial Intelligence",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "Listed by the source under Canadian AI Institutes as \"Canadian Institute for Advanced Research (Toronto, ON)\". Known as CIFAR. Its remit is national rather than Ontario-specific — it convenes and funds research across Canada — so it appears here on the strength of its Toronto head office, not because its work is confined to the province. Organisation's own site: https://cifar.ca/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3839347, 43.6534817] },
+      "properties": {
+        "id": "re-vector-institute-toronto",
+        "name": "Vector Institute",
+        "name_fr": null,
+        "layer": "research",
+        "status": "active",
+        "operator": null,
+        "address": null,
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "municipality",
+        "source_name": "GCwiki — Artificial Intelligence",
+        "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence",
+        "retrieved": "2026-08-14",
+        "licence": "CC BY 4.0 — attribution required",
+        "notes": "Listed by the source under Canadian AI Institutes as \"Vector Institute (Toronto, ON)\". One of Canada's three national AI institutes and the Ontario one. Organisation's own site: https://vectorinstitute.ai/"
+      }
+    }
+  ]
 }
