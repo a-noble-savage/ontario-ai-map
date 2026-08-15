@@ -173,14 +173,19 @@ body {
 
 /* The three marks below are the whole status grammar. They are distinguishable
    with no colour information at all, which is the point. */
+/* The dark outer ring mirrors the map, where it is what carries the mark's
+   contrast against the basemap rather than the hue. */
 .swatch-solid {
   background: var(--hue);
-  box-shadow: 0 0 0 1.5px var(--surface);
+  box-shadow:
+    0 0 0 1px var(--surface),
+    0 0 0 2px var(--ink);
 }
 
 .swatch-hollow {
   background: var(--surface);
   border: 2px solid var(--hue);
+  box-shadow: 0 0 0 1px var(--ink);
 }
 
 .swatch-area {
@@ -196,6 +201,7 @@ body {
   height: 1.125rem;
   background: var(--surface);
   border: 2.5px solid var(--hue);
+  box-shadow: 0 0 0 1px var(--ink);
   display: grid;
   place-items: center;
   font-size: 0.5625rem;

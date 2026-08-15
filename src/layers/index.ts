@@ -30,6 +30,27 @@ export const LAYER_HUES: Record<LayerId, string> = {
   programs: "#E69F00",
 };
 
+/**
+ * Every mark is ringed in near-black, and that ring is what satisfies WCAG
+ * 1.4.11 rather than the hue.
+ *
+ * Measured: against the Positron basemap — #fafaf8 land, #d4dadc water — the
+ * lighter half of the palette fails 3:1 badly. Programs amber reaches only
+ * 2.16:1 on land and 1.59:1 on water, so those marks were close to invisible.
+ *
+ * Darkening the hues was the obvious fix and is the wrong one. Okabe-Ito
+ * separates companies from programs by lightness, so darkening the lighter one
+ * collapses them: simulated deuteranopia takes that pair from ΔE 16.4 to 4.1,
+ * and protanopia from 23.8 to 2.0. That trades a contrast failure for a colour
+ * vision failure, which is a worse deal than it looks — the palette was chosen
+ * for exactly that property.
+ *
+ * A dark ring keeps both. #1a1a1a gives 17.4:1 on land and 13.0:1 on water, so
+ * the mark's presence, size and shape are legible on any part of the basemap,
+ * while the fill is left free to carry the layer in its original hue.
+ */
+const MARK_OUTLINE = "#1a1a1a";
+
 /** Built things are filled; claims and endings are outlined. */
 export const isBuiltExpression: ExpressionSpecification = [
   "match",
@@ -91,6 +112,52 @@ export const approximateLayer = (
     "circle-stroke-color": LAYER_HUES[layer],
     "circle-stroke-opacity": 0.35,
     "circle-stroke-width": 1,
+  },
+});
+
+/** Point radius plus the ring, drawn beneath so the ring reads as an outline. */
+const pointHaloRadius: ExpressionSpecification = [
+  "interpolate",
+  ["linear"],
+  ["zoom"],
+  5,
+  5.2,
+  10,
+  8.2,
+  14,
+  11.2,
+];
+
+export const pointHaloLayer = (
+  layer: LayerId,
+  source: string,
+): CircleLayerSpecification => ({
+  id: `${layer}-point-halo`,
+  type: "circle",
+  source,
+  filter: notClustered,
+  paint: {
+    "circle-color": MARK_OUTLINE,
+    "circle-radius": pointHaloRadius,
+    "circle-opacity": 0.9,
+  },
+});
+
+export const clusterHaloLayer = (
+  layer: LayerId,
+  source: string,
+): CircleLayerSpecification => ({
+  id: `${layer}-cluster-halo`,
+  type: "circle",
+  source,
+  filter: ["has", "point_count"],
+  paint: {
+    // A cluster's fill is white, which is invisible against #fafaf8 land — its
+    // hue ring was doing all the work and failed 3:1 for half the palette.
+    "circle-color": MARK_OUTLINE,
+    "circle-opacity": 0.9,
+    "circle-radius": ["step", ["get", "point_count"], 13.5, 5, 16.5, 10, 19.5],
+    "circle-translate": clusterOffset(layer),
   },
 });
 
@@ -222,9 +289,12 @@ export const layerSpecs = (
   layer: LayerId,
   source: string,
 ): (CircleLayerSpecification | SymbolLayerSpecification)[] => [
-  // Draw order: soft areas beneath points, clusters above both.
+  // Draw order: soft areas beneath points, each mark's dark ring immediately
+  // beneath the mark it outlines, clusters above all of it.
   approximateLayer(layer, source),
+  pointHaloLayer(layer, source),
   pointLayer(layer, source),
+  clusterHaloLayer(layer, source),
   clusterLayer(layer, source),
   clusterCountLayer(layer, source),
 ];

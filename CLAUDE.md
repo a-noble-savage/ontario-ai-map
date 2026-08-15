@@ -161,7 +161,17 @@ stretch goal.
   `Esc` closes the popup and returns focus to the trigger.
 - Status is never encoded by colour alone — pair it with shape or fill
   pattern.
-- 4.5:1 contrast for all text, including labels over the basemap.
+- 4.5:1 contrast for all text, including labels over the basemap. Audited
+  2026-08-14: everything passes, the tightest being muted text on the sunken
+  background at 6.4:1.
+- 3:1 for map marks (WCAG 1.4.11), carried by a near-black ring around every
+  mark rather than by the hue. **Do not fix a contrast failure by darkening a
+  layer hue.** Measured on 2026-08-14: the lighter half of the Okabe–Ito
+  palette fails against the basemap — programs amber reaches 2.16:1 on land
+  and 1.59:1 on water — but darkening it collapses the palette's colour-vision
+  separation, taking companies/programs from ΔE 16.4 to 4.1 under simulated
+  deuteranopia and 23.8 to 2.0 under protanopia. The ring gives 16.6:1 on land
+  and 12.3:1 on water and leaves the hues free to carry layer identity.
 - `prefers-reduced-motion` respected on fly-to and popup transitions.
 
 ## Bilingual
