@@ -1,5 +1,27 @@
 {
   "type": "FeatureCollection",
   "name": "accelerators",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3984012, 43.6652923] },
+      "properties": {
+        "id": "ac-creative-destruction-lab-cdl",
+        "name": "Creative Destruction Lab (CDL)",
+        "name_fr": null,
+        "layer": "accelerators",
+        "status": "active",
+        "operator": null,
+        "address": "105 St. George Street Room 0252 Toronto, ON M5S 3E6",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Creative Destruction Lab (CDL) website (listed via canada.ai)",
+        "source_url": "https://www.creativedestructionlab.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as accelerators by this project, not by the source, which publishes no type field — the rule that placed it: source text contains \"seed-stage\"."
+      }
+    }
+  ]
 }

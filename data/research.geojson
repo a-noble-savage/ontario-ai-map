@@ -25,6 +25,27 @@
     },
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.9006169, 43.2567995] },
+      "properties": {
+        "id": "re-computer-research-institute-of-montr-al-crim",
+        "name": "Computer Research Institute of Montréal (CRIM)",
+        "name_fr": null,
+        "layer": "research",
+        "status": "active",
+        "operator": null,
+        "address": "175 Longwood Rd. S., Suite 305 Hamilton, ON L8P 0A1",
+        "municipality": "Hamilton",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Computer Research Institute of Montréal (CRIM) website (listed via canada.ai)",
+        "source_url": "http://www.crim.ca/en//",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as research by this project, not by the source, which publishes no type field — the rule that placed it: source text contains \"research institute\"."
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-79.3839347, 43.6534817] },
       "properties": {
         "id": "re-vector-institute-toronto",

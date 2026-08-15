@@ -21,6 +21,17 @@
     "osm_id": 74658241,
     "retrieved": "2026-08-14"
   },
+  "1 King Street W, Toronto, ON M5H 1A1, Canada": {
+    "query": "1 King Street W, Toronto, ON M5H 1A1, Canada",
+    "lon": -79.3781831,
+    "lat": 43.6487854,
+    "display_name": "1 King West, 1, King Street West, Financial District, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5H 4C7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 43054561,
+    "retrieved": "2026-08-15"
+  },
   "100 Queen Street West, Toronto, Ontario, Canada": {
     "query": "100 Queen Street West, Toronto, Ontario, Canada",
     "lon": -79.3840055,
@@ -54,6 +65,17 @@
     "osm_id": 129730212,
     "retrieved": "2026-08-14"
   },
+  "105 St. George Street, Toronto, ON M5S 3E6, Canada": {
+    "query": "105 St. George Street, Toronto, ON M5S 3E6, Canada",
+    "lon": -79.3984012,
+    "lat": 43.6652923,
+    "display_name": "Rotman School of Management, 105, St George Street, University, Downtown, Toronto, Golden Horseshoe, Ontario, M5S 3E6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 12000960,
+    "retrieved": "2026-08-15"
+  },
   "12489 Dixie Road, Caledon, ON, Canada": {
     "query": "12489 Dixie Road, Caledon, ON, Canada",
     "lon": -79.8065308,
@@ -65,6 +87,39 @@
     "osm_id": 94340949,
     "retrieved": "2026-08-14"
   },
+  "135 Laurier Ave W Ottawa, Ontario K1P 5J2, Canada": {
+    "query": "135 Laurier Ave W Ottawa, Ontario K1P 5J2, Canada",
+    "lon": -75.6939981,
+    "lat": 45.4212137,
+    "display_name": "Spaces, 135, Laurier Avenue West, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K1P 5J4, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 310453077,
+    "retrieved": "2026-08-15"
+  },
+  "137 Glasgow St, Kitchener, ON N2G 4X8, Canada": {
+    "query": "137 Glasgow St, Kitchener, ON N2G 4X8, Canada",
+    "lon": -80.5132992,
+    "lat": 43.4513017,
+    "display_name": "Catalyst 137, 137, Glasgow Street, Cherry Hill, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2G 4X8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 67691616,
+    "retrieved": "2026-08-15"
+  },
+  "137 Glasgow Street, Kitchener, ON N2G 4X8, Canada": {
+    "query": "137 Glasgow Street, Kitchener, ON N2G 4X8, Canada",
+    "lon": -80.5132992,
+    "lat": 43.4513017,
+    "display_name": "Catalyst 137, 137, Glasgow Street, Cherry Hill, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2G 4X8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 67691616,
+    "retrieved": "2026-08-15"
+  },
   "145 King St W, Toronto, ON  M5H 1J8, Canada": {
     "query": "145 King St W, Toronto, ON  M5H 1J8, Canada",
     "lon": -79.3839099,
@@ -75,6 +130,50 @@
     "osm_type": "way",
     "osm_id": 31727205,
     "retrieved": "2026-08-14"
+  },
+  "150 Elgin Street, Ottawa, ON K2P 1L4, Canada": {
+    "query": "150 Elgin Street, Ottawa, ON K2P 1L4, Canada",
+    "lon": -75.6934217,
+    "lat": 45.4201846,
+    "display_name": "Shopify, 150, Elgin Street, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K1P 5J4, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5941745360,
+    "retrieved": "2026-08-15"
+  },
+  "150 Elgin Street, Ottawa, ON, K2P 1L4, Canada": {
+    "query": "150 Elgin Street, Ottawa, ON, K2P 1L4, Canada",
+    "lon": -75.6934217,
+    "lat": 45.4201846,
+    "display_name": "Shopify, 150, Elgin Street, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K1P 5J4, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5941745360,
+    "retrieved": "2026-08-15"
+  },
+  "151 Charles St. W., Kitchener, ON N2G 1H6, Canada": {
+    "query": "151 Charles St. W., Kitchener, ON N2G 1H6, Canada",
+    "lon": -80.4988923,
+    "lat": 43.4510128,
+    "display_name": "EnPowered, 151, Charles Street West, Downtown, City Commercial Core, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2G 1H6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4567714669,
+    "retrieved": "2026-08-15"
+  },
+  "151 Charles St., Kitchener, ON N2G 1H6, Canada": {
+    "query": "151 Charles St., Kitchener, ON N2G 1H6, Canada",
+    "lon": -80.4988923,
+    "lat": 43.4510128,
+    "display_name": "EnPowered, 151, Charles Street West, Downtown, City Commercial Core, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2G 1H6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4567714669,
+    "retrieved": "2026-08-15"
   },
   "151 Front Street West, Toronto, ON  M5J 2N1, Canada": {
     "query": "151 Front Street West, Toronto, ON  M5J 2N1, Canada",
@@ -109,6 +208,28 @@
     "osm_id": 288232465,
     "retrieved": "2026-08-14"
   },
+  "175 Bloor Street, ON M4W 3R8, Canada": {
+    "query": "175 Bloor Street, ON M4W 3R8, Canada",
+    "lon": -79.382455,
+    "lat": 43.671102,
+    "display_name": "175, Bloor Street East, Church-Wellesley, Downtown, Toronto, Golden Horseshoe, Ontario, M4W 3R8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4035047491,
+    "retrieved": "2026-08-15"
+  },
+  "175 Longwood Rd. S., Hamilton, ON L8P 0A1, Canada": {
+    "query": "175 Longwood Rd. S., Hamilton, ON L8P 0A1, Canada",
+    "lon": -79.9006169,
+    "lat": 43.2567995,
+    "display_name": "Atrium@MIP, 175, Longwood Road South, McMaster Innovation Park, Kirkendall North, Hamilton, Golden Horseshoe, Ontario, L8S 4P9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 112937865,
+    "retrieved": "2026-08-15"
+  },
   "1800 Argentia Road, Mississauga, ON  L5N 3K3, Canada": {
     "query": "1800 Argentia Road, Mississauga, ON  L5N 3K3, Canada",
     "lon": -79.7353827,
@@ -130,6 +251,61 @@
     "osm_type": "way",
     "osm_id": 662392354,
     "retrieved": "2026-08-14"
+  },
+  "192 Spadina Avenue, Toronto, ON M5T 3A4, Canada": {
+    "query": "192 Spadina Avenue, Toronto, ON M5T 3A4, Canada",
+    "lon": -79.3975316,
+    "lat": 43.6499323,
+    "display_name": "Toronto Tool Library, 192, Spadina Avenue, Kensington-Chinatown, Downtown, Toronto, Golden Horseshoe, Ontario, M5T 2C8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 11481135246,
+    "retrieved": "2026-08-15"
+  },
+  "192 Spadina Avenue, Toronto, ON, M5T 3A4, Canada": {
+    "query": "192 Spadina Avenue, Toronto, ON, M5T 3A4, Canada",
+    "lon": -79.3975316,
+    "lat": 43.6499323,
+    "display_name": "Toronto Tool Library, 192, Spadina Avenue, Kensington-Chinatown, Downtown, Toronto, Golden Horseshoe, Ontario, M5T 2C8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 11481135246,
+    "retrieved": "2026-08-15"
+  },
+  "200 Bay Street, Toronto, ON M5J 2J1, Canada": {
+    "query": "200 Bay Street, Toronto, ON M5J 2J1, Canada",
+    "lon": -79.3803017,
+    "lat": 43.6466411,
+    "display_name": "Bell, 200, Bay Street, Financial District, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5J 2J1, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 2144976748,
+    "retrieved": "2026-08-15"
+  },
+  "200 University Ave W, Waterloo, ON, Canada": {
+    "query": "200 University Ave W, Waterloo, ON, Canada",
+    "lon": -80.54359,
+    "lat": 43.4678112,
+    "display_name": "Ring Rd. / U.W. - Environment 3, 200, University Avenue West, Waterloo, Region of Waterloo, Southwestern Ontario, Ontario, N2L 3G1, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 1953079543,
+    "retrieved": "2026-08-15"
+  },
+  "2100 Bloor Street, Toronto, ON M6S 5A5, Canada": {
+    "query": "2100 Bloor Street, Toronto, ON M6S 5A5, Canada",
+    "lon": -79.4711817,
+    "lat": 43.652389,
+    "display_name": "Greelz on Bloor, 2100, Bloor Street West, High Park North, High Park-Swansea, Parkdale—High Park, Toronto, Golden Horseshoe, Ontario, M6P 2W5, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 13097338752,
+    "retrieved": "2026-08-15"
   },
   "2111 Steeles Avenue East, Brampton, ON  L6T 4L5, Canada": {
     "query": "2111 Steeles Avenue East, Brampton, ON  L6T 4L5, Canada",
@@ -153,6 +329,28 @@
     "osm_id": 34204291,
     "retrieved": "2026-08-14"
   },
+  "225 King Street, Toronto, ON M5V 3M2, Canada": {
+    "query": "225 King Street, Toronto, ON M5V 3M2, Canada",
+    "lon": -79.3881892,
+    "lat": 43.6466584,
+    "display_name": "225, King Street West, Wellington Place, Downtown, Toronto, Golden Horseshoe, Ontario, M5V 0W3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 97870770,
+    "retrieved": "2026-08-15"
+  },
+  "238 Wellington Street E, Aurora, ON L4G 1J5, Canada": {
+    "query": "238 Wellington Street E, Aurora, ON L4G 1J5, Canada",
+    "lon": -79.455571,
+    "lat": 44.003495,
+    "display_name": "238, Wellington Street East, Aurora, York Region, Golden Horseshoe, Ontario, L4G 1J5, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 170352734,
+    "retrieved": "2026-08-15"
+  },
   "245 Consumers Road, Toronto, ON, Canada": {
     "query": "245 Consumers Road, Toronto, ON, Canada",
     "lon": -79.3310435,
@@ -164,6 +362,17 @@
     "osm_id": 2354348609,
     "retrieved": "2026-08-14"
   },
+  "25 York Street, ON M5J 2V5, Canada": {
+    "query": "25 York Street, ON M5J 2V5, Canada",
+    "lon": -79.3809206,
+    "lat": 43.6434729,
+    "display_name": "TELUS Harbour, 25, York Street, St Lawrence-East Bayfront-The Islands, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5J 2V5, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 34320500,
+    "retrieved": "2026-08-15"
+  },
   "27 Buttermill Avenue, Vaughan, ON  L4K 3X7, Canada": {
     "query": "27 Buttermill Avenue, Vaughan, ON  L4K 3X7, Canada",
     "lon": -79.5301841,
@@ -174,6 +383,28 @@
     "osm_type": "way",
     "osm_id": 93810808,
     "retrieved": "2026-08-14"
+  },
+  "276 Queen St W, Toronto, ON M5V 2A1, Canada": {
+    "query": "276 Queen St W, Toronto, ON M5V 2A1, Canada",
+    "lon": -79.39244,
+    "lat": 43.64972,
+    "display_name": "276, Queen Street West, Wellington Place, Downtown, Toronto, Golden Horseshoe, Ontario, M5T 2X9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 13882940696,
+    "retrieved": "2026-08-15"
+  },
+  "276 Queen St W, Toronto, ON, M5V 2A1, Canada": {
+    "query": "276 Queen St W, Toronto, ON, M5V 2A1, Canada",
+    "lon": -79.39244,
+    "lat": 43.64972,
+    "display_name": "276, Queen Street West, Wellington Place, Downtown, Toronto, Golden Horseshoe, Ontario, M5T 2X9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 13882940696,
+    "retrieved": "2026-08-15"
   },
   "2920 Matheson Boulevard East, Mississauga, ON L4W 5R6, Canada": {
     "query": "2920 Matheson Boulevard East, Mississauga, ON L4W 5R6, Canada",
@@ -207,6 +438,50 @@
     "osm_type": "way",
     "osm_id": 661951723,
     "retrieved": "2026-08-14"
+  },
+  "30 Wellington St, Toronto, ON M5L 1B1, Canada": {
+    "query": "30 Wellington St, Toronto, ON M5L 1B1, Canada",
+    "lon": -79.3790641,
+    "lat": 43.6476886,
+    "display_name": "Commerce Court South, 30, Wellington Street West, Commerce Court, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5L 1A0, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 111661581,
+    "retrieved": "2026-08-15"
+  },
+  "308 Legget Drive, Ottawa, ON K2K 1Y6, Canada": {
+    "query": "308 Legget Drive, Ottawa, ON K2K 1Y6, Canada",
+    "lon": -75.9048724,
+    "lat": 45.3391158,
+    "display_name": "Lytica Advanced Technology Centre, 308, Legget Drive, Kanata, Kanata North, Ottawa, Eastern Ontario, Ontario, K2K 1Y6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 68609600,
+    "retrieved": "2026-08-15"
+  },
+  "3093 Bathurst Street, Toronto, ON M6A 2A3, Canada": {
+    "query": "3093 Bathurst Street, Toronto, ON M6A 2A3, Canada",
+    "lon": -79.4296344,
+    "lat": 43.7205304,
+    "display_name": "The UPS Store, 3093, Bathurst Street, Bedford Park-Nortown, Eglinton—Lawrence, North York, Toronto, Golden Horseshoe, Ontario, M6A 2A3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 7552999961,
+    "retrieved": "2026-08-15"
+  },
+  "310 Spadina Avenue, Toronto, ON M5T 2E7, Canada": {
+    "query": "310 Spadina Avenue, Toronto, ON M5T 2E7, Canada",
+    "lon": -79.3988191,
+    "lat": 43.6535102,
+    "display_name": "310, Spadina Avenue, Kensington Market, Downtown, Toronto, Golden Horseshoe, Ontario, M5T 2E7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 183248448,
+    "retrieved": "2026-08-15"
   },
   "3110 South Service Rd, Burlington, ON L7N 3J3, Canada": {
     "query": "3110 South Service Rd, Burlington, ON L7N 3J3, Canada",
@@ -329,6 +604,17 @@
     "osm_id": 302107922,
     "retrieved": "2026-08-14"
   },
+  "461 King St. W, Toronto, ON M5V 1K4, Canada": {
+    "query": "461 King St. W, Toronto, ON M5V 1K4, Canada",
+    "lon": -79.3960349,
+    "lat": 43.644643,
+    "display_name": "Brassaii, 461, King Street West, Wellington Place, Downtown, Toronto, Golden Horseshoe, Ontario, M5V 1K4, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3337181356,
+    "retrieved": "2026-08-15"
+  },
   "48 Lowe's Place, Toronto, ON M9P 0A2, Canada": {
     "query": "48 Lowe's Place, Toronto, ON M9P 0A2, Canada",
     "lon": -79.54822,
@@ -362,6 +648,17 @@
     "osm_id": 67138292,
     "retrieved": "2026-08-14"
   },
+  "559 College St., Toronto, ON M6G 1A9, Canada": {
+    "query": "559 College St., Toronto, ON M6G 1A9, Canada",
+    "lon": -79.4122593,
+    "lat": 43.65529,
+    "display_name": "Service Canada, 559, College Street, Trinity-Bellwoods, University—Rosedale, Toronto, Golden Horseshoe, Ontario, M6G 1A9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 5441763273,
+    "retrieved": "2026-08-15"
+  },
   "6100 Langstaff Road, Vaughan, ON L4L 0A9, Canada": {
     "query": "6100 Langstaff Road, Vaughan, ON L4L 0A9, Canada",
     "lon": -79.6280269,
@@ -373,6 +670,39 @@
     "osm_id": 93832912,
     "retrieved": "2026-08-14"
   },
+  "62 Steacie Drive, Ottawa, ON K2K 2A9, Canada": {
+    "query": "62 Steacie Drive, Ottawa, ON K2K 2A9, Canada",
+    "lon": -75.9127766,
+    "lat": 45.3361977,
+    "display_name": "62, Steacie Drive, Kanata, Kanata North, Ottawa, Eastern Ontario, Ontario, K2K 2E1, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 68609348,
+    "retrieved": "2026-08-15"
+  },
+  "62 Steacie Drive, Ottawa, ON, Canada": {
+    "query": "62 Steacie Drive, Ottawa, ON, Canada",
+    "lon": -75.9127766,
+    "lat": 45.3361977,
+    "display_name": "62, Steacie Drive, Kanata, Kanata North, Ottawa, Eastern Ontario, Ontario, K2K 2E1, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 68609348,
+    "retrieved": "2026-08-15"
+  },
+  "67 Yonge Street, Toronto, ON M5E 1J8, Canada": {
+    "query": "67 Yonge Street, Toronto, ON M5E 1J8, Canada",
+    "lon": -79.3774212,
+    "lat": 43.6487466,
+    "display_name": "Traders Bank, 67, Yonge Street, Downtown Yonge East, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5E 1J8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 137923159,
+    "retrieved": "2026-08-15"
+  },
   "6800 Millcreek Drive, Mississauga, ON  L5N 4J9, Canada": {
     "query": "6800 Millcreek Drive, Mississauga, ON  L5N 4J9, Canada",
     "lon": -79.7532324,
@@ -383,6 +713,28 @@
     "osm_type": "way",
     "osm_id": 322816286,
     "retrieved": "2026-08-14"
+  },
+  "7 Bayview St, ON K1Y 2C5, Canada": {
+    "query": "7 Bayview St, ON K1Y 2C5, Canada",
+    "lon": -79.0873517,
+    "lat": 43.8185762,
+    "display_name": "Bayview Street, Fairport, Pickering, Durham Region, Golden Horseshoe, Ontario, L1W 1R9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 123535371,
+    "retrieved": "2026-08-15"
+  },
+  "80 Aberdeen Street, Ottawa, ON K1S 5R5, Canada": {
+    "query": "80 Aberdeen Street, Ottawa, ON K1S 5R5, Canada",
+    "lon": -75.7108251,
+    "lat": 45.400763,
+    "display_name": "80, Aberdeen Street, Little Italy, Centretown, Somerset, Ottawa, Eastern Ontario, Ontario, K1S 4M9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 258272082,
+    "retrieved": "2026-08-15"
   },
   "8100 Warden Avenue, Markham, ON  L6G 1B3, Canada": {
     "query": "8100 Warden Avenue, Markham, ON  L6G 1B3, Canada",
@@ -428,6 +780,39 @@
     "osm_id": 56724000,
     "retrieved": "2026-08-14"
   },
+  "9131 Keele Street, Vaughan, ON L4K 2N1, Canada": {
+    "query": "9131 Keele Street, Vaughan, ON L4K 2N1, Canada",
+    "lon": -79.5069478,
+    "lat": 43.8343671,
+    "display_name": "InView Marketing, 9131, Keele Street, Vaughan, York Region, Golden Horseshoe, Ontario, L4K 0G7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 13670573941,
+    "retrieved": "2026-08-15"
+  },
+  "9131 Keele Street, Vaughan, ON, L4K 2N1, Canada": {
+    "query": "9131 Keele Street, Vaughan, ON, L4K 2N1, Canada",
+    "lon": -79.5069478,
+    "lat": 43.8343671,
+    "display_name": "InView Marketing, 9131, Keele Street, Vaughan, York Region, Golden Horseshoe, Ontario, L4K 0G7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 13670573941,
+    "retrieved": "2026-08-15"
+  },
+  "919 Fraser Dr, Burlington, ON L7L 4X8, Canada": {
+    "query": "919 Fraser Dr, Burlington, ON L7L 4X8, Canada",
+    "lon": -79.7819936,
+    "lat": 43.3667387,
+    "display_name": "AVO Diagnostics, 919, Fraser Drive, Burlington, Halton Region, Golden Horseshoe, Ontario, L7L 4X8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 833352212,
+    "retrieved": "2026-08-15"
+  },
   "970 Green Valley Rd, London, ON N6N 1E3, Canada": {
     "query": "970 Green Valley Rd, London, ON N6N 1E3, Canada",
     "lon": -81.200301,
@@ -438,6 +823,17 @@
     "osm_type": "way",
     "osm_id": 190665605,
     "retrieved": "2026-08-14"
+  },
+  "9889 Markham Rd, Markham, ON L6E 0B7, Canada": {
+    "query": "9889 Markham Rd, Markham, ON L6E 0B7, Canada",
+    "lon": -79.2534625,
+    "lat": 43.8474919,
+    "display_name": "Markham Road, Markham, York Region, Golden Horseshoe, Ontario, L3S 0B5, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 160299603,
+    "retrieved": "2026-08-15"
   },
   "Barrie, Ontario, Canada": {
     "query": "Barrie, Ontario, Canada",

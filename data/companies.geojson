@@ -1,5 +1,573 @@
 {
   "type": "FeatureCollection",
   "name": "companies",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.2534625, 43.8474919] },
+      "properties": {
+        "id": "co-aislelabs",
+        "name": "Aislelabs",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "9889 Markham Rd, Suite 210, Markham, Ontario, Canada, L6E 0B7",
+        "municipality": "Markham",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Aislelabs website (listed via canada.ai)",
+        "source_url": "http://www.aislelabs.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.4296344, 43.7205304] },
+      "properties": {
+        "id": "co-aiva-labs",
+        "name": "Aiva Labs",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "3093 Bathurst Street, Unit 690, Toronto, ON, M6A 2A3",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Aiva Labs website (listed via canada.ai)",
+        "source_url": "https://aivalabs.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.54359, 43.4678112] },
+      "properties": {
+        "id": "co-applied-brain-research",
+        "name": "Applied Brain Research",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "200 University Ave W, Waterloo, ON",
+        "municipality": "Waterloo",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Applied Brain Research website (listed via canada.ai)",
+        "source_url": "http://appliedbrainresearch.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.9127766, 45.3361977] },
+      "properties": {
+        "id": "co-arvizio",
+        "name": "Arvizio",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "62 Steacie Drive, Ottawa, ON",
+        "municipality": "Ottawa",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Arvizio website (listed via canada.ai)",
+        "source_url": "http://www.arvizio.io",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3960349, 43.644643] },
+      "properties": {
+        "id": "co-askuity",
+        "name": "Askuity",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "461 King St. W, Suite 200 Toronto, ON M5V 1K4",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Askuity website (listed via canada.ai)",
+        "source_url": "https://www.askuity.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3975316, 43.6499323] },
+      "properties": {
+        "id": "co-awake-labs",
+        "name": "Awake Labs",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "192 Spadina Avenue, Toronto, ON, M5T 3A4",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Awake Labs website (listed via canada.ai)",
+        "source_url": "http://www.awakelabs.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.4122593, 43.65529] },
+      "properties": {
+        "id": "co-benchsci",
+        "name": "BenchSci",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "559 College St. Suite 201 Toronto ON, M6G 1A9",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "BenchSci website (listed via canada.ai)",
+        "source_url": "https://www.benchsci.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3774212, 43.6487466] },
+      "properties": {
+        "id": "co-blanc-labs",
+        "name": "Blanc Labs",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "67 Yonge Street, Suite 1501 Toronto, ON M5E 1J8",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Blanc Labs website (listed via canada.ai)",
+        "source_url": "http://blanclabs.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3881892, 43.6466584] },
+      "properties": {
+        "id": "co-blue-j-legal",
+        "name": "Blue J Legal",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "225 King Street West, Suite 1405, Toronto, ON, M5V 3M2",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Blue J Legal website (listed via canada.ai)",
+        "source_url": "http://www.bluejlegal.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.9127766, 45.3361977] },
+      "properties": {
+        "id": "co-bluwave-ai",
+        "name": "BluWave-ai",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "62 Steacie Drive Suite 102 Ottawa, Ontario Canada K2K 2A9",
+        "municipality": "Ottawa",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "BluWave-ai website (listed via canada.ai)",
+        "source_url": "https://www.Bluwave-ai.com",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.455571, 44.003495] },
+      "properties": {
+        "id": "co-crosswing",
+        "name": "crosswing",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "238 Wellington Street E Suite 214 Aurora Ontario L4G 1J5",
+        "municipality": "Aurora",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "crosswing website (listed via canada.ai)",
+        "source_url": "http://www.crosswing.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.7819936, 43.3667387] },
+      "properties": {
+        "id": "co-csi-flex",
+        "name": "CSI Flex",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "919 Fraser Dr, Burlington, ON L7L 4X8",
+        "municipality": "Burlington",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "CSI Flex website (listed via canada.ai)",
+        "source_url": "http://www.csiflex.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.5069478, 43.8343671] },
+      "properties": {
+        "id": "co-docpod-corp",
+        "name": "DocPod Corp",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "9131 Keele Street, Vaughan, ON, L4K 2N1",
+        "municipality": "Vaughan",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "DocPod Corp website (listed via canada.ai)",
+        "source_url": "http://www.docpod.com",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.4988923, 43.4510128] },
+      "properties": {
+        "id": "co-emagin",
+        "name": "EMAGIN",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "151 Charles St. West, #199, Kitchener, ON N2G 1H6",
+        "municipality": "Kitchener",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "EMAGIN website (listed via canada.ai)",
+        "source_url": "http://www.emagin.ca",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.9048724, 45.3391158] },
+      "properties": {
+        "id": "co-gnowit",
+        "name": "Gnowit",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "308 Legget Drive, Ottawa, ON, Canada, Ottawa, ON, K2K 1Y6",
+        "municipality": "Ottawa",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Gnowit website (listed via canada.ai)",
+        "source_url": "http://www.gnowit.com",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3781831, 43.6487854] },
+      "properties": {
+        "id": "co-gradient-ascent-ai",
+        "name": "Gradient Ascent AI",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "1 King Street W, Suite 4800 Toronto, ON M5H 1A1",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Gradient Ascent AI website (listed via canada.ai)",
+        "source_url": "http://www.gradient-ascent.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3790641, 43.6476886] },
+      "properties": {
+        "id": "co-komand-consulting",
+        "name": "Komand Consulting",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "30 Wellington St West, 5th Floor, Toronto, Ontario M5L 1B1",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Komand Consulting website (listed via canada.ai)",
+        "source_url": "http://komand.ca/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.4988923, 43.4510128] },
+      "properties": {
+        "id": "co-meya-ai",
+        "name": "Meya.ai",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "151 Charles St. W. Suite 100 Kitchener, Ontario N2G 1H6",
+        "municipality": "Kitchener",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Meya.ai website (listed via canada.ai)",
+        "source_url": "https://meya.ai/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.6939981, 45.4212137] },
+      "properties": {
+        "id": "co-micrometrics",
+        "name": "MicroMetrics",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "135 Laurier Ave W Ottawa, Ontario K1P 5J2",
+        "municipality": "Ottawa",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "MicroMetrics website (listed via canada.ai)",
+        "source_url": "http://www.micrometrics.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.7108251, 45.400763] },
+      "properties": {
+        "id": "co-mindbridge-analytics",
+        "name": "MindBridge Analytics",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "80 Aberdeen Street Suite 400 Ottawa ON K1S 5R5",
+        "municipality": "Ottawa",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "MindBridge Analytics website (listed via canada.ai)",
+        "source_url": "http://www.mindbridge.ai/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.5132992, 43.4513017] },
+      "properties": {
+        "id": "co-miovision",
+        "name": "Miovision",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "137 Glasgow St Suite 110, Kitchener, ON, N2G 4X8",
+        "municipality": "Kitchener",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Miovision website (listed via canada.ai)",
+        "source_url": "https://miovision.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.39244, 43.64972] },
+      "properties": {
+        "id": "co-naborly",
+        "name": "Naborly",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "276 Queen St W, Toronto, ON, M5V 2A1",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Naborly website (listed via canada.ai)",
+        "source_url": "http://naborly.co",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.5132992, 43.4513017] },
+      "properties": {
+        "id": "co-primal",
+        "name": "Primal",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "210–137 Glasgow Street Office 163 Kitchener, Ontario N2G 4X8",
+        "municipality": "Kitchener",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Primal website (listed via canada.ai)",
+        "source_url": "http://www.primal.com",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3803017, 43.6466411] },
+      "properties": {
+        "id": "co-stackadapt",
+        "name": "StackAdapt",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "200 Bay Street, South Tower Unit # 2103 Toronto, ON M5J 2J1",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "StackAdapt website (listed via canada.ai)",
+        "source_url": "http://www.StackAdapt.com",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3988191, 43.6535102] },
+      "properties": {
+        "id": "co-thinkdata-works",
+        "name": "ThinkData Works",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "310 Spadina Avenue - Suite 301, Toronto, ON, M5T 2E7",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "ThinkData Works website (listed via canada.ai)",
+        "source_url": "http://thinkdataworks.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.4711817, 43.652389] },
+      "properties": {
+        "id": "co-vantage-analytics",
+        "name": "Vantage Analytics",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "2100 Bloor Street West Suite 6110, Toronto, ON, M6S 5A5",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Vantage Analytics website (listed via canada.ai)",
+        "source_url": "http://gotvantage.com/",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.6934217, 45.4201846] },
+      "properties": {
+        "id": "co-zighra",
+        "name": "Zighra",
+        "name_fr": null,
+        "layer": "companies",
+        "status": "active",
+        "operator": null,
+        "address": "150 Elgin Street, Ottawa, ON, K2P 1L4",
+        "municipality": "Ottawa",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Zighra website (listed via canada.ai)",
+        "source_url": "http://www.zighra.com",
+        "retrieved": "2026-08-14",
+        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+      }
+    }
+  ]
 }

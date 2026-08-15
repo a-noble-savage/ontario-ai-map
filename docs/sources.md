@@ -60,6 +60,31 @@ found, and reserve the decision below for cases where it genuinely cannot.
   above came through an automated page summary, and it is the one clause in this
   file that actually grants permission.
 
+## Organisation websites (addresses)
+
+- **Standing:** `cleared` — a business's own published address is a fact, and
+  facts are not copyrightable
+- **Intended use:** the address and municipality for companies, accelerators
+  and research institutes.
+- **Last checked:** 2026-08-14
+- **Notes:** canada.ai names organisations without locating them, so the
+  address is read from each organisation's own website — the authoritative
+  statement of where it is, and the page a reader can open to check. Records
+  therefore carry two sources: `source_url` is the organisation's site,
+  because that is where the address came from, and the notes say canada.ai is
+  where the organisation was found.
+
+  Deliberately **not** a corporate registry. A registry's "registered office"
+  is frequently the company's law or accounting firm, so those addresses would
+  produce confident, checkable, wrong pins.
+
+  Read in two ways, in order: schema.org JSON-LD, then a Canadian postal code
+  with its surrounding text anchored on a street number and street type.
+  Ontario postal codes start with K, L, M, N or P, which is what keeps a
+  national directory in scope. 567 sites yielded 52 Ontario addresses.
+
+  Only the home page and one contact page are fetched per organisation, once.
+
 ## OpenStreetMap (Nominatim, Overpass)
 
 - **Standing:** `cleared` — ODbL 1.0, attribution required
