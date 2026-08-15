@@ -54,6 +54,17 @@
     "osm_id": 27767634,
     "retrieved": "2026-08-14"
   },
+  "101 College Street, Toronto, ON, Canada": {
+    "query": "101 College Street, Toronto, ON, Canada",
+    "lon": -79.3881289,
+    "lat": 43.6598584,
+    "display_name": "Tim Hortons, 101, College Street, Yonge-Bay Corridor, Downtown, Toronto, Golden Horseshoe, Ontario, M5G 1X6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 3928028041,
+    "retrieved": "2026-08-15"
+  },
   "105 Clegg Road Markham, ON L6G 0E8, Canada": {
     "query": "105 Clegg Road Markham, ON L6G 0E8, Canada",
     "lon": -79.3426533,
@@ -175,6 +186,17 @@
     "osm_id": 4567714669,
     "retrieved": "2026-08-15"
   },
+  "151 Charles Street West, Kitchener, ON N2G 1H6, Canada": {
+    "query": "151 Charles Street West, Kitchener, ON N2G 1H6, Canada",
+    "lon": -80.4988923,
+    "lat": 43.4510128,
+    "display_name": "EnPowered, 151, Charles Street West, Downtown, City Commercial Core, Kitchener, Region of Waterloo, Southwestern Ontario, Ontario, N2G 1H6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 4567714669,
+    "retrieved": "2026-08-15"
+  },
   "151 Front Street West, Toronto, ON  M5J 2N1, Canada": {
     "query": "151 Front Street West, Toronto, ON  M5J 2N1, Canada",
     "lon": -79.3841764,
@@ -196,6 +218,17 @@
     "osm_type": "node",
     "osm_id": 803514080,
     "retrieved": "2026-08-14"
+  },
+  "1545 Maley Drive, Greater Sudbury, ON P3A 4R7, Canada": {
+    "query": "1545 Maley Drive, Greater Sudbury, ON P3A 4R7, Canada",
+    "lon": -80.9386722,
+    "lat": 46.5363205,
+    "display_name": "NORCAT, 1545, Maley Drive, New Sudbury, Sudbury, Greater Sudbury, Sudbury District, Northeastern Ontario, Ontario, P3A 4R7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 699010183,
+    "retrieved": "2026-08-15"
   },
   "17 Vondrau Drive, Cambridge, ON, Canada": {
     "query": "17 Vondrau Drive, Cambridge, ON, Canada",
@@ -221,6 +254,17 @@
   },
   "175 Longwood Rd. S., Hamilton, ON L8P 0A1, Canada": {
     "query": "175 Longwood Rd. S., Hamilton, ON L8P 0A1, Canada",
+    "lon": -79.9006169,
+    "lat": 43.2567995,
+    "display_name": "Atrium@MIP, 175, Longwood Road South, McMaster Innovation Park, Kirkendall North, Hamilton, Golden Horseshoe, Ontario, L8S 4P9, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 112937865,
+    "retrieved": "2026-08-15"
+  },
+  "175 Longwood Road South, Hamilton, ON, Canada": {
+    "query": "175 Longwood Road South, Hamilton, ON, Canada",
     "lon": -79.9006169,
     "lat": 43.2567995,
     "display_name": "Atrium@MIP, 175, Longwood Road South, McMaster Innovation Park, Kirkendall North, Hamilton, Golden Horseshoe, Ontario, L8S 4P9, Canada",
@@ -272,6 +316,17 @@
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 11481135246,
+    "retrieved": "2026-08-15"
+  },
+  "2 Simcoe Street South, Oshawa, ON L1H 8C1, Canada": {
+    "query": "2 Simcoe Street South, Oshawa, ON L1H 8C1, Canada",
+    "lon": -78.8636912,
+    "lat": 43.8973288,
+    "display_name": "2, Simcoe Street South, Downtown Oshawa, Oshawa, Durham Region, Golden Horseshoe, Ontario, L1H 8C1, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 531380986,
     "retrieved": "2026-08-15"
   },
   "200 Bay Street, Toronto, ON M5J 2J1, Canada": {
@@ -351,6 +406,28 @@
     "osm_id": 170352734,
     "retrieved": "2026-08-15"
   },
+  "24 Maple Ave, Barrie, ON, Canada": {
+    "query": "24 Maple Ave, Barrie, ON, Canada",
+    "lon": -79.6908659,
+    "lat": 44.3878491,
+    "display_name": "Sandbox Centre, 24, Maple Avenue, Downtown Barrie, Barrie, Central Ontario, Ontario, L4M 7W4, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 109900851,
+    "retrieved": "2026-08-15"
+  },
+  "2400 Nipigon Road, Thunder Bay, ON P7C 4W1, Canada": {
+    "query": "2400 Nipigon Road, Thunder Bay, ON P7C 4W1, Canada",
+    "lon": -89.2687898,
+    "lat": 48.399407,
+    "display_name": "Nipigon Road, Northwood, Thunder Bay, Thunder Bay District, Northwestern Ontario, Ontario, P7C 4W1, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1465350266,
+    "retrieved": "2026-08-15"
+  },
   "245 Consumers Road, Toronto, ON, Canada": {
     "query": "245 Consumers Road, Toronto, ON, Canada",
     "lon": -79.3310435,
@@ -361,6 +438,17 @@
     "osm_type": "node",
     "osm_id": 2354348609,
     "retrieved": "2026-08-14"
+  },
+  "2455 Wyandotte Street West, Windsor, ON, Canada": {
+    "query": "2455 Wyandotte Street West, Windsor, ON, Canada",
+    "lon": -83.0659532,
+    "lat": 42.3041516,
+    "display_name": "Wyandotte Street West, RiverWest, Windsor, Southwestern Ontario, Ontario, N9C 4C2, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 435221755,
+    "retrieved": "2026-08-15"
   },
   "25 York Street, ON M5J 2V5, Canada": {
     "query": "25 York Street, ON M5J 2V5, Canada",
@@ -494,6 +582,17 @@
     "osm_id": 43938108,
     "retrieved": "2026-08-14"
   },
+  "333 Dufferin Avenue, London, ON N6B 1Z3, Canada": {
+    "query": "333 Dufferin Avenue, London, ON N6B 1Z3, Canada",
+    "lon": -81.2439301,
+    "lat": 42.9881547,
+    "display_name": "333, Dufferin Avenue, London, Southwestern Ontario, Ontario, N6B 2P8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 2016931443,
+    "retrieved": "2026-08-15"
+  },
   "3480 Ninth Line, Oakville, ON, Canada": {
     "query": "3480 Ninth Line, Oakville, ON, Canada",
     "lon": -79.7064473,
@@ -515,6 +614,17 @@
     "osm_type": "node",
     "osm_id": 13843261919,
     "retrieved": "2026-08-14"
+  },
+  "386 St. Paul Street, St. Catharines, ON L2R 3N2, Canada": {
+    "query": "386 St. Paul Street, St. Catharines, ON L2R 3N2, Canada",
+    "lon": -79.2413055,
+    "lat": 43.1605445,
+    "display_name": "St. Paul Street, Downtown St. Catharines, St. Catharines, Niagara Region, Golden Horseshoe, Ontario, L2R 3N2, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 455828154,
+    "retrieved": "2026-08-15"
   },
   "386 Wilcox Street, Hamilton, ON, Canada": {
     "query": "386 Wilcox Street, Hamilton, ON, Canada",
@@ -548,6 +658,17 @@
     "osm_type": "way",
     "osm_id": 32872052,
     "retrieved": "2026-08-14"
+  },
+  "400 Southgate Drive, Guelph, ON N1G 4P5, Canada": {
+    "query": "400 Southgate Drive, Guelph, ON N1G 4P5, Canada",
+    "lon": -80.2191689,
+    "lat": 43.501165,
+    "display_name": "Danby, 400, Southgate Drive, Guelph, Southwestern Ontario, Ontario, N1G 4P5, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 208650138,
+    "retrieved": "2026-08-15"
   },
   "4175 14th Avenue, Markham, ON  L3R 0J2, Canada": {
     "query": "4175 14th Avenue, Markham, ON  L3R 0J2, Canada",
@@ -648,6 +769,17 @@
     "osm_id": 67138292,
     "retrieved": "2026-08-14"
   },
+  "5500 North Service Road, Burlington, ON L7L 6W6, Canada": {
+    "query": "5500 North Service Road, Burlington, ON L7L 6W6, Canada",
+    "lon": -79.7612794,
+    "lat": 43.3961277,
+    "display_name": "5500, North Service Road, Burlington, Halton Region, Golden Horseshoe, Ontario, L7L 6W6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 833972669,
+    "retrieved": "2026-08-15"
+  },
   "559 College St., Toronto, ON M6G 1A9, Canada": {
     "query": "559 College St., Toronto, ON M6G 1A9, Canada",
     "lon": -79.4122593,
@@ -657,6 +789,28 @@
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "node",
     "osm_id": 5441763273,
+    "retrieved": "2026-08-15"
+  },
+  "6 George Street South, Brampton, ON L6Y 1P1, Canada": {
+    "query": "6 George Street South, Brampton, ON L6Y 1P1, Canada",
+    "lon": -79.759128,
+    "lat": 43.684153,
+    "display_name": "6, George Street South, Brampton, Peel Region, Golden Horseshoe, Ontario, L6W 2C3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 814271930,
+    "retrieved": "2026-08-15"
+  },
+  "60 Commerce Crescent, North Bay, ON P1A 0B4, Canada": {
+    "query": "60 Commerce Crescent, North Bay, ON P1A 0B4, Canada",
+    "lon": -79.4282665,
+    "lat": 46.3155611,
+    "display_name": "Canadore College Commerce Court Campus, 60, Commerce Crescent, North Bay, Nipissing District, Northeastern Ontario, Ontario, P1B 8G4, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 297281726,
     "retrieved": "2026-08-15"
   },
   "6100 Langstaff Road, Vaughan, ON L4L 0A9, Canada": {
@@ -713,6 +867,17 @@
     "osm_type": "way",
     "osm_id": 322816286,
     "retrieved": "2026-08-14"
+  },
+  "7 Bayview Road, Ottawa, ON K1Y 2C5, Canada": {
+    "query": "7 Bayview Road, Ottawa, ON K1Y 2C5, Canada",
+    "lon": -75.7281315,
+    "lat": 45.409741,
+    "display_name": "The Innovation Centre at Bayview Yards, 7, Bayview Station Road, Hintonburg, Kitchissippi, Ottawa, Eastern Ontario, Ontario, K1Y 2C5, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 211286951,
+    "retrieved": "2026-08-15"
   },
   "7 Bayview St, ON K1Y 2C5, Canada": {
     "query": "7 Bayview St, ON K1Y 2C5, Canada",
@@ -813,6 +978,17 @@
     "osm_id": 833352212,
     "retrieved": "2026-08-15"
   },
+  "945 Princess St, Kingston, ON K7L 0E9, Canada": {
+    "query": "945 Princess St, Kingston, ON K7L 0E9, Canada",
+    "lon": -76.5158428,
+    "lat": 44.2428365,
+    "display_name": "945, Princess Street, Kingston, Eastern Ontario, Ontario, K7L 1H3, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 71647576,
+    "retrieved": "2026-08-15"
+  },
   "970 Green Valley Rd, London, ON N6N 1E3, Canada": {
     "query": "970 Green Valley Rd, London, ON N6N 1E3, Canada",
     "lon": -81.200301,
@@ -833,6 +1009,17 @@
     "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
     "osm_type": "way",
     "osm_id": 160299603,
+    "retrieved": "2026-08-15"
+  },
+  "99 Foster Drive, Sault Ste. Marie, ON P6A 5X6, Canada": {
+    "query": "99 Foster Drive, Sault Ste. Marie, ON P6A 5X6, Canada",
+    "lon": -84.3341391,
+    "lat": 46.5066013,
+    "display_name": "Civic Centre, 99, Foster Drive, Sault Ste. Marie, Algoma District, Northeastern Ontario, Ontario, P6A 5X6, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 188272397,
     "retrieved": "2026-08-15"
   },
   "Barrie, Ontario, Canada": {

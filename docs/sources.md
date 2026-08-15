@@ -60,6 +60,44 @@ found, and reserve the decision below for cases where it genuinely cannot.
   above came through an automated page summary, and it is the one clause in this
   file that actually grants permission.
 
+## ontario.ca — Regional Innovation Centre locations
+
+- **Standing:** `cleared` for facts, with a restriction worth reading
+- **Intended use:** the accelerators layer.
+- **Last checked:** 2026-08-14
+- **Deciding clause:** ontario.ca/copyright — *"If credit is given and Crown
+  copyright is acknowledged, the materials may be reproduced for
+  non-commercial purposes if no changes are made to the original content."*
+- **`licence` value for features:** `© King's Printer for Ontario — ontario.ca
+  permits non-commercial reproduction with credit; names and addresses reused
+  as facts`
+- **Notes:** **Not** the Open Government Licence. That applies only to
+  materials "clearly labelled on the page", and this page carries no such
+  label, so the default Crown copyright terms govern: non-commercial only,
+  and no changes to the content.
+
+  We rely on the same distinction used elsewhere in this file: the name and
+  address of a public body are facts, and copyright reaches the page's
+  expression rather than the facts in it. The prose is not reproduced; the
+  17 organisations and where they are, are.
+
+  **The non-commercial restriction deserves a decision.** This map is built to
+  be embedded in pages we do not control, and a commercial host embedding it
+  is a use these terms do not obviously cover. The facts argument makes that
+  moot in our reading, but if the project ever wants to be conservative about
+  it, the King's Printer licenses commercial use on request.
+
+  Why this source at all: it settles the definition problem. The province
+  designates Regional Innovation Centres, so the question of what belongs on
+  the accelerators layer is answered by Ontario rather than invented here —
+  which is exactly what the previous keyword-based classification could not
+  do. It also gives the layer real provincial reach, from Thunder Bay and
+  Sault Ste. Marie to Windsor, rather than a Toronto cluster.
+
+  A Regional Innovation Centre is general-purpose, not an AI accelerator.
+  Every record says so, so the layer is not read as a survey of AI-specific
+  programmes.
+
 ## Organisation websites (addresses)
 
 - **Standing:** `cleared` — a business's own published address is a fact, and
