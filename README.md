@@ -116,6 +116,11 @@ Cloudflare Pages, connected to this repository:
 can be framed, and deliberately sends no `X-Frame-Options`, which would
 override it in older browsers and break the embed.
 
+Embed the **project** URL, `https://<project>.pages.dev/`, not the
+per-deployment one Cloudflare shows after a build. The latter is prefixed with
+a build hash, carries `x-robots-tag: noindex`, and stops being current the next
+time you push.
+
 ## Licence
 
 Code and data are separate questions. Every feature carries a `licence` field
