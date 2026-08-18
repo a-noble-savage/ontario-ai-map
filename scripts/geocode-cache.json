@@ -131,6 +131,17 @@
     "osm_id": 67691616,
     "retrieved": "2026-08-15"
   },
+  "1385 Woodroffe Avenue, Ottawa, ON, Canada": {
+    "query": "1385 Woodroffe Avenue, Ottawa, ON, Canada",
+    "lon": -75.7557201,
+    "lat": 45.3495196,
+    "display_name": "Algonquin College, 1385, Woodroffe Avenue, College, Nepean, Ottawa, Eastern Ontario, Ontario, K2G 1V8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 21424535,
+    "retrieved": "2026-08-18"
+  },
   "145 King St W, Toronto, ON  M5H 1J8, Canada": {
     "query": "145 King St W, Toronto, ON  M5H 1J8, Canada",
     "lon": -79.3839099,
@@ -527,6 +538,17 @@
     "osm_id": 303078543,
     "retrieved": "2026-08-14"
   },
+  "295 Hagey Boulevard, Waterloo, ON, Canada": {
+    "query": "295 Hagey Boulevard, Waterloo, ON, Canada",
+    "lon": -80.549105,
+    "lat": 43.4773993,
+    "display_name": "Accelerator Building, 295, Hagey Boulevard, David Johnston Research and Technology Park, Waterloo, Region of Waterloo, Southwestern Ontario, Ontario, N2L 6R5, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 28196791,
+    "retrieved": "2026-08-18"
+  },
   "30 Bramtree Court, Brampton, ON  L6T 5B5, Canada": {
     "query": "30 Bramtree Court, Brampton, ON  L6T 5B5, Canada",
     "lon": -79.7163777,
@@ -614,6 +636,28 @@
     "osm_type": "way",
     "osm_id": 141293016,
     "retrieved": "2026-08-14"
+  },
+  "350 Legget Drive, Ottawa, ON, Canada": {
+    "query": "350 Legget Drive, Ottawa, ON, Canada",
+    "lon": -75.9095109,
+    "lat": 45.3401304,
+    "display_name": "350, Legget Drive, Kanata, Kanata North, Ottawa, Eastern Ontario, Ontario, K2K 2W7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 659217012,
+    "retrieved": "2026-08-18"
+  },
+  "3600 Steeles Avenue East, Markham, ON, Canada": {
+    "query": "3600 Steeles Avenue East, Markham, ON, Canada",
+    "lon": -79.3341081,
+    "lat": 43.81838,
+    "display_name": "3600, Steeles Avenue East, Markham, York Region, Golden Horseshoe, Ontario, L3R 9Z7, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 661777310,
+    "retrieved": "2026-08-18"
   },
   "3650 Danforth Ave, Scarborough, ON M1N 3K2, Canada": {
     "query": "3650 Danforth Ave, Scarborough, ON M1N 3K2, Canada",

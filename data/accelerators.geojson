@@ -4,6 +4,72 @@
   "features": [
     {
       "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.549105, 43.4773993] },
+      "properties": {
+        "id": "ac-ac-health-accelerator-centre",
+        "name": "AC:Health",
+        "name_fr": null,
+        "layer": "accelerators",
+        "status": "active",
+        "operator": "Accelerator Centre",
+        "address": "295 Hagey Boulevard, 1st Floor, West Entrance, Waterloo, ON N2L 6R5",
+        "municipality": "Waterloo",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Accelerator Centre — AC:Health",
+        "source_url": "https://acceleratorcentre.com/achealth/",
+        "retrieved": "2026-08-17",
+        "licence": "programme and address published on the organisation's own website; reused as fact with attribution",
+        "links": null,
+        "notes": "Described by the Accelerator Centre as \"a 9-month accelerator designed to support founders building digital health, AI, data, and software-enabled solutions\". Its focus is healthcare, so it belongs here for the AI half of that remit rather than as a general AI programme."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3341081, 43.81838] },
+      "properties": {
+        "id": "ac-accelerate-ai-venturelab",
+        "name": "Accelerate AI",
+        "name_fr": null,
+        "layer": "accelerators",
+        "status": "active",
+        "operator": "ventureLAB",
+        "address": "3600 Steeles Avenue East, Room C-106, Markham, ON L3R 9Z7",
+        "municipality": "Markham",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "ventureLAB — Accelerate AI",
+        "source_url": "https://www.venturelab.ca/",
+        "retrieved": "2026-08-17",
+        "licence": "programme and address published on the organisation's own website; reused as fact with attribution",
+        "links": null,
+        "notes": "ventureLAB describes Accelerate AI as \"supports growing and scaling AI startups\". Note that ventureLAB serves York Region but does not appear on Ontario's list of designated Regional Innovation Centres, so it is recorded here as an accelerator rather than on that layer."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.7557201, 45.3495196] },
+      "properties": {
+        "id": "ac-ai-accelerator-hub-algonquin",
+        "name": "AI Accelerator Hub",
+        "name_fr": null,
+        "layer": "accelerators",
+        "status": "active",
+        "operator": "Algonquin College",
+        "address": "1385 Woodroffe Avenue, Ottawa, ON K2G 1V8",
+        "municipality": "Ottawa",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "Algonquin College — AI Accelerator Hub",
+        "source_url": "https://www.algonquincollege.com/arie/ai-accelerator-hub/",
+        "retrieved": "2026-08-17",
+        "licence": "programme and address published on the organisation's own website; reused as fact with attribution",
+        "links": null,
+        "notes": "Algonquin College's own page describes the AI Accelerator Hub (AAH) as \"powered by AWS Canada\", helping partners explore and implement AI. The point is the Woodroffe Avenue campus. Algonquin also appears on the academic programs layer, which is a different thing at a different precision."
+      }
+    },
+    {
+      "type": "Feature",
       "geometry": { "type": "Point", "coordinates": [-79.3984012, 43.6652923] },
       "properties": {
         "id": "ac-creative-destruction-lab-cdl",
@@ -44,6 +110,28 @@
         "licence": "address published on the organisation's own website; reused as fact with attribution",
         "links": null,
         "notes": "An AI-specific accelerator, unlike the Regional Innovation Centres, which serve every sector. The source says the programme is \"predominantly held in-person at NEXT Canada's HQ in downtown Toronto\", and the point is that head office, whose address NEXT Canada publishes on the same site. The programme itself has no separate premises, so this is where it happens rather than where it is registered."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.9095109, 45.3401304] },
+      "properties": {
+        "id": "ac-sovereign-ai-accelerator",
+        "name": "Sovereign AI Accelerator",
+        "name_fr": null,
+        "layer": "accelerators",
+        "status": "active",
+        "operator": "L-SPARK with TELUS",
+        "address": "350 Legget Drive, Suite 105, Ottawa, ON K2K 0G7",
+        "municipality": "Ottawa",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "L-SPARK — Sovereign AI Accelerator",
+        "source_url": "https://www.l-spark.com/",
+        "retrieved": "2026-08-17",
+        "licence": "programme and address published on the organisation's own website; reused as fact with attribution",
+        "links": null,
+        "notes": "L-SPARK's own site heads the programme \"Accelerate Your AI Innovation with TELUS' Sovereign AI Accelerator\", run with TELUS. The office is in Kanata. One discrepancy worth recording: L-SPARK publishes the postal code as K2K 0G7 while the geocoder returned K2K 2W7 for the same street address; the building number and street agree."
       }
     }
   ]
