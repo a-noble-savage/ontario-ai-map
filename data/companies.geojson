@@ -21,29 +21,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-79.4296344, 43.7205304] },
-      "properties": {
-        "id": "co-aiva-labs",
-        "name": "Aiva Labs",
-        "name_fr": null,
-        "layer": "companies",
-        "status": "active",
-        "operator": null,
-        "address": "3093 Bathurst Street, Unit 690, Toronto, ON, M6A 2A3",
-        "municipality": "Toronto",
-        "capacity_mw": null,
-        "location_precision": "street",
-        "source_name": "Aiva Labs website (listed via canada.ai)",
-        "source_url": "https://aivalabs.com/",
-        "retrieved": "2026-08-14",
-        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
-        "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -65,29 +43,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-75.9127766, 45.3361977] },
-      "properties": {
-        "id": "co-arvizio",
-        "name": "Arvizio",
-        "name_fr": null,
-        "layer": "companies",
-        "status": "active",
-        "operator": null,
-        "address": "62 Steacie Drive, Ottawa, ON",
-        "municipality": "Ottawa",
-        "capacity_mw": null,
-        "location_precision": "street",
-        "source_name": "Arvizio website (listed via canada.ai)",
-        "source_url": "http://www.arvizio.io",
-        "retrieved": "2026-08-14",
-        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
-        "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -109,7 +65,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -131,7 +87,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -153,7 +109,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -175,29 +131,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-79.3881892, 43.6466584] },
-      "properties": {
-        "id": "co-blue-j-legal",
-        "name": "Blue J Legal",
-        "name_fr": null,
-        "layer": "companies",
-        "status": "active",
-        "operator": null,
-        "address": "225 King Street West, Suite 1405, Toronto, ON, M5V 3M2",
-        "municipality": "Toronto",
-        "capacity_mw": null,
-        "location_precision": "street",
-        "source_name": "Blue J Legal website (listed via canada.ai)",
-        "source_url": "http://www.bluejlegal.com/",
-        "retrieved": "2026-08-14",
-        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
-        "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -219,7 +153,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -241,7 +175,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -263,29 +197,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-79.5069478, 43.8343671] },
-      "properties": {
-        "id": "co-docpod-corp",
-        "name": "DocPod Corp",
-        "name_fr": null,
-        "layer": "companies",
-        "status": "active",
-        "operator": null,
-        "address": "9131 Keele Street, Vaughan, ON, L4K 2N1",
-        "municipality": "Vaughan",
-        "capacity_mw": null,
-        "location_precision": "street",
-        "source_name": "DocPod Corp website (listed via canada.ai)",
-        "source_url": "http://www.docpod.com",
-        "retrieved": "2026-08-14",
-        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
-        "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -307,7 +219,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -329,7 +241,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -351,29 +263,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-79.3790641, 43.6476886] },
-      "properties": {
-        "id": "co-komand-consulting",
-        "name": "Komand Consulting",
-        "name_fr": null,
-        "layer": "companies",
-        "status": "active",
-        "operator": null,
-        "address": "30 Wellington St West, 5th Floor, Toronto, Ontario M5L 1B1",
-        "municipality": "Toronto",
-        "capacity_mw": null,
-        "location_precision": "street",
-        "source_name": "Komand Consulting website (listed via canada.ai)",
-        "source_url": "http://komand.ca/",
-        "retrieved": "2026-08-14",
-        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
-        "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -395,7 +285,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -417,7 +307,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -439,7 +329,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -461,29 +351,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [-79.39244, 43.64972] },
-      "properties": {
-        "id": "co-naborly",
-        "name": "Naborly",
-        "name_fr": null,
-        "layer": "companies",
-        "status": "active",
-        "operator": null,
-        "address": "276 Queen St W, Toronto, ON, M5V 2A1",
-        "municipality": "Toronto",
-        "capacity_mw": null,
-        "location_precision": "street",
-        "source_name": "Naborly website (listed via canada.ai)",
-        "source_url": "http://naborly.co",
-        "retrieved": "2026-08-14",
-        "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
-        "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -505,7 +373,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -527,7 +395,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -549,7 +417,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -571,7 +439,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (json-ld). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     },
     {
@@ -593,7 +461,7 @@
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
         "links": null,
-        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text."
+        "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as companies by this project, not by the source, which publishes no type field — the rule that placed it: no accelerator or research wording in the source text. The organisation's site was confirmed to still resolve under this name on 2026-08-17; the canada.ai listing behind it is older than that."
       }
     }
   ]

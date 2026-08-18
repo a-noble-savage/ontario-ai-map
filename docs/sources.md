@@ -98,6 +98,36 @@ found, and reserve the decision below for cases where it genuinely cannot.
   Every record says so, so the layer is not read as a survey of AI-specific
   programmes.
 
+### The companies layer is a sample, not a survey
+
+Worth stating plainly, because a layer called "Companies" invites the opposite
+reading. Its records are the residue of a filter: of canada.ai's 571
+organisations, these are the ones whose own website happened to publish a
+machine-readable Ontario postal address. Publishing an address in a parseable
+form has nothing to do with being an important AI company, so the selection is
+close to arbitrary — a company with a contact form instead of a footer address
+is simply absent.
+
+The other layers differ in kind. Regional innovation centres are the province's
+designated list; academic programs are a published table; data centres are one
+tracker's compilation. Each has a boundary someone else drew. This layer has
+none, which is the open question in `CLAUDE.md` about whether "AI company" has a
+definition tight enough to defend.
+
+Vector Institute's sponsor list was considered as a defined set and rejected:
+its sponsors are banks and telcos that fund Vector, not Ontario AI companies,
+so inheriting that definition would have made the layer less accurate rather
+than more.
+
+**Liveness checked 2026-08-17.** All 27 sites resolved, but six had redirected
+to a different brand — Aiva Labs to bevycommerce.com, Arvizio to averian.io,
+Blue J Legal to bluej.com, Naborly to singlekey.com, DocPod Corp to a personal
+Wix page, and Komand Consulting to a cannabis subdomain. Those six were removed
+rather than renamed: the record's name no longer matched what a reader would
+find, and confirming each successor is still an Ontario AI company at a known
+address is fresh research, not a rename. They are named here so that work can
+start from a list rather than from scratch.
+
 ## Organisation websites (addresses)
 
 - **Standing:** `cleared` — a business's own published address is a fact, and
