@@ -20,6 +20,9 @@ import { fileURLToPath } from "node:url";
 
 import Ajv2020, { type AnySchema, type ErrorObject } from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
+import { validateStyleMin } from "@maplibre/maplibre-gl-style-spec";
+
+import { layerSpecs } from "../src/layers/index.ts";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -88,6 +91,44 @@ const runFixtures = (): void => {
         error(`fixture ${file}: expected to fail, but the schema accepted it`);
       }
     }
+  }
+};
+
+// ---------------------------------------------------------------------------
+// Layer specs — the renderer's own definitions, against MapLibre's style spec
+// ---------------------------------------------------------------------------
+
+/**
+ * Checks every layer this project asks MapLibre to draw.
+ *
+ * This exists because of a specific failure. A cluster radius was written as
+ * ["*", zoomInterpolate, stepByCount], which MapLibre rejects — a zoom
+ * expression may only be the input to a top-level step or interpolate. Both
+ * `npm run validate` and `npm run build` passed, because neither had any idea
+ * what a layer spec is, and the broken output reached production. addLayer
+ * reports such failures as console errors rather than throwing, so the map
+ * simply rendered without its cluster circles and nothing anywhere said so.
+ *
+ * The style spec validator runs offline and catches exactly that error, so the
+ * gate now covers the renderer as well as the data.
+ */
+const runLayerSpecs = (): void => {
+  const style = {
+    version: 8 as const,
+    // Symbol layers reference a font stack, so the spec wants glyphs declared.
+    // Never fetched: this style is validated, never rendered.
+    glyphs: "https://example.invalid/{fontstack}/{range}.pbf",
+    sources: Object.fromEntries(
+      LAYERS.map((layer) => [
+        `src-${layer}`,
+        { type: "geojson", data: { type: "FeatureCollection", features: [] } },
+      ]),
+    ),
+    layers: LAYERS.flatMap((layer) => layerSpecs(layer, `src-${layer}`)),
+  };
+
+  for (const failure of validateStyleMin(style as never)) {
+    error(`layer spec — ${failure.message}`);
   }
 };
 
@@ -207,6 +248,7 @@ const runLayer = (layer: string): void => {
 // ---------------------------------------------------------------------------
 
 runFixtures();
+runLayerSpecs();
 for (const layer of LAYERS) runLayer(layer);
 
 // Exact collisions hide features underneath each other. Not a wrong fact, so

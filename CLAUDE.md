@@ -63,7 +63,14 @@ docs/sources.md  one entry per source: licence, terms, last check, contact
 ## Data model
 
 Every feature carries these properties. The schema is enforced by
-`npm run validate`, which runs in CI and must pass before commit.
+`npm run validate`, which runs in CI (`.github/workflows/ci.yml`) on every push
+and pull request, and must pass before commit.
+
+`npm run validate` covers three things, not one: every feature against the
+schema, the schema's own fixtures, and the renderer's layer definitions against
+MapLibre's style spec. That last check exists because a layer MapLibre rejects
+is reported to the console rather than thrown, so a broken map passes both a
+type-check and a build and reaches production looking fine.
 
 | Field | Notes |
 | --- | --- |
