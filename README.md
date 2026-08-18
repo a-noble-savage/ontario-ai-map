@@ -51,14 +51,55 @@ one.
 
 ## Embedding
 
-The URL is the API:
+Drop this into the host page, replacing the URL with your deployment:
+
+```html
+<iframe
+  src="https://YOUR-PROJECT.pages.dev/"
+  title="AI activity in Ontario"
+  width="100%"
+  height="600"
+  style="border: 0; display: block;"
+  loading="lazy"
+  referrerpolicy="no-referrer"
+></iframe>
+```
+
+That alone works, at a fixed height. To let the frame grow with its content,
+add the listener below — the page posts its height on load and whenever the
+layout changes, and nothing resizes without it:
+
+```html
+<script>
+  window.addEventListener("message", (event) => {
+    // Check the origin: any page can post to your window.
+    if (event.origin !== "https://YOUR-PROJECT.pages.dev") return;
+    if (event.data?.type !== "ontario-ai-map:height") return;
+
+    const frame = document.querySelector('iframe[src^="https://YOUR-PROJECT.pages.dev"]');
+    if (frame) frame.style.height = `${event.data.height}px`;
+  });
+</script>
+```
+
+### URL parameters
+
+The URL is the API, and these are stable once published:
 
 - `?layers=datacentres,research` — comma-separated, defaults to all
 - `?focus=<feature id>` — opens that feature's popup on load
-- `?lang=en|fr`
+- `?lang=en|fr` — defaults to the host page's `lang`, then English
 
-The page reports its height to the parent via `postMessage`, sets no cookies
-and uses no storage, and falls back to a table when WebGL is unavailable.
+Unknown layer names are ignored rather than failing, and a `?focus=` id that
+no longer exists leaves the map working. A host page should not break because
+this project renamed something.
+
+### What it does and does not do
+
+- Sets no cookies and uses no storage, so it triggers no consent requirement
+- Falls back to a keyboard-accessible table when WebGL is unavailable
+- Works from 320px to 1600px wide
+- Sends no `X-Frame-Options`, and sets `frame-ancestors` so it can be framed
 
 ## Deploying
 
