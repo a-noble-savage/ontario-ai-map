@@ -62,6 +62,12 @@
   "table.capacity": "Capacity (MW)",
   "table.source": "Source",
   "table.showOnMap": "Show on map",
+  "table.filterLabel": "Filter records",
+  "table.filterPlaceholder": "Name, municipality, operator…",
+  "table.showingCount": "{shown} of {total} records shown",
+  "table.noMatches": "No records match that filter.",
+  "table.clearFilter": "Clear filter",
+  "table.sortBy": "Sort by",
 
   "empty.title": "No records yet",
   "empty.body": "No source has cleared its licence check, so no records have been published. The map is deliberately empty rather than provisional.",

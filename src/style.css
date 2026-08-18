@@ -254,23 +254,97 @@ body {
 /* --- Table -------------------------------------------------------------- */
 
 .table-region {
-  /* The table scrolls inside this box; the page never scrolls sideways. */
-  overflow-x: auto;
   min-width: 0;
-  /* And it scrolls vertically inside this box too, which matters more than it
-     looks. The table lists every record, so at 117 features the document ran
-     to 6784px and the embed dutifully told its host to become 6784px tall.
-     Bounding it keeps the whole embed a sane height while leaving the table
-     complete, present, and reachable — it is a first-class view of the data,
-     not something to hide behind a disclosure. */
-  max-height: 26rem;
-  overflow-y: auto;
+}
+
+/* The scrolling box is the table itself, not the region: the filter above it
+   has to stay on screen while the rows move underneath. */
+.table-scroll {
+  overflow: auto;
   overscroll-behavior: contain;
-  /* Positioned so that absolutely positioned descendants — the visually-hidden
-     column header among them — resolve against this box and get clipped by it.
-     Without this they resolve against the viewport and widen the document,
-     which scrolls the whole embed sideways on a narrow screen. */
+  max-height: 24rem;
+  /* Positioned so absolutely positioned descendants — the visually-hidden
+     column header among them — resolve against this box and are clipped by it
+     rather than resolving against the viewport and widening the document. */
   position: relative;
+}
+
+.table-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.table-filter {
+  flex: 1 1 14rem;
+  min-width: 0;
+}
+
+.table-filter-input {
+  font: inherit;
+  font-size: 0.875rem;
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+
+.table-filter-input:hover {
+  border-color: var(--ink-muted);
+}
+
+.table-count {
+  margin: 0;
+  font-size: 0.8125rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.sort-button {
+  font: inherit;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--ink-muted);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  white-space: nowrap;
+}
+
+.sort-button:hover {
+  color: var(--ink);
+}
+
+/* Decorative: aria-sort on the header is what carries the current order to
+   assistive technology. */
+.data-table thead th[data-sorted="asc"] .sort-button::after {
+  content: "\2191";
+}
+
+.data-table thead th[data-sorted="desc"] .sort-button::after {
+  content: "\2193";
+}
+
+.data-table thead th[data-sorted="asc"] .sort-button,
+.data-table thead th[data-sorted="desc"] .sort-button {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.table-no-matches {
+  margin: 0.75rem 0 0;
+  font-size: 0.875rem;
+  color: var(--ink-muted);
 }
 
 .table-region:focus {

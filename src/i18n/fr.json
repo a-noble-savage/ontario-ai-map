@@ -62,6 +62,12 @@
   "table.capacity": "Capacité (MW)",
   "table.source": "Source",
   "table.showOnMap": "Afficher sur la carte",
+  "table.filterLabel": "Filtrer les enregistrements",
+  "table.filterPlaceholder": "Nom, municipalité, exploitant…",
+  "table.showingCount": "{shown} enregistrements affichés sur {total}",
+  "table.noMatches": "Aucun enregistrement ne correspond à ce filtre.",
+  "table.clearFilter": "Effacer le filtre",
+  "table.sortBy": "Trier par",
 
   "empty.title": "Aucun enregistrement pour l'instant",
   "empty.body": "Aucune source n'a passé la vérification de licence; aucun enregistrement n'a donc été publié. La carte est délibérément vide plutôt que provisoire.",
