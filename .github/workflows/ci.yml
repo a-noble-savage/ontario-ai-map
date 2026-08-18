@@ -1,0 +1,34 @@
+# CLAUDE.md says validate "runs in CI and must pass before commit". Until this
+# file existed that was an aspiration enforced by whoever remembered it, on a
+# public repository where anyone can open a pull request.
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # Same source of truth as the Cloudflare Pages build, so CI cannot
+          # pass on a Node version the deploy will not use.
+          node-version-file: .node-version
+          cache: npm
+
+      - run: npm ci
+
+      # Schema, fixtures, cross-file data rules, and the renderer's layer
+      # specs against MapLibre's style spec.
+      - name: Validate data and layer specs
+        run: npm run validate
+
+      # Type-check and bundle. Catches what validate cannot: type errors and
+      # anything that breaks the build itself.
+      - name: Type-check and build
+        run: npm run build
