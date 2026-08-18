@@ -17,6 +17,7 @@
     "source_url": "https://example.invalid/registry",
     "retrieved": "10/08/2026",
     "licence": "link-out only",
+    "links": null,
     "notes": null
   }
 }

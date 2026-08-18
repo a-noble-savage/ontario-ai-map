@@ -29,6 +29,7 @@ const LAYERS = [
   "accelerators",
   "research",
   "programs",
+  "innovationcentres",
 ] as const;
 
 /** Fixture annotation key, stripped before validating. The schema is strict,

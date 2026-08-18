@@ -30,6 +30,7 @@ export type FeatureProperties = {
   source_url: string;
   retrieved: string;
   licence: string;
+  links: { label: string; url: string }[] | null;
   notes: string | null;
 };
 

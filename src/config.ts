@@ -14,6 +14,7 @@ export const LAYERS = [
   "accelerators",
   "research",
   "programs",
+  "innovationcentres",
 ] as const;
 
 export type LayerId = (typeof LAYERS)[number];

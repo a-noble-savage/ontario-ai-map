@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://ontario-ai-map/schema/feature.schema.json",
   "title": "Ontario AI Map feature",
-  "description": "One GeoJSON Feature in any of the five data layers. Every property in the data model is required and present; those documented as nullable accept null rather than being omitted, so a missing value is always visible as an explicit null and never as a forgotten key.",
+  "description": "One GeoJSON Feature in any of the six data layers. Every property in the data model is required and present; those documented as nullable accept null rather than being omitted, so a missing value is always visible as an explicit null and never as a forgotten key.",
   "type": "object",
   "additionalProperties": false,
   "required": ["type", "geometry", "properties"],
@@ -50,6 +50,7 @@
         "source_url",
         "retrieved",
         "licence",
+        "links",
         "notes"
       ],
       "properties": {
@@ -75,7 +76,8 @@
             "companies",
             "accelerators",
             "research",
-            "programs"
+            "programs",
+            "innovationcentres"
           ]
         },
         "status": {
@@ -123,6 +125,24 @@
           "description": "How this record may be republished. Free text, but 'unverified' is rejected at ship time by scripts/validate.ts — the licence gate is a process rule, not a shape rule.",
           "type": "string",
           "minLength": 1
+        },
+        "links": {
+          "description": "Named links belonging to this record — the individual academic programmes an institution offers, for instance. Null when there are none. Rendered in the popup so a reader can reach the thing itself rather than a description of it.",
+          "type": ["array", "null"],
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "url"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https?://"
+              }
+            }
+          }
         },
         "notes": {
           "description": "Shown in the popup. Carries source conflicts verbatim.",

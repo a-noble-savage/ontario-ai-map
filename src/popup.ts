@@ -115,6 +115,33 @@ export const buildPopup = (
     container.append(caveat(t("popup.claimCaveat")));
   }
 
+  // Named links come before the address block on purpose. For an academic
+  // programmes record the programme names are the substance — the institution
+  // is only where they are taught — and a reader who wants one should be able
+  // to reach the calendar entry rather than read its name in a paragraph.
+  if (properties.links !== null && properties.links.length > 0) {
+    const heading = document.createElement("h3");
+    heading.className = "popup-links-heading";
+    heading.textContent = `${t("popup.links")} (${properties.links.length})`;
+    container.append(heading);
+
+    const list = document.createElement("ul");
+    list.className = "popup-links";
+
+    for (const link of properties.links) {
+      const item = document.createElement("li");
+      const anchorEl = document.createElement("a");
+      anchorEl.href = link.url;
+      anchorEl.textContent = link.label;
+      anchorEl.target = "_blank";
+      anchorEl.rel = "noopener noreferrer";
+      item.append(anchorEl);
+      list.append(item);
+    }
+
+    container.append(list);
+  }
+
   const details = document.createElement("div");
   details.className = "popup-details";
 

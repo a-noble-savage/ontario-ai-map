@@ -12,6 +12,7 @@
   "layer.accelerators": "Accelerators",
   "layer.research": "Research institutes",
   "layer.programs": "Academic programs",
+  "layer.innovationcentres": "Regional innovation centres",
 
   "legend.title": "Legend",
   "legend.layers": "Layers",
@@ -49,6 +50,7 @@
   "popup.retrieved": "Checked",
   "popup.licence": "Licence",
   "popup.notes": "Notes",
+  "popup.links": "Programs",
   "popup.claimCaveat": "This site has been announced but not built. Announcements change, and some are never built.",
   "popup.approximateCaveat": "This point marks the municipality, not an address.",
 

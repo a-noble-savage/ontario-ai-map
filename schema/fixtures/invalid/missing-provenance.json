@@ -15,6 +15,7 @@
     "location_precision": "municipality",
     "source_name": "Example registry",
     "licence": "link-out only",
+    "links": null,
     "notes": null
   }
 }

@@ -12,6 +12,7 @@
   "layer.accelerators": "Accélérateurs",
   "layer.research": "Instituts de recherche",
   "layer.programs": "Programmes universitaires",
+  "layer.innovationcentres": "Centres régionaux d'innovation",
 
   "legend.title": "Légende",
   "legend.layers": "Couches",
@@ -49,6 +50,7 @@
   "popup.retrieved": "Vérifié le",
   "popup.licence": "Licence",
   "popup.notes": "Remarques",
+  "popup.links": "Programmes",
   "popup.claimCaveat": "Ce site a été annoncé mais n'est pas construit. Les annonces changent, et certaines ne se concrétisent jamais.",
   "popup.approximateCaveat": "Ce point indique la municipalité, et non une adresse.",
 

@@ -48,6 +48,7 @@ data/            one GeoJSON FeatureCollection per layer, hand-maintained
   accelerators.geojson
   research.geojson
   programs.geojson
+  innovationcentres.geojson
 schema/          JSON Schema for a feature; validated in CI
 scripts/         geocoding, validation, source-diff helpers
   geocode-cache.json
@@ -69,7 +70,7 @@ Every feature carries these properties. The schema is enforced by
 | `id` | stable slug, never reused after deletion |
 | `name` | as the source writes it |
 | `name_fr` | optional |
-| `layer` | one of the five layer names |
+| `layer` | one of the six layer names |
 | `status` | data centres: `operating` / `under_construction` / `announced` / `proposed` / `cancelled`. Others: `active` / `closed` |
 | `operator` | nullable |
 | `address` | nullable; **must be non-null** when `location_precision` is `rooftop` or `street` |
@@ -80,6 +81,7 @@ Every feature carries these properties. The schema is enforced by
 | `source_url` | |
 | `retrieved` | ISO date |
 | `licence` | how this record may be republished |
+| `links` | nullable array of `{label, url}`; shown prominently in the popup, above the address. Academic programs use it for the individual programmes |
 | `notes` | nullable, shown in the popup |
 
 ## Data rules

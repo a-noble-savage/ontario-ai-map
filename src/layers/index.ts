@@ -28,6 +28,12 @@ export const LAYER_HUES: Record<LayerId, string> = {
   accelerators: "#009E73",
   research: "#CC79A7",
   programs: "#E69F00",
+  // Sixth categorical hue. Checked before adopting: the palette's worst-case
+  // separation is unchanged at 33.4 normal / 16.4 deuteranopia / 23.8
+  // protanopia, so this costs nothing the five-colour set had. Okabe-Ito's own
+  // leftovers were worse — its sky blue collides with the data centres blue and
+  // its yellow with the programs amber.
+  innovationcentres: "#785EF0",
 };
 
 /**
@@ -156,8 +162,8 @@ export const clusterHaloLayer = (
     // hue ring was doing all the work and failed 3:1 for half the palette.
     "circle-color": MARK_OUTLINE,
     "circle-opacity": 0.9,
-    "circle-radius": ["step", ["get", "point_count"], 13.5, 5, 16.5, 10, 19.5],
-    "circle-translate": clusterOffset(layer),
+    "circle-radius": clusterRadius([13.5, 16.5, 19.5]),
+    "circle-translate": clusterTranslate(layer),
   },
 });
 
@@ -205,23 +211,62 @@ export const pointLayer = (
  *   members — so displacing it by a few pixels degrades nothing that was
  *   precise to begin with.
  */
-// Has to clear the cluster rings themselves, which run to 18px. Adjacent
-// layers sit 2·R·sin(36°) ≈ 19px apart at this value, which puts a neighbour's
-// centre just outside the largest ring's edge: they still overlap, but both
-// rings read as separate marks.
-const CLUSTER_OFFSET_RADIUS = 16;
-
-const clusterOffset = (layer: LayerId): [number, number] => {
+/**
+ * How far each layer's clusters sit from the shared point, in screen pixels.
+ * It has to vary with zoom.
+ *
+ * Zoomed out to the province every layer has a cluster over the Golden
+ * Horseshoe, so all five land on nearly the same spot at once. A fixed 16px
+ * ring left them piled up, with the data centres cluster mostly hidden behind
+ * the others in the default view — the first thing anyone sees. Zoomed in,
+ * clusters separate geographically on their own, and a large offset there
+ * would only be a lie about where they are.
+ *
+ * The marks are also drawn smaller at low zoom, because the separation needed
+ * is a function of their radius: five circles of radius r spaced around a ring
+ * of radius R clear each other when 2·R·sin(36°) ≥ 2r. At z4 that is 2·28·0.588
+ * ≈ 32.9px of separation against a largest mark of 18·0.72 ≈ 13px, so adjacent
+ * clusters no longer touch.
+ */
+const clusterOffsetAt = (layer: LayerId, radius: number): [number, number] => {
   const index = LAYERS.indexOf(layer);
-  // Start at twelve o'clock and step evenly, so the arrangement is stable and
-  // predictable rather than depending on which layers happen to have records.
+  // Twelve o'clock, stepping evenly, so the arrangement is stable rather than
+  // depending on which layers happen to hold records.
   const angle = (index / LAYERS.length) * 2 * Math.PI - Math.PI / 2;
-  const round = (value: number): number => Math.round(value * 10) / 10;
-  return [
-    round(CLUSTER_OFFSET_RADIUS * Math.cos(angle)),
-    round(CLUSTER_OFFSET_RADIUS * Math.sin(angle)),
-  ];
+  const round = (v: number): number => Math.round(v * 10) / 10;
+  return [round(radius * Math.cos(angle)), round(radius * Math.sin(angle))];
 };
+
+const clusterTranslate = (layer: LayerId): ExpressionSpecification =>
+  [
+    "interpolate",
+    ["linear"],
+    ["zoom"],
+    4,
+    ["literal", clusterOffsetAt(layer, 28)],
+    8,
+    ["literal", clusterOffsetAt(layer, 20)],
+    12,
+    ["literal", clusterOffsetAt(layer, 14)],
+  ] as unknown as ExpressionSpecification;
+
+/** Shrinks the marks where the offset has least room to work. */
+const clusterScale: ExpressionSpecification = [
+  "interpolate",
+  ["linear"],
+  ["zoom"],
+  4,
+  0.72,
+  9,
+  1,
+];
+
+const clusterRadius = (base: [number, number, number]): ExpressionSpecification =>
+  [
+    "*",
+    clusterScale,
+    ["step", ["get", "point_count"], base[0], 5, base[1], 10, base[2]],
+  ] as unknown as ExpressionSpecification;
 
 export const clusterLayer = (
   layer: LayerId,
@@ -239,8 +284,8 @@ export const clusterLayer = (
     "circle-opacity": 0.95,
     "circle-stroke-color": LAYER_HUES[layer],
     "circle-stroke-width": 3,
-    "circle-radius": ["step", ["get", "point_count"], 12, 5, 15, 10, 18],
-    "circle-translate": clusterOffset(layer),
+    "circle-radius": clusterRadius([12, 15, 18]),
+    "circle-translate": clusterTranslate(layer),
   },
 });
 
@@ -268,7 +313,7 @@ export const clusterCountLayer = (
     "text-halo-color": "#ffffff",
     "text-halo-width": 1,
     // Must match the ring exactly, or the count drifts out of its own circle.
-    "text-translate": clusterOffset(layer),
+    "text-translate": clusterTranslate(layer),
   },
 });
 

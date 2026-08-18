@@ -15,8 +15,9 @@ permits.
 | Data centres | 48 | Ontario Data Centre Tracker |
 | Companies | 27 | organisation websites, listed via canada.ai |
 | Academic programs | 21 | GCwiki, Canadian academic A.I. programs |
-| Accelerators | 18 | Ontario's Regional Innovation Centres |
-| Research institutes | 3 | GCwiki, Canadian AI Institutes |
+| Regional innovation centres | 17 | Ontario's own list of designated centres |
+| Research institutes | 3 | GCwiki, plus organisation websites |
+| Accelerators | 1 | canada.ai |
 
 Counts are what is *sourced*, not what exists. An empty or thin layer means
 nobody has surveyed it yet, never that Ontario has nothing there.
