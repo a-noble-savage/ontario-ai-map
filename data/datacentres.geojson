@@ -20,6 +20,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation / Cloud\", status \"operational\". Referenced on datacenters.com. No street address confirmed on operator's public website. Independent verification not possible from public sources. Primary source cited by the tracker: https://iland.com/"
       }
     },
@@ -41,6 +42,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Second 3Z Canada GTA location. Primary source cited by the tracker: https://www.3zcanada.ca/"
       }
     },
@@ -62,6 +64,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Part of 151 Front Street carrier hotel. Same building as Equinix TR1, Cologix TOR1, Telehouse Canada, and Amanah. Primary source cited by the tracker: https://www.3zcanada.ca/"
       }
     },
@@ -83,6 +86,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation / Dedicated Servers\", status \"operational\". High-density colocation and dedicated server hosting. Unlimited bandwidth. AI / GPU / MSP / SaaS workloads. Located within 151 Front Street carrier hotel. Primary source cited by the tracker: https://www.amanah.com/"
       }
     },
@@ -104,6 +108,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation data centre\", status \"operational\". Size: ~270,000 sq ft · 41-acre parcel (66-acre campus). Primary source cited by the tracker: https://www.ascentcorp.com/ascent-expands-north-american-footprint-with-toronto-waterloo-corridor-data-center/ ; https://www.therecord.com/news/waterloo-region/cambridge-data-centre-spill-believed-to-be-naturally-occurring-bacterial-bloom/article_80e262cb-cbc8-5307-9e37-53a5eab68fd6.html"
       }
     },
@@ -125,6 +130,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"application\". Size: 5,163 m² GFA, two storeys · 0.79 ha site. Primary source cited by the tracker: https://www.burlington.ca/en/news/current-development-projects/3110_South_Service_Rd.aspx"
       }
     },
@@ -146,6 +152,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Data centre-targeted employment land\", status \"discussion\". Size: approx. 25 acres across multiple parcels (company-stated). This site has been raised publicly through operator marketing, media coverage, or community reports. As of July 2026, no formal planning application has been filed with the Town of Oakville. Inclusion is for transparency, not confirmation. On May 18, 2026, HIVE Digital Technologies Ltd. announced that its wholly owned subsidiary, BUZZ High Performance Computing Inc., is planning an industrial-scale AI infrastructure facility in the Greater Toronto Area with approximately 320 MW of utility capacity, a target of second half 2027, and an investment described at approximately CAD $3.5 billion. The company describes the facility as using closed-loop cooling with a no-water-use approach. The May release identified the location only as being within the Toronto-Waterloo corridor. A commercial real estate listing for an adjacent parcel subsequently identified 3480 Ninth Line in north Oakville as the site, and this location was reported by Oakville News in July 2026. The Town of Oakville has confirmed in writing that, as of July 17, 2026, it is aware lands may be under consideration by a proponent for a data centre, but that no development application has been submitted and, as a result, the statutory public planning process has not commenced. No zoning amendment, Official Plan amendment, pre-consultation record, or IESO connection filing tied to this address has been located in public records. Facility specifications, including capacity, cooling type, cost, and timeline, are drawn from the company’s own announcement and have not been reviewed or confirmed through any municipal planning process, because no application has been filed. Primary source cited by the tracker: https://www.oakville.ca/town-hall/news-notices/2026-news-releases-archive/town-of-oakville-responds-to-data-centre-inquiries/ ; https://www.hivedigitaltechnologies.com/news/hives-buzz-hpc-announces-320-mw-sovereign-ai-infrastructure-in-greater-toronto-area/?utm_source=oakville%20news&utm_campaign=oakville%20news%3A%20outbound&utm_medium=referral"
       }
     },
@@ -167,6 +174,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation / Managed Services\", status \"operational\". Colocation and managed IT services. Address sourced from third-party reference; not explicitly confirmed on operator website. Primary source cited by the tracker: https://www.centrilogic.com/mississauga-ontario-north-data-center/"
       }
     },
@@ -188,6 +196,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation (Carrier Neutral)\", status \"operational\". Office and data centre combined facility. Cogent global IP transit access. Primary source cited by the tracker: https://www.cogentco.com/en/cogent-toronto"
       }
     },
@@ -209,6 +218,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation (Carrier Neutral)\", status \"operational\". Second Mississauga Cogent location. Primary source cited by the tracker: https://www.cogentco.com/en/cogent-toronto"
       }
     },
@@ -230,6 +240,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation (Carrier Neutral)\", status \"operational\". Carrier-grade connectivity combined with colocation. Part of Cogent's global IP transit backbone. Primary source cited by the tracker: https://www.cogentco.com/en/cogent-toronto"
       }
     },
@@ -251,6 +262,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Carrier Hotel / Colocation\", status \"operational\". Certifications: SOC 1 Type II. 7 discrete suites within Canada's largest carrier hotel. Access to 300+ cloud providers and 160+ networks. Same building as Equinix TR1, Telehouse Canada, Amanah, 3Z Canada, and ColoWare. Primary source cited by the tracker: https://cologix.com/data-centers/toronto/tor1/"
       }
     },
@@ -272,6 +284,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Size: 20,000 sq ft. Certifications: SOC 1 Type II. Enterprise-grade facility. Diverse fiber ring connects TOR2 to TOR1 at 151 Front. TorIX maintains a presence at 905 King Street West. Primary source cited by the tracker: https://cologix.com/data-centers/toronto/tor2/"
       }
     },
@@ -293,6 +306,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation (Tier III Certified)\", status \"operational\". Size: 20,000 sq ft. Certifications: SOC 1 Type II, Tier III Uptime. Expansion of TOR2 campus at same address. Access to 160+ networks and 50+ cloud providers. Primary source cited by the tracker: https://cologix.com/data-centers/toronto/tor3/"
       }
     },
@@ -314,6 +328,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation (Tier III Uptime Standards)\", status \"operational\". Size: 50,000 sq ft. Certifications: SOC 1 Type II, Tier III Uptime. ScalelogixSM purpose-built campus. 3.4-acre campus. Cloud onramps: AWS Direct Connect, Google Cloud Interconnect, Azure ExpressRoute, IBM, Oracle. Primary source cited by the tracker: https://cologix.com/data-centers/toronto/tor4/"
       }
     },
@@ -335,6 +350,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Referenced on datacenters.com and datacentermap.com. No address confirmed on operator's public website. Independent verification not possible from public sources."
       }
     },
@@ -356,6 +372,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Size: 25,510 sq ft. Certifications: SOC 1 Type II, SOC 2 Type II, PCI-DSS, ISO 27001. 15 min from Toronto Pearson International Airport. 42 km west of downtown Toronto. 9 carrier-neutral networks. Generator: 5.5MW / UPS: 3.2MW. Primary source cited by the tracker: https://www.csquare.com/data-centers/toronto#mississauga-yyz1"
       }
     },
@@ -377,6 +394,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation (Tier III Uptime Silver)\", status \"operational\". Size: 37,135 sq ft. Certifications: SOC 1 Type II, SOC 2 Type II, PCI-DSS, ISO 27001, Uptime Institute Tier III Silver. 27 min from Pearson. 30 km northeast of downtown Toronto. Chilled water cooling. 10 carrier-neutral networks. Generator: 9MW / UPS: 4.3MW. Primary source cited by the tracker: https://www.csquare.com/data-centers/toronto#markham-yyz2"
       }
     },
@@ -398,6 +416,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Certifications: LEED Silver. Flexible solutions from single cabinets to full suites. N+1 UPS and cooling. Primary source cited by the tracker: https://www.digitalrealty.com/data-centers/americas/toronto/tor1"
       }
     },
@@ -419,6 +438,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Carrier Hotel / Colocation\", status \"operational\". Size: 36,081 sq ft. Certifications: ISO 22301 / 27001 / 50001 / 9001, PCI DSS, SOC 1 & 2 Type II. One of Canada's most interconnected carrier hotels. TorIX maintains a presence here. Multiple operators co-located in the same building (see also Cologix TOR1, Telehouse Canada, Amanah, 3Z Canada, ColoWare). N+1 power and cooling. Primary source cited by the tracker: https://www.equinix.com/data-centers/americas-colocation/canada-colocation/toronto-data-centers/tr1"
       }
     },
@@ -440,6 +460,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Carrier Hotel / Colocation\", status \"operational\". Size: 108,976 sq ft. Certifications: ISO 22301 / 27001 / 50001 / 9001, PCI DSS, SOC 1 & 2 Type II. Largest Equinix facility in Toronto. TorIX maintains a presence here. N+1 power and cooling. Primary source cited by the tracker: https://www.equinix.com/data-centers/americas-colocation/canada-colocation/toronto-data-centers/tr2"
       }
     },
@@ -461,6 +482,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Certifications: ISO 22301 / 27001 / 50001 / 9001, PCI DSS, SOC 1 & 2 Type II. Financial services focus. Houses exchanges and trading platforms. Access to TorIX and 60+ NSPs. N+1 power and cooling. Primary source cited by the tracker: https://www.equinix.com/data-centers/americas-colocation/canada-colocation/toronto-data-centers/tr4"
       }
     },
@@ -482,6 +504,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Size: 8,966 sq ft. Certifications: ISO 22301 / 27001 / 50001 / 9001, PCI DSS, SOC 1 & 2 Type II. Access to Nasdaq Canada global financial exchange and TorIX. Suburban campus east of Toronto. 2N power / N+1 cooling. Primary source cited by the tracker: https://www.equinix.com/data-centers/americas-colocation/canada-colocation/toronto-data-centers/tr5"
       }
     },
@@ -503,6 +526,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Size: 31,194 sq ft. Certifications: ISO 22301 / 27001 / 50001 / 9001, PCI DSS, SOC 1 & 2 Type II. Linked by Equinix Metro Connect to Canadian and US data centres. N+1 cooling. Primary source cited by the tracker: https://www.equinix.com/data-centers/americas-colocation/canada-colocation/toronto-data-centers/tr6"
       }
     },
@@ -524,6 +548,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Certifications: ISO 22301 / 27001 / 50001 / 9001, PCI DSS, SOC 1 & 2 Type II. Low-latency content delivery focus. Close to US border for business continuity. N+1 power and cooling. Primary source cited by the tracker: https://www.equinix.com/data-centers/americas-colocation/canada-colocation/toronto-data-centers/tr7"
       }
     },
@@ -545,6 +570,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Carrier Hotel / Colocation\", status \"operational\". eStruxture carrier-neutral colocation facility in downtown Toronto. Shares the 145 King Street West address with other financial district tenants. Primary source cited by the tracker: https://www.estruxture.com/data-centers/toronto/tor-2"
       }
     },
@@ -566,6 +592,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". eStruxture colocation facility in Etobicoke. eStruxture is a Canadian-owned carrier-neutral colocation provider headquartered in Montreal. Primary source cited by the tracker: https://www.estruxture.com/data-centers/toronto/tor-3"
       }
     },
@@ -587,6 +614,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Data centre proposed in existing building (adaptive reuse)\", status \"discussion\". Size: Not disclosed. This site has been raised publicly through operator marketing, media coverage, or community reports. As of July 2026, no formal planning application has been filed for it. Inclusion is for transparency, not confirmation. McMaster University announced in December 2025 it was exploring a proposal from s2e Technologies to convert the former Hamilton Spectator building into an innovation hub with a data centre supporting research and business computing, including AI. The concept was selected through a McMaster Request for Expressions of Interest. A due-diligence period was set to conclude June 30, 2026. s2e submitted a letter asking that the project be exempted from Hamilton's proposed interim control bylaw and allowed to proceed directly to a development application. On July 15, 2026, council defeated the proposed one-year bylaw 10-6; a city legal advisor stated s2e and McMaster could proceed to a direct application. No planning application has been filed. Cooling, power, and timeline details described by the operator are concept-stage representations, not confirmed filings. Primary source cited by the tracker: https://www.cbc.ca/news/canada/hamilton/frid-street-data-centre-9.7235088 ; https://www.dundastoday.com/local-news/hamilton-council-votes-down-one-year-pause-on-ai-data-centre-applications-12555529"
       }
     },
@@ -608,6 +636,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation / Enterprise\", status \"operational\". Operational since 2012. Services include colocation, cloud infrastructure, web hosting, backup, and managed IT. Facility features 3-factor physical security, 24/7 camera monitoring, redundant power, and active cooling systems. IT load, megawatt capacity, and facility size are not publicly disclosed. No certifications (SOC 2, ISO 27001, etc.) listed in publicly available sources. Primary source cited by the tracker: https://haltondc.com/"
       }
     },
@@ -629,6 +658,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation / Cloud\", status \"operational\". GPU-ready infrastructure. 3 generators (1,125 kW total). N+1 cooling / 2N power. Tier 1 facility. Primary source cited by the tracker: https://canada.hut8.com/centers/vaughan"
       }
     },
@@ -650,6 +680,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Enterprise / AI\", status \"discussion\". Size: 87,000 sq ft. This site has been raised publicly through operator marketing, media coverage, or community reports. As of June 2026, no formal planning application has been filed for it. Inclusion is for transparency, not confirmation. A seven-storey AI data centre has been reported in media coverage. The developer has not been publicly named in the sources reviewed. As of the most recent review, no City of Toronto development application is on record. In March 2026, Toronto City Council adopted Motion MM39.47, directing the Chief Planner and other city staff to report to the Planning and Housing Committee in the first half of 2027 on Artificial Intelligence data centres in Toronto. The report is to address land-use compatibility and zoning by-law requirements, grid capacity and water usage impacts, the current regulatory environment at federal, provincial and municipal levels, and recommendations for improvements to municipal review processes. The motion addresses AI data centres in Toronto generally and does not specifically reference this proposal. Primary source cited by the tracker: https://urbantoronto.ca/database/projects/leaside-data-centre.34672"
       }
     },
@@ -671,6 +702,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Data Centre / Cloud\", status \"application\". Size: 25,900 m² GFA · 5.45 ha site. Two-storey data centre on the site of a former Lowe's home improvement store, south of Highway 401 at Resources Road. The facility includes five colocation halls with associated mechanical and electrical infrastructure and on-site utility substations. Planning documents filed with the City of Toronto in August 2023 describe non-contact evaporative cooling; the as-built cooling system has not been confirmed in public documents reviewed. IT load and megawatt capacity are not confirmed in public documents reviewed. Notice of Approval Conditions issued November 14, 2024 under City of Toronto planning application 22 110986 WET 01 SA; Statement of Approval pending. Construction confirmed underway as of June 2026 site visit. Primary source cited by the tracker: https://www.toronto.ca/city-government/planning-development/application-details/?id=5056384&pid=826973&title=48-LOWE%27S-PL"
       }
     },
@@ -692,6 +724,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Data Centre / Cloud\", status \"application\". Size: 42,643.67 m² combined GFA (Phase 1 and Phase 2). Two-phase data processing centre on land designated EM1 Prestige Employment under the West Vaughan Employment Area Secondary Plan. Phase 1 (File DA.22.008) is a two-storey data centre with ancillary office space. Planning documents describe Phase 1 as a 48 MW facility. Phase 1 uses non-contact evaporative cooling drawing municipal potable water, per the WSP Functional Servicing Report dated October 6, 2023. Phase 2 (File DA.24.070, received December 19, 2024) is a three-storey data processing centre with ancillary office space of 20,226.67 m², standing 33.42 m high excluding the mechanical penthouse. Phase 2 no longer uses evaporative cooling, per a WSP Functional Servicing Technical Memorandum dated December 11, 2024; the replacement cooling system is not stated in public documents reviewed. Phase 2 (DA.24.070) received a Notice of Approval Conditions dated June 27, 2025. Final site plan approval and Statement of Approval are not confirmed in public documents reviewed. Phase 1 (DA.22.008) status per portal records reviewed. Zoning pathway: verification in progress. Construction confirmed underway as of June 2026 site visit. Primary source cited by the tracker: https://experience.arcgis.com/experience/53492fb12cb84f17bb8385353cc4df56#data_s=id%3AdataSource_6-1964510603e-layer-16%3A51"
       }
     },
@@ -713,6 +746,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "No civic address in the public record; this point is the municipal centroid. The source describes the location as: \"Location unconfirmed — industrial park north of Highway 401, Town of Greater Napanee, ON. No civic address or specific site identified in public record.\" Source classifies this as \"Unknown\", status \"discussion\". This site has been raised publicly through operator marketing, media coverage, or community reports. As of June 2026, no formal planning application has been filed for it. Inclusion is for transparency, not confirmation. Map pin location is approximate; no specific site has been publicly identified. Council was advised that any future data centre would need to be in the M2-zoned industrial park north of Highway 401. In February 2026, the Town of Greater Napanee passed Zoning By-Law 2026-0025, amending Zoning By-Law 02-22 to permit 'Data Processing Centres' as an additional use within General Industrial (M2) zones and establishing a formal definition. A 250 MW IESO grid connection request has been filed under the name 'Napanee Data Park.' No specific civic address or site has been publicly identified. No site plan control application has been submitted as of June 2026. Primary source cited by the tracker: https://www.greaternapanee.com/news/posts/proposed-zoning-by-law-amendment-plzaco-2026-004/"
       }
     },
@@ -734,6 +768,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Proposed Data Centre\", status \"application\". Size: approx. 220,000 sq ft. Primary source cited by the tracker: https://www.mississauga.ca/services-and-programs/planning-and-development/development-applications/active-development-applications/0-tenth-line-west-oz-25-21-w9/ ; https://thepointer.com/article/2026-07-04/shut-it-down-mississauga-residents-fighting-against-first-hyperscale-data-centre-proposal"
       }
     },
@@ -755,6 +790,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Data Centre-Ready Industrial\", status \"discussion\". Size: 90 acres (site area). This site has been raised publicly through operator marketing, media coverage, or community reports. As of June 2026, no formal planning application has been filed for it. Inclusion is for transparency, not confirmation. Prologis has marketed the 90-acre site as data centre-ready industrial space with July 2027 availability. No confirmed data centre operator or tenant. No data centre-specific planning application has been filed. Primary source cited by the tracker: https://www.prologis.com/industrial-properties/build-suit/tor01490-prologis-steeles-avenue-park"
       }
     },
@@ -776,6 +812,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Data centre / cybersecurity facility\", status \"discussion\". Size: 100,000–160,000 sq ft. Primary source cited by the tracker: Report to Council, “Protexxa Inc. – Offer of Purchase and Sale,” December 15, 2025, City of Sault Ste. Marie Community Development and Enterprise Services. By-law 2025-165. Land registry (PIN 31609-0398), current to July 23, 2026."
       }
     },
@@ -797,6 +834,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation (Wholesale / Carrier Neutral)\", status \"operational\". Carrier neutral. Host to Ottawa Internet Exchange. Specific full address not publicly disclosed on operator website; sourced from third-party references. Primary source cited by the tracker: https://purecolo.ca/"
       }
     },
@@ -818,6 +856,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Size: 51,796 sq ft. Certifications: ISO 27001. Carrier-neutral colocation serving Southwestern Ontario between Toronto and the US border. 5 MW current capacity, upgradeable to 20 MW. N+2 cooling redundancy. Powered by Hydro One. Canadian-owned and operated. Primary source cited by the tracker: https://qudatacentres.com/locations/london-data-centre"
       }
     },
@@ -839,6 +878,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Size: 16,500 sq ft (8,800 sq ft raised floor). Certifications: SOC 1/2/3, CSAE 3416, ISAE 3402, PCI DSS. 1,600 kVA utility power, upgradeable. 3 × 700 kVA generators with 30,000L fuel reserve. 5+ kW per rack. 280 Tons N+2 cooling. Carriers: Rogers, Telus, Bell, Zayo, Allstream. Mantrap, iris scan, and 2FA access control; 24/7 CCTV with 90-day retention. FM-200 gas and pre-action sprinkler suppression. Serves federal government and defence-adjacent workloads in the Nepean corridor. Canadian-owned and operated. Primary source cited by the tracker: https://qudatacentres.com/locations/ottawa-data-centre"
       }
     },
@@ -860,6 +900,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Size: 28,000 sq ft (6,500 sq ft 36\" raised floor + 5,400 sq ft slab). Certifications: Uptime Institute Tier III (Design & Construction), SOC 1/2/3, ISO 27001, CSAE 3416, ISAE 3402, GLBA, PCI DSS v3.2. 2 MW redundant power, upgradeable to 10 MW. 3 × 1 MW generators N+1 with A+B dual distribution. 5–15 kW per rack. 570 Tons N+1 cooling (Liebert DS/DSE). Carriers: Rogers, Telus, Bell, Zayo, GoCo, Videotron. Novec 1230 clean agent suppression. Designed for defence-adjacent technology organizations and federal contractors requiring sovereign AI and high-density infrastructure. Canadian-owned and operated. Primary source cited by the tracker: https://qudatacentres.com/locations/ottawa-data-centre"
       }
     },
@@ -881,6 +922,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation\", status \"operational\". Size: 50,000 sq ft. Certifications: Uptime Institute Tier III, LEED Silver. Purpose-built, stand-alone facility with 10 MW utility feed and up to 30 kW per rack. Uptime Institute Tier III certified. LEED Silver. Designed for financial services, regulated enterprise, and AI workloads. Carrier-neutral. Canadian-owned and operated. Primary source cited by the tracker: https://qudatacentres.com/locations/toronto-data-centre"
       }
     },
@@ -902,6 +944,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Unknown\", status \"discussion\". Size: ~82 hectares across portions of two properties. Primary source cited by the tracker: https://pub-caledon.escribemeetings.com/FileStream.ashx?DocumentId=56105 ; https://ero.ontario.ca/notice/026-0184"
       }
     },
@@ -923,6 +966,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Hyperscale / Enterprise (Proposed)\", status \"discussion\". Size: approx. 800 hectares (former Stelco lands). The former Stelco lands at 386 Wilcox Street are the subject of a large employment redevelopment led by Slate HWD Inc. (Slate Asset Management), advanced primarily through draft plan of subdivision 25T-202403, a 24-block plan the City describes as creating “a modern employment area.” The subdivision application is currently under review by City staff. Slate has stated publicly that any data centre would represent a minority of the broader site, which is also planned for advanced manufacturing, logistics, clean energy, and research. Slate’s IESO connection request was updated from 180 MW to 400 MW. Severance application B-2026-00011 was denied by the Committee of Adjustment on June 4, 2026, in part on the basis that a plan of subdivision was the appropriate route. The applicant, Slate HWD Inc., has appealed the denial to the Ontario Land Tribunal. As of publication, the City is preparing the appeal record and no Tribunal case number has been assigned. The lands are zoned General Industrial M5 (Zoning By-law No. 05-200). On April 1, 2026, Council excluded the Steelport lands from Phase 1 of the Employment Area Review (OPA 252), deferring their land use designation to Phase 2. The City has advised that the Employment Area Review is separate from the subdivision application and does not affect its timing. Slate has stated any future cooling system would not draw from municipal water supply and would use the existing on-site industrial bay water network. No specific cooling system has been confirmed. Interim Control By-law: Council considered a by-law to pause new AI data centre development in industrial zones but defeated it on July 15, 2026, so no moratorium is in place. Construction status: not applicable (no approvals in place). Primary source cited by the tracker: https://pub-hamilton.escribemeetings.com/Meeting.aspx?Id=9e412deb-c4d6-4f87-a268-734323683104&lang=English&Agenda=Agenda&Item=12&Tab=attachments"
       }
     },
@@ -944,6 +988,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"AI Data Centre Campus (Early Evaluation)\", status \"discussion\". Size: 165,000 sq ft (existing industrial building, 25-acre site). This site has been raised publicly through operator marketing, media coverage, or community reports. As of June 2026, no formal planning application has been filed for it. Inclusion is for transparency, not confirmation. SPUR Innovation (Waterloo-based) has publicly confirmed early evaluation of the 25-acre property for a possible AI data centre campus, potentially including a vertical farm and greenhouse. The property is the former Wolverine Tube copper tubing plant, a 165,000-square-foot industrial building constructed in 1986. It is owned by 1623242 Ontario Inc., a numbered corporation listing SPUR founder Krishan (Kapley) Judge as director. A concept website, since removed, described a three-phase development: phase one at 25 to 35 MW over up to three years, phase two at 50 to 75 MW over three to five years, and a potential phase three expanding to adjacent land at 150 to 300 MW over more than five years. The website referenced closed-loop cooling and a vertical farm component. These figures are operator claims from marketing materials, not planning documents. The property is zoned M2 General Industrial under the Township of Centre Wellington's zoning by-law. Data centres and AI data centres are not currently listed as permitted uses in the Township's zoning by-laws or Official Plan, nor in the County of Wellington's. SPUR's principals have publicly stated that if the project were to move beyond the evaluation stage, SPUR would work through applicable planning, environmental, and regulatory processes and participate in public consultation. As of the most recent review, no planning application, site plan, or pre-consultation record appears on the Township's planning portal. A planning inquiry has been sent to Centre Wellington; no formal response has been received. Sources: Wellington Advertiser, Guelph Today / Elora Fergus Today (Local Journalism Initiative), Data Center Dynamics. Primary source cited by the tracker: https://www.guelphtoday.com/wellington-county/ecological-ai-data-centre-and-vertical-farm-envisioned-in-fergus-12470775"
       }
     },
@@ -965,6 +1010,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Colocation / large-scale data centre\", status \"application\". Size: TOR01B/C: approx. 39,900 m² combined office and data halls (planning file); TOR01A: 158,000 sq ft (per operator materials). Three-building campus on approximately 19 acres at the northwest corner of Danforth Ave and Birchmount Rd; former Eli Lilly Canada headquarters site. Developed in partnership with First Gulf; WZMH Architects; MEP and civil by Stantec. TOR01A (8 MW, renovated existing building) appears operational. TOR01B and TOR01C: Notice of Approval Conditions issued September 23, 2025; Statement of Approval not yet issued — conditionally approved, not finally approved. Total critical capacity: 56 MW per the project noise study — 8 MW for TOR01A; 48 MW combined for TOR01B and TOR01C. The 24 MW per-building split is per operator materials, not the planning file. Cooling: data halls were originally designed for an evaporative cooling system; design subsequently changed to air-cooled chillers per engineering filings (Morrison Hershfield and Ramboll, 2024–2025). Backup power: 35 diesel backup generators planned for the new buildings — 33 at 3,000 kW and 2 at 750 kW — per the project's 2023 noise study. The noise study models compliance with City sound limits conditional on 5-metre acoustic walls and generators being used for emergency backup only; more regular generator use would require separate provincial approval and potentially additional mitigation. Use classification: City confirmed the use is permitted through the Core Employment designation under the Toronto Official Plan (Section 4.6); site plan control was the appropriate approval path. No public IESO connection filing has been located for this site. TOR01A appears operational. Construction on TOR01B and TOR01C: not confirmed. The following details are per operator materials and do not appear in the planning file reviewed: Toronto Hydro three-substation arrangement, ISO 9001/PCI DSS/SSAE 18 certifications, and Q2 2026 delivery date. The new buildings (TOR01B/C) comprise approximately 39,900 m² of office and data halls per the planning file; floor area figures in square feet are per operator materials. Primary source cited by the tracker: https://www.toronto.ca/city-government/planning-development/application-details/?id=5090804&pid=2853&title=3650-DANFORTH-AVE"
       }
     },
@@ -986,6 +1032,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "Source classifies this as \"Carrier Hotel / Colocation\", status \"operational\". Significant operator within the 151 Front Street carrier hotel. Same building as Equinix TR1, Cologix TOR1, Amanah, 3Z Canada, and ColoWare. Primary source cited by the tracker: https://www.telehouse.net/"
       }
     },
@@ -1007,6 +1054,7 @@
         "source_url": "https://ontariodatacentres.ca/",
         "retrieved": "2026-08-14",
         "licence": "ontariodatacentres.ca — used by project decision, no licence granted; attribute and link out",
+        "links": null,
         "notes": "No civic address in the public record; this point is the municipal centroid. The source describes the location as: \"Between Bowen Road and Gilmore Road, east of QEW, north of Garrison Road (Hwy 3), Fort Erie, ON — no civic address assigned\" Source classifies this as \"Data centre-targeted industrial land\", status \"discussion\". Size: 400+ acres (developer-stated). This site has been raised publicly through operator marketing, media coverage, or community reports. As of June 2026, no formal planning application has been filed for it. Inclusion is for transparency, not confirmation. Velocity1 Group has publicly marketed approximately 400 acres east of the QEW between Bowen Road and Gilmore Road, with capacity described in operator materials at up to 130 MW. No planning application, zoning amendment, Official Plan amendment, pre-consultation record, or IESO filing has been located in public records. No civic address assigned. Coordinates are approximate based on described location. Primary source cited by the tracker: https://velocity1.ca/data-centers/"
       }
     }

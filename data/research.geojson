@@ -20,6 +20,7 @@
         "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence",
         "retrieved": "2026-08-14",
         "licence": "CC BY 4.0 — attribution required",
+        "links": null,
         "notes": "Listed by the source under Canadian AI Institutes as \"Canadian Institute for Advanced Research (Toronto, ON)\". Known as CIFAR. Its remit is national rather than Ontario-specific — it convenes and funds research across Canada — so it appears here on the strength of its Toronto head office, not because its work is confined to the province. Organisation's own site: https://cifar.ca/"
       }
     },
@@ -41,6 +42,7 @@
         "source_url": "http://www.crim.ca/en//",
         "retrieved": "2026-08-14",
         "licence": "address from the organisation's own website; listing via canada.ai, which publishes no terms",
+        "links": null,
         "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as research by this project, not by the source, which publishes no type field — the rule that placed it: source text contains \"research institute\"."
       }
     },
@@ -62,6 +64,7 @@
         "source_url": "https://wiki.gccollab.ca/Artificial_Intelligence",
         "retrieved": "2026-08-14",
         "licence": "CC BY 4.0 — attribution required",
+        "links": null,
         "notes": "Listed by the source under Canadian AI Institutes as \"Vector Institute (Toronto, ON)\". One of Canada's three national AI institutes and the Ontario one. Organisation's own site: https://vectorinstitute.ai/"
       }
     }
