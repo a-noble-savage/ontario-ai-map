@@ -257,6 +257,15 @@ body {
   /* The table scrolls inside this box; the page never scrolls sideways. */
   overflow-x: auto;
   min-width: 0;
+  /* And it scrolls vertically inside this box too, which matters more than it
+     looks. The table lists every record, so at 117 features the document ran
+     to 6784px and the embed dutifully told its host to become 6784px tall.
+     Bounding it keeps the whole embed a sane height while leaving the table
+     complete, present, and reachable — it is a first-class view of the data,
+     not something to hide behind a disclosure. */
+  max-height: 26rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
   /* Positioned so that absolutely positioned descendants — the visually-hidden
      column header among them — resolve against this box and get clipped by it.
      Without this they resolve against the viewport and widen the document,
@@ -290,6 +299,11 @@ body {
 }
 
 .data-table thead th {
+  /* The header has to stay put once the table scrolls under it. */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--surface);
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
