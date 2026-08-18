@@ -81,7 +81,7 @@ type-check and a build and reaches production looking fine.
 | `status` | data centres: `operating` / `under_construction` / `announced` / `proposed` / `cancelled`. Others: `active` / `closed` |
 | `operator` | nullable |
 | `address` | nullable; **must be non-null** when `location_precision` is `rooftop` or `street` |
-| `municipality` | |
+| `municipality` | the municipality that governs the site, not the neighbourhood or former city. Where a source says otherwise — "Kanata (Ottawa)", "Scarborough" — the record is normalised and the source's wording is kept in `notes` |
 | `capacity_mw` | nullable number; data centres only |
 | `location_precision` | `rooftop` / `street` / `municipality` / `region` |
 | `source_name` | |

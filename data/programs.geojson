@@ -35,7 +35,7 @@
         "status": "active",
         "operator": null,
         "address": null,
-        "municipality": "Sudbury",
+        "municipality": "Greater Sudbury",
         "capacity_mw": null,
         "location_precision": "municipality",
         "source_name": "GCwiki — Canadian academic A.I. programs",
@@ -43,7 +43,7 @@
         "retrieved": "2026-08-14",
         "licence": "CC BY 4.0 — attribution required",
         "links": [{"label": "Artificial Intelligence and Machine Learning (AIGC) Graduate Certificate", "url": "https://cambriancollege.ca/programs/artificial-intelligence-and-machine-learning"}],
-        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar."
+        "notes": "1 AI program(s) listed by the source as of 2025-04-15, which is the date of the source snapshot rather than a check of the institution's current calendar. The source gives the municipality as \"Sudbury\"; it is recorded here as Greater Sudbury so that filtering and sorting group it with the rest of that municipality."
       }
     },
     {
