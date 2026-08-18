@@ -23,6 +23,28 @@
         "links": null,
         "notes": "Listed in the canada.ai directory. Address read from the organisation's own website (postal-code). Classified as accelerators by this project, not by the source, which publishes no type field — the rule that placed it: source text contains \"seed-stage\"."
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-79.3824632, 43.670896] },
+      "properties": {
+        "id": "ac-next-ai",
+        "name": "Next AI",
+        "name_fr": null,
+        "layer": "accelerators",
+        "status": "active",
+        "operator": "NEXT Canada",
+        "address": "175 Bloor Street East, Suite 1800, South Building, Toronto, ON M4W 3R8",
+        "municipality": "Toronto",
+        "capacity_mw": null,
+        "location_precision": "street",
+        "source_name": "NEXT Canada — Next AI",
+        "source_url": "https://www.nextcanada.com/next-ai/",
+        "retrieved": "2026-08-17",
+        "licence": "address published on the organisation's own website; reused as fact with attribution",
+        "links": null,
+        "notes": "An AI-specific accelerator, unlike the Regional Innovation Centres, which serve every sector. The source says the programme is \"predominantly held in-person at NEXT Canada's HQ in downtown Toronto\", and the point is that head office, whose address NEXT Canada publishes on the same site. The programme itself has no separate premises, so this is where it happens rather than where it is registered."
+      }
     }
   ]
 }

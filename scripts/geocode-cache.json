@@ -241,6 +241,17 @@
     "osm_id": 288232465,
     "retrieved": "2026-08-14"
   },
+  "175 Bloor Street East, Toronto, ON, Canada": {
+    "query": "175 Bloor Street East, Toronto, ON, Canada",
+    "lon": -79.3824632,
+    "lat": 43.670896,
+    "display_name": "Towers Perrin North, 175, Bloor Street East, Church-Wellesley, Downtown, Toronto, Golden Horseshoe, Ontario, M4W 3R8, Canada",
+    "geocoder": "nominatim.openstreetmap.org",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 55029942,
+    "retrieved": "2026-08-18"
+  },
   "175 Bloor Street, ON M4W 3R8, Canada": {
     "query": "175 Bloor Street, ON M4W 3R8, Canada",
     "lon": -79.382455,
