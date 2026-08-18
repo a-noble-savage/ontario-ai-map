@@ -243,29 +243,40 @@ const clusterTranslate = (layer: LayerId): ExpressionSpecification =>
     ["linear"],
     ["zoom"],
     4,
-    ["literal", clusterOffsetAt(layer, 28)],
+    ["literal", clusterOffsetAt(layer, 36)],
     8,
-    ["literal", clusterOffsetAt(layer, 20)],
+    ["literal", clusterOffsetAt(layer, 24)],
     12,
     ["literal", clusterOffsetAt(layer, 14)],
   ] as unknown as ExpressionSpecification;
 
-/** Shrinks the marks where the offset has least room to work. */
-const clusterScale: ExpressionSpecification = [
-  "interpolate",
-  ["linear"],
-  ["zoom"],
-  4,
-  0.72,
-  9,
-  1,
-];
-
-const clusterRadius = (base: [number, number, number]): ExpressionSpecification =>
+/**
+ * Cluster radius. A plain step on the member count, deliberately with no zoom
+ * term in it.
+ *
+ * Scaling the radius by zoom is the obvious way to help the offset ring
+ * separate six layers at low zoom, and MapLibre will not have it. Neither
+ * ["*", zoomInterpolate, step] nor a top-level zoom interpolate with step
+ * outputs is accepted for circle-radius; both fail validation with «"zoom"
+ * expression may only be used as input to a top-level "step" or "interpolate"
+ * expression», and the layer is then dropped with nothing but a console error
+ * to show for it — the count labels stay, floating over no circle at all.
+ *
+ * So the separation is done entirely by the offset, which is zoom-interpolated
+ * and does work. Six layers spaced around a ring of radius R sit 2·R·sin(30°)
+ * = R apart, so the z4 offset of 36px clears two touching 18px marks exactly.
+ */
+const clusterRadius = (
+  base: readonly [number, number, number],
+): ExpressionSpecification =>
   [
-    "*",
-    clusterScale,
-    ["step", ["get", "point_count"], base[0], 5, base[1], 10, base[2]],
+    "step",
+    ["get", "point_count"],
+    base[0],
+    5,
+    base[1],
+    10,
+    base[2],
   ] as unknown as ExpressionSpecification;
 
 export const clusterLayer = (
